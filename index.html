@@ -57,7 +57,6 @@
                 ];
   var ncolors = colors.length;
   var charts = {};
-  var datasets = {};
 
   var src_obj = document.panel.data_src;
   var src_prev = null;
@@ -73,27 +72,64 @@
       });
   }
 
-  var sources = ['cssejh'];
+  var sources = ['cssejh', 'ecdc'];
   var features = [
   'cssejh_confirmed',
   'cssejh_deaths',
-  'ecdc_deaths',
   'cssejh_confirmed_rpop',
   'cssejh_deaths_rpop',
   'cssejh_confirmed_growing',
   'cssejh_deaths_growing',
+  'ecdc_confirmed',
+  'ecdc_deaths',
+  'ecdc_confirmed_rpop',
+  'ecdc_deaths_rpop',
+  'ecdc_confirmed_growing',
+  'ecdc_deaths_growing',
   ];
 
-  var requests = [];
+
+  // Load summaries data
+  var summaries = {};
+  var s_requests = [];
+  for (var i = 0 ; i < sources.length ; i++)
+   {
+    s_requests[i] = new XMLHttpRequest();
+    var summary_name = sources[i]+'_summary';
+    s_requests[i].open('GET', 'data/'+summary_name+'.json');
+    s_requests[i].responseType = 'json';
+    s_requests[i].send();
+    s_requests[i].featname = summary_name;
+    s_requests[i].onload = function(e)
+     {
+      function color_it(array)
+       {
+        for (var i = 0; i<array.length ;i++)
+         {
+          array[i]['color'] = colors[array[i]['id'] % ncolors];
+          if (array[i]['_children'])
+           {
+            color_it(array[i]['_children']);
+           }
+         }
+       };
+      color_it(response);
+      summaries[e.target.summary_name].push(response);
+     }
+   }
+
+  // Load features data (datasets)
+  var datasets = {};
+  var f_requests = [];
   for (var i = 0 ; i < features.length ; i++)
    {
-    requests[i] = new XMLHttpRequest();
+    f_requests[i] = new XMLHttpRequest();
     var featname = features[i];
-    requests[i].open('GET', 'data/'+featname+'.json');
-    requests[i].responseType = 'json';
-    requests[i].send();
-    requests[i].featname = featname;
-    requests[i].onload = function(e)
+    f_requests[i].open('GET', 'data/'+featname+'.json');
+    f_requests[i].responseType = 'json';
+    f_requests[i].send();
+    f_requests[i].featname = featname;
+    f_requests[i].onload = function(e)
      {
       var data = e.target.response;
       datasets[e.target.featname] = []
