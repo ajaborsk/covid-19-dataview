@@ -10,6 +10,7 @@
   "deaths_rpop": 2.202023180944473,
   "confirmed_growing": 7.610705560960513,
   "deaths_growing": 6.338204076156416,
+  "first_case": "2020-01-22T00:00:00",
   "_children": [
    {
     "id": 1,
@@ -22,6 +23,7 @@
     "deaths_rpop": 0.8918957820621721,
     "confirmed_growing": 111.63983035346172,
     "deaths_growing": 97.94347944888116,
+    "first_case": "2020-01-22T00:00:00",
     "_children": [
      {
       "id": 2,
@@ -33,7 +35,8 @@
       "confirmed_rpop": 56.70660141686115,
       "deaths_rpop": 2.2730067525681137,
       "confirmed_growing": 1249.5882832353084,
-      "deaths_growing": 225.9721894866264
+      "deaths_growing": 225.9721894866264,
+      "first_case": "2020-01-22T00:00:00"
      },
      {
       "id": 3,
@@ -45,7 +48,8 @@
       "confirmed_rpop": 7.937865447757372,
       "deaths_rpop": 0.27589403244439725,
       "confirmed_growing": 15.308738974237178,
-      "deaths_growing": 9.076927492048576
+      "deaths_growing": 9.076927492048576,
+      "first_case": "2020-01-22T00:00:00"
      },
      {
       "id": 4,
@@ -57,7 +61,8 @@
       "confirmed_rpop": 171.77056309744395,
       "deaths_rpop": 1.9912032544538336,
       "confirmed_growing": 56.6846726867073,
-      "deaths_growing": 12.738220190255026
+      "deaths_growing": 12.738220190255026,
+      "first_case": "2020-01-22T00:00:00"
      },
      {
       "id": 5,
@@ -69,7 +74,8 @@
       "confirmed_rpop": 37.02686250360996,
       "deaths_rpop": 0.12519649198177504,
       "confirmed_growing": 3.0933624675441536,
-      "deaths_growing": null
+      "deaths_growing": null,
+      "first_case": "2020-01-25T00:00:00"
      },
      {
       "id": 6,
@@ -81,7 +87,8 @@
       "confirmed_rpop": 0.24150740067155185,
       "deaths_rpop": 0.002927362432382447,
       "confirmed_growing": 3.9825361615067822,
-      "deaths_growing": 7.999999999999997
+      "deaths_growing": 7.999999999999997,
+      "first_case": "2020-01-30T00:00:00"
      },
      {
       "id": 7,
@@ -93,7 +100,8 @@
       "confirmed_rpop": 1.6628140619736267,
       "deaths_rpop": 0.1404154096777729,
       "confirmed_growing": 2.9572054652548108,
-      "deaths_growing": 2.463109157112337
+      "deaths_growing": 2.463109157112337,
+      "first_case": "2020-03-02T00:00:00"
      },
      {
       "id": 8,
@@ -105,7 +113,8 @@
       "confirmed_rpop": 3.370807508522671,
       "deaths_rpop": 0.013852633596668513,
       "confirmed_growing": 1.7005364886723688,
-      "deaths_growing": null
+      "deaths_growing": null,
+      "first_case": "2020-02-26T00:00:00"
      },
      {
       "id": 9,
@@ -117,7 +126,8 @@
       "confirmed_rpop": 0.1533308104077348,
       "deaths_rpop": 0.012266464832618784,
       "confirmed_growing": 2.615324628191058,
-      "deaths_growing": null
+      "deaths_growing": null,
+      "first_case": "2020-03-08T00:00:00"
      },
      {
       "id": 10,
@@ -129,7 +139,8 @@
       "confirmed_rpop": 6.435635484933125,
       "deaths_rpop": 0.0841259540514134,
       "confirmed_growing": 4.95806821361869,
-      "deaths_growing": 7.999999999999997
+      "deaths_growing": 7.999999999999997,
+      "first_case": "2020-01-22T00:00:00"
      },
      {
       "id": 11,
@@ -141,7 +152,8 @@
       "confirmed_rpop": 2.839526561204307,
       "deaths_rpop": 0.1757361715403317,
       "confirmed_growing": 3.5365449049908597,
-      "deaths_growing": 4.153687650641658
+      "deaths_growing": 4.153687650641658,
+      "first_case": "2020-01-30T00:00:00"
      },
      {
       "id": 12,
@@ -153,7 +165,8 @@
       "confirmed_rpop": 5.9030027210400915,
       "deaths_rpop": 0.014362537034160808,
       "confirmed_growing": 3.2597500538623114,
-      "deaths_growing": null
+      "deaths_growing": null,
+      "first_case": "2020-01-22T00:00:00"
      },
      {
       "id": 13,
@@ -165,7 +178,8 @@
       "confirmed_rpop": 2.8569230819817797,
       "deaths_rpop": 0.0,
       "confirmed_growing": 2.145968535945427,
-      "deaths_growing": null
+      "deaths_growing": null,
+      "first_case": "2020-03-13T00:00:00"
      },
      {
       "id": 14,
@@ -177,7 +191,8 @@
       "confirmed_rpop": 5.274829568266147,
       "deaths_rpop": 0.09952508619370089,
       "confirmed_growing": 4.393118520633269,
-      "deaths_growing": null
+      "deaths_growing": null,
+      "first_case": "2020-03-01T00:00:00"
      }
     ]
    },
@@ -192,6 +207,7 @@
     "deaths_rpop": 10.721364044133258,
     "confirmed_growing": 8.856774305806093,
     "deaths_growing": 5.041625380312438,
+    "first_case": "2020-01-29T00:00:00",
     "_children": [
      {
       "id": 16,
@@ -203,7 +219,8 @@
       "confirmed_rpop": 103.64607646779805,
       "deaths_rpop": 0.11737947504846892,
       "confirmed_growing": 3.2581876479942884,
-      "deaths_growing": null
+      "deaths_growing": null,
+      "first_case": "2020-02-21T00:00:00"
      },
      {
       "id": 17,
@@ -215,7 +232,8 @@
       "confirmed_rpop": 248.5710901136415,
       "deaths_rpop": 18.76645396491151,
       "confirmed_growing": 9.314523619018884,
-      "deaths_growing": 5.006252196377216
+      "deaths_growing": 5.006252196377216,
+      "first_case": "2020-02-19T00:00:00"
      },
      {
       "id": 18,
@@ -227,7 +245,8 @@
       "confirmed_rpop": 5.4439374544499515,
       "deaths_rpop": 0.43246232114789335,
       "confirmed_growing": 7.385145954069935,
-      "deaths_growing": 8.71898645801225
+      "deaths_growing": 8.71898645801225,
+      "first_case": "2020-02-24T00:00:00"
      },
      {
       "id": 19,
@@ -239,7 +258,8 @@
       "confirmed_rpop": 15.659336357325177,
       "deaths_rpop": 0.20469720728529642,
       "confirmed_growing": 9.433996678715015,
-      "deaths_growing": null
+      "deaths_growing": null,
+      "first_case": "2020-01-29T00:00:00"
      },
      {
       "id": 20,
@@ -251,7 +271,8 @@
       "confirmed_rpop": 27.276521056234415,
       "deaths_rpop": 0.5834549958552816,
       "confirmed_growing": 6.24947309524105,
-      "deaths_growing": 19.275366717225694
+      "deaths_growing": 19.275366717225694,
+      "first_case": "2020-02-21T00:00:00"
      }
     ]
    },
@@ -266,6 +287,7 @@
     "deaths_rpop": 9.883402596566212,
     "confirmed_growing": 4.043223185515792,
     "deaths_growing": 3.4912634491734096,
+    "first_case": "2020-01-24T00:00:00",
     "_children": [
      {
       "id": 22,
@@ -277,7 +299,8 @@
       "confirmed_rpop": 221.57316548289592,
       "deaths_rpop": 8.628932090734358,
       "confirmed_growing": 4.056429209083108,
-      "deaths_growing": 2.82621041610085
+      "deaths_growing": 2.82621041610085,
+      "first_case": "2020-01-24T00:00:00"
      },
      {
       "id": 23,
@@ -289,7 +312,8 @@
       "confirmed_rpop": 884.854395308346,
       "deaths_rpop": 79.68611104115065,
       "confirmed_growing": 4.996392026654757,
-      "deaths_growing": 4.144537561092656
+      "deaths_growing": 4.144537561092656,
+      "first_case": "2020-01-31T00:00:00"
      },
      {
       "id": 24,
@@ -301,7 +325,8 @@
       "confirmed_rpop": 243.94834777207132,
       "deaths_rpop": 5.806230657452497,
       "confirmed_growing": 3.43021587289795,
-      "deaths_growing": 1.7852653035503023
+      "deaths_growing": 1.7852653035503023,
+      "first_case": "2020-02-04T00:00:00"
      },
      {
       "id": 25,
@@ -313,7 +338,8 @@
       "confirmed_rpop": 314.23427672850625,
       "deaths_rpop": 0.8933454917654763,
       "confirmed_growing": 3.2243415997629845,
-      "deaths_growing": 2.666666666666667
+      "deaths_growing": 2.666666666666667,
+      "first_case": "2020-02-25T00:00:00"
      },
      {
       "id": 26,
@@ -325,7 +351,8 @@
       "confirmed_rpop": 542.9129300660362,
       "deaths_rpop": 29.420086657239686,
       "confirmed_growing": 3.511981202504918,
-      "deaths_growing": 2.373934107733866
+      "deaths_growing": 2.373934107733866,
+      "first_case": "2020-02-01T00:00:00"
      },
      {
       "id": 27,
@@ -337,7 +364,8 @@
       "confirmed_rpop": 125.1688434799794,
       "deaths_rpop": 1.1734579076248068,
       "confirmed_growing": 2.276236574570676,
-      "deaths_growing": null
+      "deaths_growing": null,
+      "first_case": "2020-03-02T00:00:00"
      },
      {
       "id": 28,
@@ -349,7 +377,8 @@
       "confirmed_rpop": 265.9696592474027,
       "deaths_rpop": 1.0057827117805713,
       "confirmed_growing": 3.0821531402985434,
-      "deaths_growing": 2.2315435652090394
+      "deaths_growing": 2.2315435652090394,
+      "first_case": "2020-01-27T00:00:00"
      },
      {
       "id": 29,
@@ -361,7 +390,8 @@
       "confirmed_rpop": 75.03312741451332,
       "deaths_rpop": 3.4651177846844514,
       "confirmed_growing": 3.0081320860648777,
-      "deaths_growing": 1.6425874571225736
+      "deaths_growing": 1.6425874571225736,
+      "first_case": "2020-01-31T00:00:00"
      },
      {
       "id": 30,
@@ -373,7 +403,8 @@
       "confirmed_rpop": 765.3033016290194,
       "deaths_rpop": 8.729695455844327,
       "confirmed_growing": 3.163026563454404,
-      "deaths_growing": 2.8887258416466377
+      "deaths_growing": 2.8887258416466377,
+      "first_case": "2020-02-25T00:00:00"
      },
      {
       "id": 31,
@@ -385,7 +416,8 @@
       "confirmed_rpop": 393.76395394040037,
       "deaths_rpop": 1.3013917269040616,
       "confirmed_growing": 7.349665293354776,
-      "deaths_growing": null
+      "deaths_growing": null,
+      "first_case": "2020-02-26T00:00:00"
      },
      {
       "id": 32,
@@ -397,7 +429,8 @@
       "confirmed_rpop": 175.660962982765,
       "deaths_rpop": 1.9927505726916053,
       "confirmed_growing": 7.175326938379709,
-      "deaths_growing": 1.8510257052780734
+      "deaths_growing": 1.8510257052780734,
+      "first_case": "2020-01-31T00:00:00"
      },
      {
       "id": 33,
@@ -409,7 +442,8 @@
       "confirmed_rpop": 246.02053127960477,
       "deaths_rpop": 2.252300638475255,
       "confirmed_growing": 9.748684718025581,
-      "deaths_growing": null
+      "deaths_growing": null,
+      "first_case": "2020-02-27T00:00:00"
      },
      {
       "id": 34,
@@ -421,7 +455,8 @@
       "confirmed_rpop": 212.90122962157977,
       "deaths_rpop": 8.01304078520781,
       "confirmed_growing": 3.67801429519074,
-      "deaths_growing": 2.1185857236103733
+      "deaths_growing": 2.1185857236103733,
+      "first_case": "2020-02-27T00:00:00"
      },
      {
       "id": 35,
@@ -433,7 +468,8 @@
       "confirmed_rpop": 2.0977258348564924,
       "deaths_rpop": 0.006855313185805532,
       "confirmed_growing": 2.8927497694689963,
-      "deaths_growing": null
+      "deaths_growing": null,
+      "first_case": "2020-01-31T00:00:00"
      },
      {
       "id": 36,
@@ -445,7 +481,8 @@
       "confirmed_rpop": 8.030721465033729,
       "deaths_rpop": 0.10787536296313965,
       "confirmed_growing": 1.1321679905772213,
-      "deaths_growing": null
+      "deaths_growing": null,
+      "first_case": "2020-03-11T00:00:00"
      },
      {
       "id": 37,
@@ -457,7 +494,8 @@
       "confirmed_rpop": 1.0683362898971893,
       "deaths_rpop": 0.068191678078544,
       "confirmed_growing": 2.0153030267124263,
-      "deaths_growing": 5.047438028571659
+      "deaths_growing": 5.047438028571659,
+      "first_case": "2020-03-03T00:00:00"
      },
      {
       "id": 38,
@@ -469,7 +507,8 @@
       "confirmed_rpop": 14.147046086219703,
       "deaths_rpop": 0.13196871349085543,
       "confirmed_growing": 2.6858017965659506,
-      "deaths_growing": 6.051766378928242
+      "deaths_growing": 6.051766378928242,
+      "first_case": "2020-03-04T00:00:00"
      },
      {
       "id": 39,
@@ -481,7 +520,8 @@
       "confirmed_rpop": 50.60412251735459,
       "deaths_rpop": 1.241233193821905,
       "confirmed_growing": 5.405431186683914,
-      "deaths_growing": 2.1619052354185575
+      "deaths_growing": 2.1619052354185575,
+      "first_case": "2020-02-26T00:00:00"
      },
      {
       "id": 40,
@@ -493,7 +533,8 @@
       "confirmed_rpop": 19.493321827333627,
       "deaths_rpop": 0.11399603407797443,
       "confirmed_growing": 3.4956334108261724,
-      "deaths_growing": null
+      "deaths_growing": null,
+      "first_case": "2020-03-06T00:00:00"
      },
      {
       "id": 41,
@@ -505,7 +546,8 @@
       "confirmed_rpop": 10.6353550799154,
       "deaths_rpop": 0.4130234982491417,
       "confirmed_growing": 3.280607123479864,
-      "deaths_growing": null
+      "deaths_growing": null,
+      "first_case": "2020-03-04T00:00:00"
      },
      {
       "id": 42,
@@ -517,7 +559,8 @@
       "confirmed_rpop": 23.285318435300887,
       "deaths_rpop": 0.42856414298099793,
       "confirmed_growing": 2.831691815217982,
-      "deaths_growing": 5.047438028571659
+      "deaths_growing": 5.047438028571659,
+      "first_case": "2020-03-08T00:00:00"
      },
      {
       "id": 43,
@@ -529,7 +572,8 @@
       "confirmed_rpop": 49.87526341886699,
       "deaths_rpop": 0.24211292921780092,
       "confirmed_growing": 2.977851639727,
-      "deaths_growing": null
+      "deaths_growing": null,
+      "first_case": "2020-02-25T00:00:00"
      },
      {
       "id": 44,
@@ -541,7 +585,8 @@
       "confirmed_rpop": 1088.1410490654166,
       "deaths_rpop": 12.992728944064677,
       "confirmed_growing": 1.860225257928082,
-      "deaths_growing": null
+      "deaths_growing": null,
+      "first_case": "2020-02-29T00:00:00"
      },
      {
       "id": 45,
@@ -553,7 +598,8 @@
       "confirmed_rpop": 160.7784544582227,
       "deaths_rpop": 0.6144399533435263,
       "confirmed_growing": 2.560249267958453,
-      "deaths_growing": 5.047438028571659
+      "deaths_growing": 5.047438028571659,
+      "first_case": "2020-02-29T00:00:00"
      },
      {
       "id": 46,
@@ -565,7 +611,8 @@
       "confirmed_rpop": 4252.805670407561,
       "deaths_rpop": 590.6674542232723,
       "confirmed_growing": 9.433996678714989,
-      "deaths_growing": 4.000000000000001
+      "deaths_growing": 4.000000000000001,
+      "first_case": "2020-02-27T00:00:00"
      }
     ]
    },
@@ -580,6 +627,7 @@
     "deaths_rpop": 0.6638984086624347,
     "confirmed_growing": 2.2857799981922753,
     "deaths_growing": 2.8853892683196873,
+    "first_case": "2020-01-22T00:00:00",
     "_children": [
      {
       "id": 48,
@@ -591,7 +639,8 @@
       "confirmed_rpop": 77.45888024884766,
       "deaths_rpop": 0.9329466136920332,
       "confirmed_growing": 2.254704578505705,
-      "deaths_growing": 2.9547487682896945
+      "deaths_growing": 2.9547487682896945,
+      "first_case": "2020-01-22T00:00:00"
      },
      {
       "id": 49,
@@ -603,7 +652,8 @@
       "confirmed_rpop": 34.161032702452836,
       "deaths_rpop": 0.5078713782054803,
       "confirmed_growing": 2.9333953335313367,
-      "deaths_growing": 1.8832713069331057
+      "deaths_growing": 1.8832713069331057,
+      "first_case": "2020-01-26T00:00:00"
      },
      {
       "id": 50,
@@ -615,7 +665,8 @@
       "confirmed_rpop": 1.5912142523822106,
       "deaths_rpop": 0.015676987708199117,
       "confirmed_growing": 1.9606048720248404,
-      "deaths_growing": null
+      "deaths_growing": null,
+      "first_case": "2020-02-28T00:00:00"
      }
     ]
    },
@@ -630,6 +681,7 @@
     "deaths_rpop": 0.1014018581183958,
     "confirmed_growing": 2.546636702354933,
     "deaths_growing": 2.02316712981235,
+    "first_case": "2020-02-26T00:00:00",
     "_children": [
      {
       "id": 52,
@@ -641,7 +693,8 @@
       "confirmed_rpop": 4.837727023192996,
       "deaths_rpop": 0.07107336468941719,
       "confirmed_growing": 2.901323368477723,
-      "deaths_growing": null
+      "deaths_growing": null,
+      "first_case": "2020-02-26T00:00:00"
      },
      {
       "id": 53,
@@ -653,7 +706,8 @@
       "confirmed_rpop": 3.5283075331799916,
       "deaths_rpop": 0.0893242413463289,
       "confirmed_growing": 3.404857417051996,
-      "deaths_growing": 7.999999999999997
+      "deaths_growing": 7.999999999999997,
+      "first_case": "2020-03-03T00:00:00"
      },
      {
       "id": 54,
@@ -665,7 +719,8 @@
       "confirmed_rpop": 9.781469363099925,
       "deaths_rpop": 0.15379668809905542,
       "confirmed_growing": 2.2821098345735376,
-      "deaths_growing": null
+      "deaths_growing": null,
+      "first_case": "2020-03-06T00:00:00"
      },
      {
       "id": 55,
@@ -677,7 +732,8 @@
       "confirmed_rpop": 29.12454495776423,
       "deaths_rpop": 0.4029087247121534,
       "confirmed_growing": 1.6341435557431498,
-      "deaths_growing": null
+      "deaths_growing": null,
+      "first_case": "2020-03-01T00:00:00"
      }
     ]
    },
@@ -692,6 +748,7 @@
     "deaths_rpop": 0.12561717731050256,
     "confirmed_growing": 3.461769335989797,
     "deaths_growing": 3.312577963029099,
+    "first_case": "2020-02-14T00:00:00",
     "_children": [
      {
       "id": 57,
@@ -703,7 +760,8 @@
       "confirmed_rpop": 2.92863475923081,
       "deaths_rpop": 0.09961342718472144,
       "confirmed_growing": 4.2604310998248405,
-      "deaths_growing": 3.445412464587144
+      "deaths_growing": 3.445412464587144,
+      "first_case": "2020-02-14T00:00:00"
      },
      {
       "id": 58,
@@ -715,7 +773,8 @@
       "confirmed_rpop": 3.2285746790459977,
       "deaths_rpop": 0.3484073394653954,
       "confirmed_growing": 3.3078335824960923,
-      "deaths_growing": 2.7520815582415508
+      "deaths_growing": 2.7520815582415508,
+      "first_case": "2020-02-25T00:00:00"
      },
      {
       "id": 59,
@@ -727,7 +786,8 @@
       "confirmed_rpop": 0.04671452320424818,
       "deaths_rpop": 0.02335726160212409,
       "confirmed_growing": 7.999999999999997,
-      "deaths_growing": null
+      "deaths_growing": null,
+      "first_case": "2020-03-13T00:00:00"
      },
      {
       "id": 60,
@@ -739,7 +799,8 @@
       "confirmed_rpop": 2.632172845797526,
       "deaths_rpop": 0.08225540143117269,
       "confirmed_growing": 2.1177424688538595,
-      "deaths_growing": 5.047438028571659
+      "deaths_growing": 5.047438028571659,
+      "first_case": "2020-03-02T00:00:00"
      },
      {
       "id": 61,
@@ -751,7 +812,8 @@
       "confirmed_rpop": 5.130520878697471,
       "deaths_rpop": 0.08550868131162451,
       "confirmed_growing": 4.195311476402282,
-      "deaths_growing": null
+      "deaths_growing": null,
+      "first_case": "2020-03-04T00:00:00"
      },
      {
       "id": 62,
@@ -763,7 +825,8 @@
       "confirmed_rpop": 3.1493927232690617,
       "deaths_rpop": 0.09841852260215818,
       "confirmed_growing": 1.6,
-      "deaths_growing": null
+      "deaths_growing": null,
+      "first_case": "2020-03-10T00:00:00"
      }
     ]
    },
@@ -778,6 +841,7 @@
     "deaths_rpop": 0.27774253092801954,
     "confirmed_growing": 3.3045744822145817,
     "deaths_growing": 6.5445431928100115,
+    "first_case": "2020-01-26T00:00:00",
     "_children": [
      {
       "id": 64,
@@ -789,7 +853,8 @@
       "confirmed_rpop": 42.49460723198699,
       "deaths_rpop": 0.27774253092801954,
       "confirmed_growing": 3.3045744822145817,
-      "deaths_growing": 6.5445431928100115
+      "deaths_growing": 6.5445431928100115,
+      "first_case": "2020-01-26T00:00:00"
      }
     ]
    }
@@ -805,7 +870,8 @@
   "confirmed_rpop": 0.6308857367617697,
   "deaths_rpop": 0.0,
   "confirmed_growing": 4.500430857756912,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-02-24T00:00:00"
  },
  {
   "id": 66,
@@ -817,7 +883,8 @@
   "confirmed_rpop": 26.380489267826878,
   "deaths_rpop": 0.6942234017849178,
   "confirmed_growing": 6.6470943301753715,
-  "deaths_growing": 7.999999999999997
+  "deaths_growing": 7.999999999999997,
+  "first_case": "2020-03-09T00:00:00"
  },
  {
   "id": 67,
@@ -829,7 +896,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 68,
@@ -841,7 +909,8 @@
   "confirmed_rpop": 1140.7534157786938,
   "deaths_rpop": 0.0,
   "confirmed_growing": 1.2384990618861456,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-02T00:00:00"
  },
  {
   "id": 69,
@@ -853,7 +922,8 @@
   "confirmed_rpop": 0.06284309383463689,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-20T00:00:00"
  },
  {
   "id": 70,
@@ -865,7 +935,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 71,
@@ -877,7 +948,8 @@
   "confirmed_rpop": 10.296752404291686,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-13T00:00:00"
  },
  {
   "id": 72,
@@ -889,7 +961,8 @@
   "confirmed_rpop": 54.09552119513234,
   "deaths_rpop": 0.0,
   "confirmed_growing": 1.8510257052780734,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-01T00:00:00"
  },
  {
   "id": 73,
@@ -901,7 +974,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 74,
@@ -913,7 +987,8 @@
   "confirmed_rpop": 10.270050990803169,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-16T00:00:00"
  },
  {
   "id": 75,
@@ -925,7 +1000,8 @@
   "confirmed_rpop": 185.84280014526203,
   "deaths_rpop": 0.6093206562139739,
   "confirmed_growing": 11.587099364661537,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-02-24T00:00:00"
  },
  {
   "id": 76,
@@ -937,7 +1013,8 @@
   "confirmed_rpop": 20.904102430101908,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-17T00:00:00"
  },
  {
   "id": 77,
@@ -949,7 +1026,8 @@
   "confirmed_rpop": 8.040276708238776,
   "deaths_rpop": 0.0,
   "confirmed_growing": 5.358195319320939,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-02-28T00:00:00"
  },
  {
   "id": 78,
@@ -961,7 +1039,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 79,
@@ -973,7 +1052,8 @@
   "confirmed_rpop": 0.169474994430628,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-16T00:00:00"
  },
  {
   "id": 80,
@@ -985,7 +1065,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 81,
@@ -997,7 +1078,8 @@
   "confirmed_rpop": 2.6209159577089003,
   "deaths_rpop": 0.0,
   "confirmed_growing": 7.999999999999997,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-06T00:00:00"
  },
  {
   "id": 82,
@@ -1009,7 +1091,8 @@
   "confirmed_rpop": 1.6502940129070365,
   "deaths_rpop": 0.0,
   "confirmed_growing": 3.004170149355947,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-11T00:00:00"
  },
  {
   "id": 83,
@@ -1021,7 +1104,8 @@
   "confirmed_rpop": 28.173280823992727,
   "deaths_rpop": 0.30293850348379275,
   "confirmed_growing": 2.8181724707528737,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-05T00:00:00"
  },
  {
   "id": 84,
@@ -1033,7 +1117,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 85,
@@ -1045,7 +1130,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 86,
@@ -1057,7 +1143,8 @@
   "confirmed_rpop": 191.5598278269499,
   "deaths_rpop": 0.0,
   "confirmed_growing": 6.863500032554161,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-09T00:00:00"
  },
  {
   "id": 87,
@@ -1069,7 +1156,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 88,
@@ -1081,7 +1169,8 @@
   "confirmed_rpop": 3.2147432736349444,
   "deaths_rpop": 0.0,
   "confirmed_growing": 2.3488015107471925,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-01-27T00:00:00"
  },
  {
   "id": 89,
@@ -1093,7 +1182,8 @@
   "confirmed_rpop": 1.0434226116636098,
   "deaths_rpop": 0.0,
   "confirmed_growing": 2.1305565067903123,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-06T00:00:00"
  },
  {
   "id": 90,
@@ -1105,7 +1195,8 @@
   "confirmed_rpop": 7.273586878449272,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-20T00:00:00"
  },
  {
   "id": 91,
@@ -1117,7 +1208,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 92,
@@ -1129,7 +1221,8 @@
   "confirmed_rpop": 0.632219818616134,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-15T00:00:00"
  },
  {
   "id": 93,
@@ -1141,7 +1234,8 @@
   "confirmed_rpop": 0.06270820692403954,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-19T00:00:00"
  },
  {
   "id": 94,
@@ -1153,7 +1247,8 @@
   "confirmed_rpop": 28.334683583897412,
   "deaths_rpop": 0.0,
   "confirmed_growing": 2.196285600276619,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-03T00:00:00"
  },
  {
   "id": 95,
@@ -1165,7 +1260,8 @@
   "confirmed_rpop": 3.8935671179357305,
   "deaths_rpop": 0.0,
   "confirmed_growing": 2.043803759713467,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-06T00:00:00"
  },
  {
   "id": 96,
@@ -1177,7 +1273,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 97,
@@ -1189,7 +1286,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 98,
@@ -1201,7 +1299,8 @@
   "confirmed_rpop": 23.179511847405113,
   "deaths_rpop": 0.39623097175051475,
   "confirmed_growing": 3.4088932075309604,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-06T00:00:00"
  },
  {
   "id": 99,
@@ -1213,7 +1312,8 @@
   "confirmed_rpop": 191862.0317973592,
   "deaths_rpop": 2155.753166262463,
   "confirmed_growing": 243.9773049654256,
-  "deaths_growing": 41.52714455747547
+  "deaths_growing": 41.52714455747547,
+  "first_case": "2020-02-07T00:00:00"
  },
  {
   "id": 100,
@@ -1225,7 +1325,8 @@
   "confirmed_rpop": 1.852916707070545,
   "deaths_rpop": 0.08823412890812118,
   "confirmed_growing": 3.344037845407539,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-12T00:00:00"
  },
  {
   "id": 101,
@@ -1237,7 +1338,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 102,
@@ -1249,7 +1351,8 @@
   "confirmed_rpop": 70.0832238282961,
   "deaths_rpop": 0.0,
   "confirmed_growing": 3.0948224578763344,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-09T00:00:00"
  },
  {
   "id": 103,
@@ -1261,7 +1364,8 @@
   "confirmed_rpop": 93.08453038947971,
   "deaths_rpop": 0.0,
   "confirmed_growing": 2.83788440293442,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-01T00:00:00"
  },
  {
   "id": 104,
@@ -1273,7 +1377,8 @@
   "confirmed_rpop": 0.26500575805663307,
   "deaths_rpop": 0.011521989480723176,
   "confirmed_growing": 2.2704297809345957,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-11T00:00:00"
  },
  {
   "id": 105,
@@ -1285,7 +1390,8 @@
   "confirmed_rpop": 1.0271580590821316,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-18T00:00:00"
  },
  {
   "id": 106,
@@ -1297,7 +1403,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 107,
@@ -1309,7 +1416,8 @@
   "confirmed_rpop": 10.429317257782365,
   "deaths_rpop": 0.1862378081746851,
   "confirmed_growing": 1.7835537861280921,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-01T00:00:00"
  },
  {
   "id": 108,
@@ -1321,7 +1429,8 @@
   "confirmed_rpop": 0.4648602095620815,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-19T00:00:00"
  },
  {
   "id": 109,
@@ -1333,7 +1442,8 @@
   "confirmed_rpop": 4.424824445090141,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-15T00:00:00"
  },
  {
   "id": 110,
@@ -1345,7 +1455,8 @@
   "confirmed_rpop": 0.28594982667151253,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-21T00:00:00"
  },
  {
   "id": 111,
@@ -1357,7 +1468,8 @@
   "confirmed_rpop": 230.83050704259352,
   "deaths_rpop": 0.0,
   "confirmed_growing": 4.094989224014782,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-02-27T00:00:00"
  },
  {
   "id": 112,
@@ -1369,7 +1481,8 @@
   "confirmed_rpop": 0.08030069576983966,
   "deaths_rpop": 0.0,
   "confirmed_growing": 2.523719014285829,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-13T00:00:00"
  },
  {
   "id": 113,
@@ -1381,7 +1494,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 114,
@@ -1393,7 +1507,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 115,
@@ -1405,7 +1520,8 @@
   "confirmed_rpop": 1.1236548446940458,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-19T00:00:00"
  },
  {
   "id": 116,
@@ -1417,7 +1533,8 @@
   "confirmed_rpop": 94.53818728177586,
   "deaths_rpop": 0.18076135235521198,
   "confirmed_growing": 4.5595925700623265,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-01-29T00:00:00"
  },
  {
   "id": 117,
@@ -1429,7 +1546,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 118,
@@ -1441,7 +1559,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 119,
@@ -1453,7 +1572,8 @@
   "confirmed_rpop": 1.8411298277300847,
   "deaths_rpop": 0.4602824569325212,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-14T00:00:00"
  },
  {
   "id": 120,
@@ -1465,7 +1585,8 @@
   "confirmed_rpop": 0.4259477123626212,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-17T00:00:00"
  },
  {
   "id": 121,
@@ -1477,7 +1598,8 @@
   "confirmed_rpop": 12.259915206423194,
   "deaths_rpop": 0.0,
   "confirmed_growing": 8.240170868424583,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-02-26T00:00:00"
  },
  {
   "id": 122,
@@ -1489,7 +1611,8 @@
   "confirmed_rpop": 0.6246331102363033,
   "deaths_rpop": 0.032875426854542276,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-14T00:00:00"
  },
  {
   "id": 123,
@@ -1501,7 +1624,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 124,
@@ -1513,7 +1637,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 125,
@@ -1525,7 +1650,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 126,
@@ -1537,7 +1663,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 127,
@@ -1549,7 +1676,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 128,
@@ -1561,7 +1689,8 @@
   "confirmed_rpop": 0.9669270013341317,
   "deaths_rpop": 0.05687805890200775,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-14T00:00:00"
  },
  {
   "id": 129,
@@ -1573,7 +1702,8 @@
   "confirmed_rpop": 0.1566017912426086,
   "deaths_rpop": 0.0,
   "confirmed_growing": 7.999999999999997,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-13T00:00:00"
  },
  {
   "id": 130,
@@ -1585,7 +1715,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 131,
@@ -1597,7 +1728,8 @@
   "confirmed_rpop": 8.942646972402992,
   "deaths_rpop": 1.2775209960575702,
   "confirmed_growing": 2.8496574968641766,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-12T00:00:00"
  },
  {
   "id": 132,
@@ -1609,7 +1741,8 @@
   "confirmed_rpop": 0.17757136881866298,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-20T00:00:00"
  },
  {
   "id": 133,
@@ -1621,7 +1754,8 @@
   "confirmed_rpop": 2.462519175585518,
   "deaths_rpop": 0.0,
   "confirmed_growing": 2.231543565209038,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-11T00:00:00"
  },
  {
   "id": 134,
@@ -1633,7 +1767,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 135,
@@ -1645,7 +1780,8 @@
   "confirmed_rpop": 1395.1526556568572,
   "deaths_rpop": 2.9495827815155544,
   "confirmed_growing": 4.396553319453707,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-02-28T00:00:00"
  },
  {
   "id": 136,
@@ -1657,7 +1793,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 137,
@@ -1669,7 +1806,8 @@
   "confirmed_rpop": 0.5443966343222479,
   "deaths_rpop": 0.0,
   "confirmed_growing": 2.1011962802975486,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-11T00:00:00"
  },
  {
   "id": 138,
@@ -1681,7 +1819,8 @@
   "confirmed_rpop": 5.426894808802016,
   "deaths_rpop": 0.339180925550126,
   "confirmed_growing": 7.999999999999997,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-11T00:00:00"
  },
  {
   "id": 139,
@@ -1693,7 +1832,8 @@
   "confirmed_rpop": 8.41443029258261,
   "deaths_rpop": 0.0,
   "confirmed_growing": 1.2481685201778,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-03T00:00:00"
  },
  {
   "id": 140,
@@ -1705,7 +1845,8 @@
   "confirmed_rpop": 0.13314572973208627,
   "deaths_rpop": 0.0,
   "confirmed_growing": 2.8496574968641766,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-13T00:00:00"
  },
  {
   "id": 141,
@@ -1717,7 +1858,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 142,
@@ -1729,7 +1871,8 @@
   "confirmed_rpop": 1.104689794820441,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-15T00:00:00"
  },
  {
   "id": 143,
@@ -1741,7 +1884,8 @@
   "confirmed_rpop": 41.834211495233156,
   "deaths_rpop": 0.0,
   "confirmed_growing": 7.032945246294189,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-02-24T00:00:00"
  },
  {
   "id": 144,
@@ -1753,7 +1897,8 @@
   "confirmed_rpop": 2.182095903114942,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-18T00:00:00"
  },
  {
   "id": 145,
@@ -1765,7 +1910,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 146,
@@ -1777,7 +1923,8 @@
   "confirmed_rpop": 65.03236146664759,
   "deaths_rpop": 0.0,
   "confirmed_growing": 2.7906326437838014,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-02T00:00:00"
  },
  {
   "id": 147,
@@ -1789,7 +1936,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 148,
@@ -1801,7 +1949,8 @@
   "confirmed_rpop": 0.6076104423120469,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-16T00:00:00"
  },
  {
   "id": 149,
@@ -1813,7 +1962,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 150,
@@ -1825,7 +1975,8 @@
   "confirmed_rpop": 973.1976117204556,
   "deaths_rpop": 0.0,
   "confirmed_growing": 1.5356697600524813,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-04T00:00:00"
  },
  {
   "id": 151,
@@ -1837,7 +1988,8 @@
   "confirmed_rpop": 30.07652845837499,
   "deaths_rpop": 0.3623678127515059,
   "confirmed_growing": 2.1107750967680605,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-02-28T00:00:00"
  },
  {
   "id": 152,
@@ -1849,7 +2001,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 153,
@@ -1861,7 +2014,8 @@
   "confirmed_rpop": 40.797539092441944,
   "deaths_rpop": 0.0,
   "confirmed_growing": 3.0745154781526915,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-02-26T00:00:00"
  },
  {
   "id": 154,
@@ -1873,7 +2027,8 @@
   "confirmed_rpop": 0.1112375635013536,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-20T00:00:00"
  },
  {
   "id": 155,
@@ -1885,7 +2040,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 156,
@@ -1897,7 +2053,8 @@
   "confirmed_rpop": 24.48427638604547,
   "deaths_rpop": 0.0,
   "confirmed_growing": 15.079694772241911,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-08T00:00:00"
  },
  {
   "id": 157,
@@ -1909,7 +2066,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 158,
@@ -1921,7 +2079,8 @@
   "confirmed_rpop": 165.76894080459246,
   "deaths_rpop": 0.0,
   "confirmed_growing": 3.0711799018081085,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-07T00:00:00"
  },
  {
   "id": 159,
@@ -1933,7 +2092,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 160,
@@ -1945,7 +2105,8 @@
   "confirmed_rpop": 85.20745352199684,
   "deaths_rpop": 2.6627329225624012,
   "confirmed_growing": 2.3425804260390604,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-07T00:00:00"
  },
  {
   "id": 161,
@@ -1957,7 +2118,8 @@
   "confirmed_rpop": 0.4419209774584948,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-14T00:00:00"
  },
  {
   "id": 162,
@@ -1969,7 +2131,8 @@
   "confirmed_rpop": 11.026504566548107,
   "deaths_rpop": 0.7876074690391505,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-18T00:00:00"
  },
  {
   "id": 163,
@@ -1981,7 +2144,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 164,
@@ -1993,7 +2157,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 165,
@@ -2005,7 +2170,8 @@
   "confirmed_rpop": 19.785999575095662,
   "deaths_rpop": 0.24732499468869576,
   "confirmed_growing": 2.140774325695917,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-08T00:00:00"
  },
  {
   "id": 166,
@@ -2017,7 +2183,8 @@
   "confirmed_rpop": 282.31187763063343,
   "deaths_rpop": 0.0,
   "confirmed_growing": 3.2527840739205343,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-02-29T00:00:00"
  },
  {
   "id": 167,
@@ -2029,7 +2196,8 @@
   "confirmed_rpop": 3.100614634839064,
   "deaths_rpop": 0.0,
   "confirmed_growing": 2.4082399653118496,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-10T00:00:00"
  },
  {
   "id": 168,
@@ -2041,7 +2209,8 @@
   "confirmed_rpop": 22.29345511929387,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-17T00:00:00"
  },
  {
   "id": 169,
@@ -2053,7 +2222,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 170,
@@ -2065,7 +2235,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 171,
@@ -2077,7 +2248,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 172,
@@ -2089,7 +2261,8 @@
   "confirmed_rpop": 1.2026313574100131,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-14T00:00:00"
  },
  {
   "id": 173,
@@ -2101,7 +2274,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 174,
@@ -2113,7 +2287,8 @@
   "confirmed_rpop": 0.03495438976451577,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-01-25T00:00:00"
  },
  {
   "id": 175,
@@ -2125,7 +2300,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 176,
@@ -2137,7 +2313,8 @@
   "confirmed_rpop": 10.871694560577604,
   "deaths_rpop": 0.0,
   "confirmed_growing": 2.3679066086194114,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-02-28T00:00:00"
  },
  {
   "id": 177,
@@ -2149,7 +2326,8 @@
   "confirmed_rpop": 0.3055533402938384,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-19T00:00:00"
  },
  {
   "id": 178,
@@ -2161,7 +2339,8 @@
   "confirmed_rpop": 0.04289872704462304,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-20T00:00:00"
  },
  {
   "id": 179,
@@ -2173,7 +2352,8 @@
   "confirmed_rpop": 0.109472561744876,
   "deaths_rpop": 0.0,
   "confirmed_growing": 2.312518610543102,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-02-28T00:00:00"
  },
  {
   "id": 180,
@@ -2185,7 +2365,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 181,
@@ -2197,7 +2378,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 182,
@@ -2209,7 +2391,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 183,
@@ -2221,7 +2404,8 @@
   "confirmed_rpop": 10.452290720014087,
   "deaths_rpop": 0.0,
   "confirmed_growing": 5.5076989880894285,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-02-24T00:00:00"
  },
  {
   "id": 184,
@@ -2233,7 +2417,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 185,
@@ -2245,7 +2430,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 186,
@@ -2257,7 +2443,8 @@
   "confirmed_rpop": 47.09828635240021,
   "deaths_rpop": 0.23549143176200102,
   "confirmed_growing": 2.769154277893819,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-10T00:00:00"
  },
  {
   "id": 187,
@@ -2269,7 +2456,8 @@
   "confirmed_rpop": 0.11394571329959553,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-20T00:00:00"
  },
  {
   "id": 188,
@@ -2281,7 +2469,8 @@
   "confirmed_rpop": 2.555135566976065,
   "deaths_rpop": 0.14195197594311473,
   "confirmed_growing": 5.047438028571659,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-08T00:00:00"
  },
  {
   "id": 189,
@@ -2293,7 +2482,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 190,
@@ -2305,7 +2495,8 @@
   "confirmed_rpop": 169.84061464647553,
   "deaths_rpop": 0.0,
   "confirmed_growing": 13.606252330096265,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-02-29T00:00:00"
  },
  {
   "id": 191,
@@ -2317,7 +2508,8 @@
   "confirmed_rpop": 0.5575681701430423,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-15T00:00:00"
  },
  {
   "id": 192,
@@ -2329,7 +2521,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 193,
@@ -2341,7 +2534,8 @@
   "confirmed_rpop": 18.952150570756665,
   "deaths_rpop": 0.0,
   "confirmed_growing": 3.9140804124209727,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-02-26T00:00:00"
  },
  {
   "id": 194,
@@ -2353,7 +2547,8 @@
   "confirmed_rpop": 1.3463267059741266,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-14T00:00:00"
  },
  {
   "id": 195,
@@ -2365,7 +2560,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 196,
@@ -2377,7 +2573,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 197,
@@ -2389,7 +2586,8 @@
   "confirmed_rpop": 10.941517588489525,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-14T00:00:00"
  },
  {
   "id": 198,
@@ -2401,7 +2599,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 199,
@@ -2413,7 +2612,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 200,
@@ -2425,7 +2625,8 @@
   "confirmed_rpop": 9.04249066362839,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-14T00:00:00"
  },
  {
   "id": 201,
@@ -2437,7 +2638,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 202,
@@ -2449,7 +2651,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 203,
@@ -2461,7 +2664,8 @@
   "confirmed_rpop": 11.439067356496901,
   "deaths_rpop": 0.0,
   "confirmed_growing": 3.655563504289437,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-02T00:00:00"
  },
  {
   "id": 204,
@@ -2473,7 +2677,8 @@
   "confirmed_rpop": 2.884078927053912,
   "deaths_rpop": 0.0,
   "confirmed_growing": 3.5831686366454485,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-02T00:00:00"
  },
  {
   "id": 205,
@@ -2485,7 +2690,8 @@
   "confirmed_rpop": 71.61931265922507,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-14T00:00:00"
  },
  {
   "id": 206,
@@ -2497,7 +2703,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 207,
@@ -2509,7 +2716,8 @@
   "confirmed_rpop": 74.42710511122975,
   "deaths_rpop": 0.3445699310705081,
   "confirmed_growing": 7.200517132860818,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-01-23T00:00:00"
  },
  {
   "id": 208,
@@ -2521,7 +2729,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 209,
@@ -2533,7 +2742,8 @@
   "confirmed_rpop": 32.61857723263624,
   "deaths_rpop": 0.18325043389121484,
   "confirmed_growing": 3.2313656631753016,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-06T00:00:00"
  },
  {
   "id": 210,
@@ -2545,7 +2755,8 @@
   "confirmed_rpop": 184.25384888490342,
   "deaths_rpop": 0.4810805453913928,
   "confirmed_growing": 5.549200066252884,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-05T00:00:00"
  },
  {
   "id": 211,
@@ -2557,7 +2768,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 212,
@@ -2569,7 +2781,8 @@
   "confirmed_rpop": 0.06475465594070545,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-16T00:00:00"
  },
  {
   "id": 213,
@@ -2581,7 +2794,8 @@
   "confirmed_rpop": 4.0984817345184545,
   "deaths_rpop": 0.0,
   "confirmed_growing": 2.4082399653118496,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-05T00:00:00"
  },
  {
   "id": 214,
@@ -2593,7 +2807,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 215,
@@ -2605,7 +2820,8 @@
   "confirmed_rpop": 3.6110000064247663,
   "deaths_rpop": 0.0,
   "confirmed_growing": 2.172836048964753,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-01-27T00:00:00"
  },
  {
   "id": 216,
@@ -2617,7 +2833,8 @@
   "confirmed_rpop": 6.880276311896686,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-14T00:00:00"
  },
  {
   "id": 217,
@@ -2629,7 +2846,8 @@
   "confirmed_rpop": 0.8709815090625626,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-14T00:00:00"
  },
  {
   "id": 218,
@@ -2641,7 +2859,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 219,
@@ -2653,7 +2872,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 220,
@@ -2665,7 +2885,8 @@
   "confirmed_rpop": 0.10343853302231204,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-16T00:00:00"
  },
  {
   "id": 221,
@@ -2677,7 +2898,8 @@
   "confirmed_rpop": 0.7733240328229654,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-21T00:00:00"
  },
  {
   "id": 222,
@@ -2689,7 +2911,8 @@
   "confirmed_rpop": 1.9796183444303312,
   "deaths_rpop": 0.0,
   "confirmed_growing": 2.0000000000000004,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-06T00:00:00"
  },
  {
   "id": 223,
@@ -2701,7 +2924,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 224,
@@ -2713,7 +2937,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 225,
@@ -2725,7 +2950,8 @@
   "confirmed_rpop": 35.12612788921363,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-14T00:00:00"
  },
  {
   "id": 226,
@@ -2737,7 +2963,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 227,
@@ -2749,7 +2976,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 228,
@@ -2761,7 +2989,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 229,
@@ -2773,7 +3002,8 @@
   "confirmed_rpop": 0.02258886765485132,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-21T00:00:00"
  },
  {
   "id": 230,
@@ -2785,7 +3015,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 231,
@@ -2797,7 +3028,8 @@
   "confirmed_rpop": 31.775982787816744,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-14T00:00:00"
  },
  {
   "id": 232,
@@ -2809,7 +3041,8 @@
   "confirmed_rpop": 1.303752661019821,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-15T00:00:00"
  },
  {
   "id": 233,
@@ -2821,7 +3054,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 234,
@@ -2833,7 +3067,8 @@
   "confirmed_rpop": 1251.5644555694619,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-06T00:00:00"
  },
  {
   "id": 235,
@@ -2845,7 +3080,8 @@
   "confirmed_rpop": 2.4547769591408337,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-14T00:00:00"
  },
  {
   "id": 236,
@@ -2857,7 +3093,8 @@
   "confirmed_rpop": 0.9744759252923629,
   "deaths_rpop": 0.0,
   "confirmed_growing": 7.999999999999997,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-01-23T00:00:00"
  },
  {
   "id": 237,
@@ -2869,7 +3106,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 238,
@@ -2881,7 +3119,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 239,
@@ -2893,7 +3132,8 @@
   "confirmed_rpop": 0.0,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": null
  },
  {
   "id": 240,
@@ -2905,7 +3145,8 @@
   "confirmed_rpop": 0.11197562514591825,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-18T00:00:00"
  },
  {
   "id": 241,
@@ -2917,6 +3158,7 @@
   "confirmed_rpop": 0.20484152503696024,
   "deaths_rpop": 0.0,
   "confirmed_growing": null,
-  "deaths_growing": null
+  "deaths_growing": null,
+  "first_case": "2020-03-20T00:00:00"
  }
 ]
