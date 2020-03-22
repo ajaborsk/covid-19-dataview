@@ -22,7 +22,7 @@
   <p><span id="show0">Show</span> <span id="hide0">Hide</span></p>
   <h2>Confirmed</h2>
   <div width="90vw">
-  <canvas class="jchart" data-source="cssejh_confirmed" data-yscale="logarithmic"></canvas>
+  <canvas class="jchart" data-source="ecdc_confirmed" data-yscale="logarithmic"></canvas>
   <h2>deaths</h2>
   <div width="80vw">
   <!--
@@ -156,16 +156,16 @@
                }
             var dataset = [];
             //console.log(locations);
-            for (d in datasets['cssejh_deaths'])
+            for (d in datasets['ecdc_deaths'])
              {
-              if (locations.includes(datasets['cssejh_deaths'][d]['label']))
+              if (locations.includes(datasets['ecdc_deaths'][d]['label']))
                {
-                dataset.push(datasets['cssejh_deaths'][d]);
+                dataset.push(datasets['ecdc_deaths'][d]);
                 //console.log(data[0]['country'], datasets['cssejh_deaths'][d]['label']);
                }
              }
-            charts['cssejh_confirmed'].data.datasets = dataset;
-            charts['cssejh_confirmed'].update();
+            charts['ecdc_confirmed'].data.datasets = dataset;
+            charts['ecdc_confirmed'].update();
            }
          },
       });
