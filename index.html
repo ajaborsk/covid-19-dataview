@@ -24,12 +24,12 @@
    </form>
   <div id="tbl"></div>
   <p><span id="show0">Show</span> <span id="hide0">Hide</span></p>
-  <h2>Confirmed</h2>
+  <h2>Deaths</h2>
   <div width="90vw">
   <canvas class="jchart" data-source="ecdc_confirmed" data-yscale="logarithmic"></canvas>
+  <!--
   <h2>deaths</h2>
   <div width="80vw">
-  <!--
   <canvas class="jchart" data-source="deaths" data-yscale="logarithmic"></canvas>
   <h2>Confirmed by millions inhabitants</h2>
   <div width="90vw">
@@ -60,6 +60,7 @@
 
   var src_obj = document.panel.data_src;
   var src_prev = null;
+  var current_source = "cssejh";
 
   var sources = ['cssejh', 'ecdc'];
   var features = [
@@ -138,11 +139,11 @@
                }
             var dataset = [];
             //console.log(locations);
-            for (d in datasets['ecdc_deaths'])
+            for (d in datasets[current_source+'_deaths'])
              {
-              if (locations.includes(datasets['ecdc_deaths'][d]['label']))
+              if (locations.includes(datasets[current_source+'_deaths'][d]['label']))
                {
-                dataset.push(datasets['ecdc_deaths'][d]);
+                dataset.push(datasets[current_source+'_deaths'][d]);
                 //console.log(data[0]['country'], datasets['cssejh_deaths'][d]['label']);
                }
              }
@@ -160,6 +161,7 @@
           }
           console.log(this.value)
           console.log("changed.")
+          current_source = this.value;
           tabulator.setData('data/'+this.value+'_summary.json');
       });
   }
