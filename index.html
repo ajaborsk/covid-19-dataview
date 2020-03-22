@@ -61,16 +61,6 @@
   var src_obj = document.panel.data_src;
   var src_prev = null;
 
-  for (var i = 0; i < src_obj.length; i++) {
-      src_obj[i].addEventListener('change', function() {
-          (src_prev) ? console.log(src_prev.value): null;
-          if (this !== src_prev) {
-              src_prev = this;
-          }
-          console.log(this.value)
-          console.log("changed.")
-      });
-  }
 
   var sources = ['cssejh', 'ecdc'];
   var features = [
@@ -87,6 +77,88 @@
   'ecdc_confirmed_growing',
   'ecdc_deaths_growing',
   ];
+
+
+  var tabulator = new Tabulator("#tbl", {
+          layout:"fitColumns",
+          selectable:true,
+          dataTree:true,
+          initialFilter:[
+            {field:"deaths", type:">=", value:"20"}
+          ],
+          columns:[
+           {title:'Country', field:'country'},
+           {formatter:'rowSelection', titleFormatter:'rowSelection', align:'center', headerSort:false, width:16},
+           {title:'Col', field:'color', formatter:'color', width:10, headerSort:false},
+           {title:'Population (M)', field:'population', align:'right', formatter:'money', formatterParams:{precision:3}},
+           {title:'Confirmed', field:'confirmed', align:'right'},
+           {title:'Deaths', field:'deaths', align:'right'},
+           {title:'Ratio (%)', field:'dc_percent', align:'right', formatter:'money'},
+           {title:'Confirmed / 1M hab', field:'confirmed_rpop', formatter:'money', align:'right'},
+           {title:'Deaths / 1M hab', field:'deaths_rpop', formatter:'money', align:'right'},
+           {title:'Confirmed growing (8j)', field:'confirmed_growing', formatter:'money', align:'right'},
+           {title:'Deaths growing (8j)', field:'deaths_growing', formatter:'money', align:'right'},
+          ],
+/*          ajaxURL:'data/ecdc_summary.json',
+          //autoColumns:true,
+          ajaxResponse:function(url, params, response)
+           {
+        //url - the URL of the request
+        //params - the parameters passed with the request
+        //response - the JSON object returned in the body of the response.
+            function color_it(array)
+             {
+              for (var i = 0; i<array.length ;i++)
+               {
+                array[i]['color'] = colors[array[i]['id'] % ncolors];
+                if (array[i]['_children'])
+                 {
+                  color_it(array[i]['_children']);
+                 }
+               }
+             };
+            color_it(response);
+            return response; //return the tableData property of a response json object
+           }, */
+        rowSelectionChanged:function(data, rows){
+            //rows - array of row components for the selected rows in order of selection
+            //data - array of data objects for the selected rows in order of selection
+            //console.log(rows);
+            console.log(data.length);
+            if (data.length > 0)
+             {
+              var locations = [];
+              for (i in data)
+               {
+                locations.push(data[i]['country']);
+               }
+            var dataset = [];
+            //console.log(locations);
+            for (d in datasets['ecdc_deaths'])
+             {
+              if (locations.includes(datasets['ecdc_deaths'][d]['label']))
+               {
+                dataset.push(datasets['ecdc_deaths'][d]);
+                //console.log(data[0]['country'], datasets['cssejh_deaths'][d]['label']);
+               }
+             }
+            charts['ecdc_confirmed'].data.datasets = dataset;
+            charts['ecdc_confirmed'].update();
+           }
+         },
+      });
+
+  for (var i = 0; i < src_obj.length; i++) {
+      src_obj[i].addEventListener('change', function() {
+          (src_prev) ? console.log(src_prev.value): null;
+          if (this !== src_prev) {
+              src_prev = this;
+          }
+          console.log(this.value)
+          console.log("changed.")
+          tabulator.setData(summaries[this.value+'_summary']);
+      });
+  }
 
 
   // Load summaries data
@@ -155,74 +227,6 @@
      };
    };
 
-  var tabulator = new Tabulator("#tbl", {
-          layout:"fitColumns",
-          selectable:true,
-          dataTree:true,
-          initialFilter:[
-            {field:"deaths", type:">=", value:"20"}
-          ],
-          columns:[
-           {title:'Country', field:'country'},
-           {formatter:'rowSelection', titleFormatter:'rowSelection', align:'center', headerSort:false, width:16},
-           {title:'Col', field:'color', formatter:'color', width:10, headerSort:false},
-           {title:'Population (M)', field:'population', align:'right', formatter:'money', formatterParams:{precision:3}},
-           {title:'Confirmed', field:'confirmed', align:'right'},
-           {title:'Deaths', field:'deaths', align:'right'},
-           {title:'Ratio (%)', field:'dc_percent', align:'right', formatter:'money'},
-           {title:'Confirmed / 1M hab', field:'confirmed_rpop', formatter:'money', align:'right'},
-           {title:'Deaths / 1M hab', field:'deaths_rpop', formatter:'money', align:'right'},
-           {title:'Confirmed growing (8j)', field:'confirmed_growing', formatter:'money', align:'right'},
-           {title:'Deaths growing (8j)', field:'deaths_growing', formatter:'money', align:'right'},
-          ],
-          ajaxURL:'data/ecdc_summary.json',
-          //autoColumns:true,
-          ajaxResponse:function(url, params, response)
-           {
-        //url - the URL of the request
-        //params - the parameters passed with the request
-        //response - the JSON object returned in the body of the response.
-            function color_it(array)
-             {
-              for (var i = 0; i<array.length ;i++)
-               {
-                array[i]['color'] = colors[array[i]['id'] % ncolors];
-                if (array[i]['_children'])
-                 {
-                  color_it(array[i]['_children']);
-                 }
-               }
-             };
-            color_it(response);
-            return response; //return the tableData property of a response json object
-           },
-        rowSelectionChanged:function(data, rows){
-            //rows - array of row components for the selected rows in order of selection
-            //data - array of data objects for the selected rows in order of selection
-            //console.log(rows);
-            console.log(data.length);
-            if (data.length > 0)
-             {
-              var locations = [];
-              for (i in data)
-               {
-                locations.push(data[i]['country']);
-               }
-            var dataset = [];
-            //console.log(locations);
-            for (d in datasets['ecdc_deaths'])
-             {
-              if (locations.includes(datasets['ecdc_deaths'][d]['label']))
-               {
-                dataset.push(datasets['ecdc_deaths'][d]);
-                //console.log(data[0]['country'], datasets['cssejh_deaths'][d]['label']);
-               }
-             }
-            charts['ecdc_confirmed'].data.datasets = dataset;
-            charts['ecdc_confirmed'].update();
-           }
-         },
-      });
 
    function build_chart(ctx)
     {
