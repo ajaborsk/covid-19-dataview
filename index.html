@@ -100,7 +100,7 @@
     s_requests[i].responseType = 'json';
     s_requests[i].send();
     s_requests[i].featname = summary_name;
-    s_requests[i].onload = function(e)
+    s_requests[i].onload = function(request)
      {
       function color_it(array)
        {
@@ -113,8 +113,8 @@
            }
          }
        };
-      color_it(response);
-      summaries[e.target.summary_name].push(response);
+      color_it(request.target.response);
+      summaries[request.target.summary_name].push(request.target.response);
      }
    }
 
