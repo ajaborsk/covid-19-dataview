@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="scripts/Chart.bundle.min.js"></script>
+    <link href="css/tabulator.min.css" rel="stylesheet" type="text/css"/>
+    <script src="scripts/tabulator.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/main.css" />
+    <title>COVID-19 Time Series</title>
+  </head>
+ <body>
+  <h1>COVID-19 Time Series</h1>
+  <p>Source : COVID-19 data are from John Hopkins CSSE <a href="">github repository</a></p>
+  <h2>Summary</h2>
+   <form>
+    <label for="vol">Deaths threshold: </label>
+    <input type="range" id="vol" name="vol" min="0" max="50">
+   </form>
+  <div id="tbl"></div>
+  <p><span id="show0">Show</span> <span id="hide0">Hide</span></p>
+  <h2>Confirmed</h2>
+  <div width="90vw">
+  <canvas class="jchart" data-source="cssejh_confirmed" data-yscale="logarithmic"></canvas>
+  <h2>deaths</h2>
+  <div width="80vw">
+  <!--
+  <canvas class="jchart" data-source="deaths" data-yscale="logarithmic"></canvas>
+  <h2>Confirmed by millions inhabitants</h2>
+  <div width="90vw">
+  <canvas class="jchart" data-source="confirmed_rpop" data-yscale="logarithmic"></canvas>
+  </div>
+  <h2>Deaths by millions inhabitants</h2>
+  <div width="90vw">
+  <canvas class="jchart" data-source="deaths_rpop" data-yscale="logarithmic"></canvas>
+  </div>
+  <h2>Confirmed growing (smoothing window: 9 days)</h2>
+  <div width="90vw">
+  <canvas class="jchart" data-source="confirmed_growing" data-yscale="linear"></canvas>
+  </div>
+  <h2>Deaths growing (smoothing window: 4 days)</h2>
+  <div width="90vw">
+  <canvas class="jchart" data-source="deaths_growing" data-yscale="linear"></canvas>
+  </div>
+  -->
+  <script>
+
+  var colors = ["#fad390", "#f8c291", "#6a89cc", "#82ccdd", "#b8e994",
+                "#f6b93b", "#e55039", "#4a69bd", "#60a3bc", "#78e08f",
+                "#fa983a", "#eb2f06", "#1e3799", "#3c6382", "#38ada9",
+                "#e58e26", "#b71540", "#0c2461", "#0a3d62", "#079992",
+                ];
+  var ncolors = colors.length;
+  var charts = {};
+  var datasets = {};
+
+  var sources = ['cssejh'];
+  var features = [
+  'cssejh_confirmed',
+  'cssejh_deaths',
+  'cssejh_confirmed_rpop',
+  'cssejh_deaths_rpop',
+  'cssejh_confirmed_growing',
+  'cssejh_deaths_growing',
+  ];
+
+  var requests = [];
+  for (var i = 0 ; i < features.length ; i++)
+   {
+    requests[i] = new XMLHttpRequest();
+    var featname = features[i];
+    requests[i].open('GET', 'data/'+featname+'.json');
+    requests[i].responseType = 'json';
+    requests[i].send();
+    requests[i].featname = featname;
+    requests[i].onload = function(e)
+     {
+      var data = e.target.response;
+      datasets[e.target.featname] = []
+      var j = 0;
+      for (var key in data) {
+        var dataset =
+          {
+           "label":key,
+           "fill":false,
+           "borderWidth":2,
+           "borderColor":colors[j % ncolors],
+            data:[]
+          };
+        j++;
+        //var k=0;
+        for (var d in data[key])
+         {
+          dataset.data.push({x:d,y:data[key][d]});
+          //k++;
+         }
+        datasets[e.target.featname].push(dataset);
+       };
+     };
+   };
+
+  var tabulator = new Tabulator("#tbl", {
+          layout:"fitColumns",
+          selectable:true,
+          dataTree:true,
+          initialFilter:[
+            {field:"deaths", type:">=", value:"20"}
+          ],
+          columns:[
+           {title:'Country', field:'country'},
+           {formatter:'rowSelection', titleFormatter:'rowSelection', align:'center', headerSort:false, width:16},
+           {title:'Col', field:'color', formatter:'color', width:10, headerSort:false},
+           {title:'Population (M)', field:'population', align:'right', formatter:'money', formatterParams:{precision:3}},
+           {title:'Confirmed', field:'confirmed', align:'right'},
+           {title:'Deaths', field:'deaths', align:'right'},
+           {title:'Ratio (%)', field:'dc_percent', align:'right', formatter:'money'},
+           {title:'Confirmed / 1M hab', field:'confirmed_rpop', formatter:'money', align:'right'},
+           {title:'Deaths / 1M hab', field:'deaths_rpop', formatter:'money', align:'right'},
+           {title:'Confirmed growing (8j)', field:'confirmed_growing', formatter:'money', align:'right'},
+           {title:'Deaths growing (8j)', field:'deaths_growing', formatter:'money', align:'right'},
+          ],
+          ajaxURL:'data/cssejh_summary.json',
+          //autoColumns:true,
+          ajaxResponse:function(url, params, response)
+           {
+        //url - the URL of the request
+        //params - the parameters passed with the request
+        //response - the JSON object returned in the body of the response.
+            function color_it(array)
+             {
+              for (var i = 0; i<array.length ;i++)
+               {
+                array[i]['color'] = colors[array[i]['id'] % ncolors];
+                if (array[i]['_children'])
+                 {
+                  color_it(array[i]['_children']);
+                 }
+               }
+             };
+            color_it(response);
+            return response; //return the tableData property of a response json object
+           },
+        rowSelectionChanged:function(data, rows){
+            //rows - array of row components for the selected rows in order of selection
+            //data - array of data objects for the selected rows in order of selection
+            //console.log(rows);
+            console.log(data.length);
+            if (data.length > 0)
+             {
+              var locations = [];
+              for (i in data)
+               {
+                locations.push(data[i]['country']);
+               }
+            var dataset = [];
+            //console.log(locations);
+            for (d in datasets['cssejh_deaths'])
+             {
+              if (locations.includes(datasets['cssejh_deaths'][d]['label']))
+               {
+                dataset.push(datasets['cssejh_deaths'][d]);
+                //console.log(data[0]['country'], datasets['cssejh_deaths'][d]['label']);
+               }
+             }
+            charts['cssejh_confirmed'].data.datasets = dataset;
+            charts['cssejh_confirmed'].update();
+           }
+         },
+      });
+
+   function build_chart(ctx)
+    {
+   var request = new XMLHttpRequest();
+   request.open('GET', 'data/'+ctx.dataset.source+'.json');
+   request.responseType = 'json';
+   request.send();
+   request.onload = function() {
+       var data = request.response;
+       datasets[ctx.dataset.source] = []
+       var j = 0;
+       for (var key in data) {
+           var dataset =
+            {
+             "label":key,
+             "fill":false,
+             "borderWidth":2,
+             "borderColor":colors[j % ncolors],
+              data:[]};
+           j++;
+           var i=0;
+           for (var d in data[key])
+            {
+             dataset.data.push({x:d,y:data[key][d]});
+             i++;
+            }
+           datasets[ctx.dataset.source].push(dataset);
+         };
+
+   charts[ctx.dataset.source] = new Chart(ctx, {
+    type: 'line',
+    data: {
+        datasets: datasets[ctx.dataset.source]
+    },
+    options: {
+        legend: {
+            position:'right',
+            },
+        scales: {
+            yAxes: [{
+                type: ctx.dataset.yscale,
+                ticks: {
+                    //beginAtZero: true,
+
+                }
+            }],
+            xAxes: [{
+                type:'time',
+                ticks: {
+//                    beginAtZero: true,
+
+                }
+            }]
+        }
+    }
+});
+       }
+    };
+
+ dom_charts = document.getElementsByClassName("jchart");
+ for (let i = 0; i < dom_charts.length; i++)
+  {
+   let ctx = dom_charts[i];
+   build_chart(ctx);
+  }
+  document.getElementById("show0").addEventListener('click', function(event) {
+      console.log('Clicked show !');
+      charts['confirmed'].data.datasets[0].hidden = false;
+      charts['confirmed'].update();
+      });
+  document.getElementById("hide0").addEventListener('click', function(event) {
+      console.log('Clicked hide !');
+      charts['confirmed'].data.datasets[0].hidden = true;
+      charts['confirmed'].update();
+      });
+
+</script>
+ </body>
+</html>
