@@ -61,7 +61,6 @@
   var src_obj = document.panel.data_src;
   var src_prev = null;
 
-
   var sources = ['cssejh', 'ecdc'];
   var features = [
   'cssejh_confirmed',
@@ -78,11 +77,15 @@
   'ecdc_deaths_growing',
   ];
 
+  // To memorize selected location (and keep them selected between sources)
+  //TODO
+  var selected_locations = [];
 
   var tabulator = new Tabulator("#tbl", {
           layout:"fitColumns",
           selectable:true,
           dataTree:true,
+          dataTreeStartExpanded:true, //start with an expanded tree
           initialFilter:[
             {field:"deaths", type:">=", value:"20"}
           ],
@@ -99,13 +102,13 @@
            {title:'Confirmed growing (8j)', field:'confirmed_growing', formatter:'money', align:'right'},
            {title:'Deaths growing (8j)', field:'deaths_growing', formatter:'money', align:'right'},
           ],
-/*          ajaxURL:'data/ecdc_summary.json',
-          //autoColumns:true,
+          ajaxURL:'data/cssejh_summary.json',
           ajaxResponse:function(url, params, response)
            {
-        //url - the URL of the request
-        //params - the parameters passed with the request
-        //response - the JSON object returned in the body of the response.
+            //url - the URL of the request
+            //params - the parameters passed with the request
+            //response - the JSON object returned in the body of the response.
+
             function color_it(array)
              {
               for (var i = 0; i<array.length ;i++)
@@ -117,9 +120,10 @@
                  }
                }
              };
+
             color_it(response);
             return response; //return the tableData property of a response json object
-           }, */
+           },
         rowSelectionChanged:function(data, rows){
             //rows - array of row components for the selected rows in order of selection
             //data - array of data objects for the selected rows in order of selection
@@ -159,7 +163,6 @@
           tabulator.setData('data/'+this.value+'_summary.json');
       });
   }
-
 
   // Load summaries data
   var summaries = {};
