@@ -14,7 +14,11 @@
   <h1>COVID-19 Time Series</h1>
   <p>Source : COVID-19 data are from John Hopkins CSSE <a href="">github repository</a></p>
   <h2>Summary</h2>
-   <form>
+   <form name="panel">
+    <input type="radio" id="data_src_0" name="data_src" value="cssejh">
+    <label for="data_src_0">CSSE JH</label><br/>
+    <input type="radio" id="data_src_1" name="data_src" value="ecdc">
+    <label for="data_src_1">ECDC</label><br/>
     <label for="vol">Deaths threshold: </label>
     <input type="range" id="vol" name="vol" min="0" max="50">
    </form>
@@ -54,6 +58,20 @@
   var ncolors = colors.length;
   var charts = {};
   var datasets = {};
+
+  var src_obj = document.panel.data_src;
+  var src_prev = null;
+
+  for (var i = 0; i < src_obj.length; i++) {
+      src_obj[i].addEventListener('change', function() {
+          (src_prev) ? console.log(src_prev.value): null;
+          if (this !== src_prev) {
+              src_prev = this;
+          }
+          console.log(this.value)
+          console.log("changed.")
+      });
+  }
 
   var sources = ['cssejh'];
   var features = [
