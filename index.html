@@ -23,7 +23,7 @@
     <label for="vol">Deaths threshold: </label>
     <input type="range" id="vol" name="vol" min="0" max="50">
    </form>
-  <div id="tbl"></div>
+  <div id="tbl" style="width:500px; height:500px"></div>
   <p><span id="show0">Show</span> <span id="hide0">Hide</span></p>
   <h2>Deaths</h2>
   <div width="90vw">
@@ -88,7 +88,6 @@
           selectable:true,
           dataTree:true,
           height:"500px",
-          width:"500px",
           dataTreeStartExpanded:true, //start with an expanded tree
           initialFilter:[
             {field:"deaths", type:">=", value:"20"}
