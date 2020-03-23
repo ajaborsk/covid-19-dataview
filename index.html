@@ -23,7 +23,7 @@
     <label for="vol">Deaths threshold: </label>
     <input type="range" id="vol" name="vol" min="0" max="50">
    </form>
-  <div id="tbl" style="width:50vw; height:90vh"></div>
+  <div id="tbl" style="width:30vw; height:90vh"></div>
   <p><span id="show0">Show</span> <span id="hide0">Hide</span></p>
   <h2>Deaths</h2>
   <div width="90vw">
@@ -96,15 +96,15 @@
            {title:'Country', field:'country'},
            {formatter:'rowSelection', titleFormatter:'rowSelection', align:'center', headerSort:false, width:16},
            {title:'Col', field:'color', formatter:'color', width:10, headerSort:false},
-           {title:'Population (M)', field:'population', align:'right', formatter:'money', formatterParams:{precision:3}},
-           {title:'Confirmed', field:'confirmed', align:'right'},
+           //{title:'Population (M)', field:'population', align:'right', formatter:'money', formatterParams:{precision:3}},
+           //{title:'Confirmed', field:'confirmed', align:'right'},
            {title:'Deaths', field:'deaths', align:'right'},
-           {title:'Ratio (%)', field:'dc_percent', align:'right', formatter:'money'},
-           {title:'Confirmed / 1M hab', field:'confirmed_rpop', formatter:'money', align:'right'},
-           {title:'Deaths / 1M hab', field:'deaths_rpop', formatter:'money', align:'right'},
-           {title:'Confirmed growing (8j)', field:'confirmed_growing', formatter:'money', align:'right'},
-           {title:'Deaths growing (8j)', field:'deaths_growing', formatter:'money', align:'right'},
-           {title:'First case', field:'first_case', formatter:'datetime', align:'right'},
+           //{title:'Ratio (%)', field:'dc_percent', align:'right', formatter:'money'},
+           //{title:'Confirmed / 1M hab', field:'confirmed_rpop', formatter:'money', align:'right'},
+           //{title:'Deaths / 1M hab', field:'deaths_rpop', formatter:'money', align:'right'},
+           //{title:'Confirmed growing (8j)', field:'confirmed_growing', formatter:'money', align:'right'},
+           //{title:'Deaths growing (8j)', field:'deaths_growing', formatter:'money', align:'right'},
+           //{title:'First case', field:'first_case', formatter:'datetime', align:'right'},
           ],
           ajaxURL:'data/cssejh_summary.json',
           ajaxResponse:function(url, params, response)
