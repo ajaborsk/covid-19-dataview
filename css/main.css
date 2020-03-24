@@ -1,0 +1,8 @@
+.main-grid {
+  display:grid;
+  grid-gap:2vw;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+}
