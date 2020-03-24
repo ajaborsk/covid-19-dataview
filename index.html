@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/main.css" />
     <title>COVID-19 Time Series</title>
   </head>
- <body class="main-gris">
+ <body class="main-grid">
   <h1 style="grid-area:header">COVID-19 Time Series</h1>
 <!--  <p>Source : COVID-19 data are from John Hopkins CSSE <a href="">github repository</a></p>
   <h2>Summary</h2> -->
@@ -20,8 +20,8 @@
     <label for="data_src_0">CSSE JH</label><br/>
     <input type="radio" id="data_src_1" name="data_src" value="ecdc">
     <label for="data_src_1">ECDC</label><br/>
-    <label for="vol">Deaths threshold: </label>
-    <input type="range" id="vol" name="vol" min="0" max="50">
+<!--    <label for="vol">Deaths threshold: </label>
+    <input type="range" id="vol" name="vol" min="0" max="50"> -->
    </form>
   <div id="tbl" style="grid-area:main"></div>
   <div style="grid-area:right">
@@ -65,7 +65,7 @@
           layout:"fitColumns",
           selectable:true,
           dataTree:true,
-          height:"500px",
+//          height:"500px",
           dataTreeStartExpanded:true, //start with an expanded tree
           initialFilter:[
             {field:"deaths", type:">=", value:"20"}

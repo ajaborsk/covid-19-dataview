@@ -3,8 +3,11 @@
   width:99vw;
   height:99vh;
   grid-gap:2vw;
+  grid-template-rows:10% 10% 70% 10%;
+  grid-template-columns:30% 70%;
   grid-template-areas:
-    'header header header header header header'
-    'menu main main main right right'
-    'menu footer footer footer footer footer';
+    'header header'
+    'menu right'
+    'main right'
+    'footer footer';
 }
