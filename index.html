@@ -16,11 +16,13 @@
 <!--  <p>Source : COVID-19 data are from John Hopkins CSSE <a href="">github repository</a></p>
   <h2>Summary</h2> -->
   <div style="grid-area:menu" class="form-grid">
-   <form name="panel" style="grid-area:source;">
+   <form name="panel">
+    <div style="grid-area:source;">
     <input type="radio" id="data_src_0" name="data_src" value="cssejh">
-    <label for="data_src_0">CSSE JH</label><br/>
+    <label for="data_src_0">CSSE JH</label>
     <input type="radio" id="data_src_1" name="data_src" value="ecdc">
-    <label for="data_src_1">ECDC</label><br/>
+    <label for="data_src_1">ECDC</label>
+    </div>
 <!--    <label for="vol">Deaths threshold: </label>
     <input type="range" id="vol" name="vol" min="0" max="50"> -->
     <select id="cars" name="cars" style="grid-area:feature">
