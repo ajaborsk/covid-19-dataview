@@ -13,8 +13,8 @@
   </head>
  <body class="main-gris">
   <h1 style="grid-area:header">COVID-19 Time Series</h1>
-  <p>Source : COVID-19 data are from John Hopkins CSSE <a href="">github repository</a></p>
-  <h2>Summary</h2>
+<!--  <p>Source : COVID-19 data are from John Hopkins CSSE <a href="">github repository</a></p>
+  <h2>Summary</h2> -->
    <form name="panel" style="grid-area:menu">
     <input type="radio" id="data_src_0" name="data_src" value="cssejh">
     <label for="data_src_0">CSSE JH</label><br/>
@@ -23,7 +23,7 @@
     <label for="vol">Deaths threshold: </label>
     <input type="range" id="vol" name="vol" min="0" max="50">
    </form>
-  <div id="tbl" style="grid-area:left"></div>
+  <div id="tbl" style="grid-area:main"></div>
   <div style="grid-area:right">
   <canvas class="jchart" data-source="ecdc_confirmed" data-yscale="logarithmic"></canvas>
   </div>
