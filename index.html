@@ -24,8 +24,8 @@
     <input type="range" id="vol" name="vol" min="0" max="50"> -->
    </form>
   <div id="tbl" style="grid-area:main"></div>
-  <div style="grid-area:right">
-  <canvas class="jchart" data-source="ecdc_confirmed" data-yscale="logarithmic"></canvas>
+  <div style="grid-area:right; position:relative;">
+    <canvas class="jchart" data-source="ecdc_confirmed" data-yscale="logarithmic"></canvas>
   </div>
   <script>
 
@@ -244,14 +244,15 @@
 
    charts[ctx.dataset.source] = new Chart(ctx, {
     type: 'line',
-    title: {
-            display: true,
-            text: 'Deaths',
-        },
     data: {
         datasets: datasets[ctx.dataset.source]
     },
     options: {
+        maintainAspectRatio:false,
+        title: {
+            display: true,
+            text: 'Deaths',
+        },
         legend: {
             position:'right',
             },
