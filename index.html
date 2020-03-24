@@ -24,31 +24,10 @@
     <input type="range" id="vol" name="vol" min="0" max="50">
    </form>
   <div id="tbl" style="position:absolute;left:0vw;top:10vh;width:30vw; height:90vh"></div>
-<!--  <p><span id="show0">Show</span> <span id="hide0">Hide</span></p> -->
   <h2>Deaths</h2>
   <div style="position:absolute;left:30vw;top:10vh;width:70vw; height:90vh">
   <canvas class="jchart" data-source="ecdc_confirmed" data-yscale="logarithmic"></canvas>
-  <!--
-  <h2>deaths</h2>
-  <div width="80vw">
-  <canvas class="jchart" data-source="deaths" data-yscale="logarithmic"></canvas>
-  <h2>Confirmed by millions inhabitants</h2>
-  <div width="90vw">
-  <canvas class="jchart" data-source="confirmed_rpop" data-yscale="logarithmic"></canvas>
   </div>
-  <h2>Deaths by millions inhabitants</h2>
-  <div width="90vw">
-  <canvas class="jchart" data-source="deaths_rpop" data-yscale="logarithmic"></canvas>
-  </div>
-  <h2>Confirmed growing (smoothing window: 9 days)</h2>
-  <div width="90vw">
-  <canvas class="jchart" data-source="confirmed_growing" data-yscale="linear"></canvas>
-  </div>
-  <h2>Deaths growing (smoothing window: 4 days)</h2>
-  <div width="90vw">
-  <canvas class="jchart" data-source="deaths_growing" data-yscale="linear"></canvas>
-  </div>
-  -->
   <script>
 
   var colors = ["#fad390", "#f8c291", "#6a89cc", "#82ccdd", "#b8e994",
@@ -266,6 +245,7 @@
 
    charts[ctx.dataset.source] = new Chart(ctx, {
     type: 'line',
+    title:'Deaths',
     data: {
         datasets: datasets[ctx.dataset.source]
     },
