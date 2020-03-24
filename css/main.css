@@ -1,8 +1,11 @@
 body {
-    font-family:sans-serif;
+    font-family:"DejaVu Sans", "Avenir Next", Avenir, sans-serif;
 }
 
 h1 {
+    font-weight:400;
+    margin:0;
+
 }
 
 .main-grid {
