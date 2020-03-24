@@ -2,7 +2,7 @@
   display:grid;
   width:98vw;
   height:98vh;
-  grid-gap:1%;
+  grid-gap:0;
   grid-template-rows:8% 10% 70% 6%;
   grid-template-columns:28% 68%;
   grid-template-areas:
