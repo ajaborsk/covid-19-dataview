@@ -11,3 +11,11 @@
     'main right'
     'footer footer';
 }
+
+.form-grid {
+  display:grid;
+  grid-gap:0;
+  grid-template-columns:25% 25% 25% 25%;
+  grid-template-areas:
+    'source feature variant model';
+}
