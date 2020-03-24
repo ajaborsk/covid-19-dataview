@@ -12,7 +12,7 @@
     <title>COVID-19 Time Series</title>
   </head>
  <body class="main-grid">
-     <div style="grid-area:header"><p>COVID-19 Time Series</p></div>
+     <div style="grid-area:header"><h1>COVID-19 Time Series</h1></div>
 <!--  <p>Source : COVID-19 data are from John Hopkins CSSE <a href="">github repository</a></p>
   <h2>Summary</h2> -->
   <form style="grid-area:menu" name="panel" class="form-grid">
@@ -24,23 +24,23 @@
     </div>
 <!--    <label for="vol">Deaths threshold: </label>
     <input type="range" id="vol" name="vol" min="0" max="50"> -->
-    <select id="cars" name="cars" style="grid-area:feature">
-     <option value="volvo">Volvo</option>
-     <option value="saab">Saab</option>
-     <option value="fiat">Fiat</option>
-     <option value="audi">Audi</option>
+    <select id="feature" name="feature" style="grid-area:feature">
+     <option value="cases">Cases</option>
+     <option value="deaths">Deaths</option>
+     <option value="recovered">Recovered</option>
     </select>
-    <select id="cars" name="cars" style="grid-area:variant">
-     <option value="volvo">Volvo</option>
-     <option value="saab">Saab</option>
-     <option value="fiat">Fiat</option>
-     <option value="audi">Audi</option>
+    <select id="variant" name="variant" style="grid-area:variant">
+     <option value="raw">Volvo</option>
+     <option value="rpop">Saab</option>
+     <option value="growth">Growth</option>
+     <option value="perday">Per day</option>
+     <option value="perdayrpop">Per day (relative)</option>
     </select>
-    <select id="cars" name="cars" style="grid-area:model">
-     <option value="volvo">Volvo</option>
-     <option value="saab">Saab</option>
-     <option value="fiat">Fiat</option>
-     <option value="audi">Audi</option>
+    <select id="model" name="model" style="grid-area:model">
+     <option value="smooth3">Smooth (3 days)</option>
+     <option value="smooth5">Smooth (5 days)</option>
+     <option value="smooth7">Smooth (7 days)</option>
+     <option value="smooth9">Smooth (9 days)</option>
     </select>
    </form>
 
