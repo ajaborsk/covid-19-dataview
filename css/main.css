@@ -8,6 +8,10 @@ h1 {
 
 }
 
+.tabulator-row .tabulator-cell {
+  padding:1px;
+}
+
 .main-grid {
   display:grid;
   width:98vw;
