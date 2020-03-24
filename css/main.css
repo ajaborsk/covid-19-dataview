@@ -12,6 +12,10 @@ h1 {
   padding:1px;
 }
 
+input {
+  transform:scale(0.75);
+}
+
 .main-grid {
   display:grid;
   width:98vw;
