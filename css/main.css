@@ -20,8 +20,8 @@ input {
   display:grid;
   width:98vw;
   height:98vh;
-  grid-gap:5;
-  grid-template-rows:10% 6% 70% 5%;
+  grid-gap:5px;
+  grid-template-rows:10% 6% 68% 5%;
   grid-template-columns:28% 68%;
   grid-template-areas:
     'header header'
