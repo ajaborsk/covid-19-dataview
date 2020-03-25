@@ -16,7 +16,7 @@
 <!--  <p>Source : COVID-19 data are from John Hopkins CSSE <a href="">github repository</a></p>
   <h2>Summary</h2> -->
   <form style="grid-area:menu" name="panel" class="form-grid">
-      <div style="grid-area:source">
+    <div style="grid-area:source">
     Source :
     <select id="source-sel" name="source">
      <option value="cssejh">CSSE John Hopkins</option>
@@ -32,11 +32,13 @@
     </div> -->
 <!--    <label for="vol">Deaths threshold: </label>
     <input type="range" id="vol" name="vol" min="0" max="50"> -->
-    <select id="feature-sel" name="feature" style="grid-area:feature">
+    <div style="grid-area:feature">
+    <select id="feature-sel" name="feature">
      <option value="cases">Cases</option>
      <option value="deaths">Deaths</option>
      <option value="recovered">Recovered</option>
     </select>
+    </div>
     <select id="variant-sel" name="variant" style="grid-area:variant">
      <option value="raw">Raw</option>
      <option value="rpop">Relative</option>
