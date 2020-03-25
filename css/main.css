@@ -41,7 +41,6 @@ input {
   display:grid;
   margin:3px;
   grid-gap:0;
-  grid-template-columns:20% 20% 20% 20% 20%;
   grid-template-areas:
     'source feature variant model param1';
 }
