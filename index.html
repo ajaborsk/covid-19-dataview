@@ -210,13 +210,11 @@
                 locations.push(data[i]['country']);
                }
             var dataset = [];
-            //console.log(locations);
             for (d in datasets[current_source+'_deaths'])
              {
               if (locations.includes(datasets[current_source+'_deaths'][d]['label']))
                {
                 dataset.push(datasets[current_source+'_deaths'][d]);
-                //console.log(data[0]['country'], datasets['cssejh_deaths'][d]['label']);
                }
              }
             charts['ecdc_confirmed'].data.datasets = dataset;
