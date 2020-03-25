@@ -28,7 +28,7 @@ input {
     'header header'
     'menu menu'
     'main right'
-    'tbl-cfg grah-cfg'
+    'table-cfg grah-cfg'
     'footer footer';
 }
 
@@ -42,7 +42,19 @@ input {
 }
 
 .table-cfg-grid {
+  display:grid;
+  margin:3px;
+  grid-gap:0;
+  grid-template-columns:20% 20%;
+  grid-template-areas:
+    'treeview other';
 }
 
 .graph-cfg-grid {
+  display:grid;
+  margin:3px;
+  grid-gap:0;
+  grid-template-columns:20% 20% 20%;
+  grid-template-areas:
+    'yscale legend other';
 }
