@@ -20,8 +20,8 @@ input {
   display:grid;
   width:98vw;
   height:98vh;
-  grid-gap:0;
-  grid-template-rows:8% 10% 70% 6%;
+  grid-gap:5;
+  grid-template-rows:10% 6% 70% 5%;
   grid-template-columns:28% 68%;
   grid-template-areas:
     'header header'
@@ -36,4 +36,10 @@ input {
   grid-template-columns:25% 25% 25% 25%;
   grid-template-areas:
     'source feature variant model';
+}
+
+.table-cfg-grid {
+}
+
+.graph-cfg-grid {
 }
