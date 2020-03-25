@@ -131,6 +131,7 @@
 
   var src_prev = null;
   var current_source = "cssejh";
+  var current_dataset = "cssejh_deaths";
 
   var sources = ['cssejh', 'ecdc'];
   var features = [
@@ -210,11 +211,11 @@
                 locations.push(data[i]['country']);
                }
             var dataset = [];
-            for (d in datasets[current_source+'_deaths'])
+            for (d in datasets[current_dataset])
              {
-              if (locations.includes(datasets[current_source+'_deaths'][d]['label']))
+              if (locations.includes(datasets[current_dataset][d]['label']))
                {
-                dataset.push(datasets[current_source+'_deaths'][d]);
+                dataset.push(datasets[current_dataset][d]);
                }
              }
             charts['ecdc_confirmed'].data.datasets = dataset;
@@ -378,7 +379,22 @@
       tabulator.setData('data/'+current_source+'_summary.json');
      }
     /*  */
-
+    current_dataset = current_source + '_' + mf.feature_sel.value;
+    if (mf.variant_sel.value != '')
+     {
+      current_dataset += '_' + mf.variant_sel.value;
+     }
+    if (mf.model_sel.value != '')
+     {
+      current_dataset += '_' + mf.model_sel.value;
+     }
+    if (mf.param1_sel.value != '')
+     {
+      current_dataset += '_' + mf.param1_sel.value;
+     }
+    // Update chart...
+    //TODO
+    console.log('current_dataset is now :', current_dataset);
    };
 
 
