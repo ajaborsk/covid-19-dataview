@@ -9,6 +9,10 @@ h1 {
 
 }
 
+.tabulator {
+margin:3px;
+}
+
 .tabulator-row .tabulator-cell {
   padding:1px;
 }
