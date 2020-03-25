@@ -71,27 +71,53 @@
   <div style="grid-area:right">
     <canvas class="jchart" data-source="ecdc_confirmed" data-yscale="logarithmic"></canvas>
   </div>
+
   <form style="grid-area:table-cfg" name="table-cfg" class="table-cfg-grid">
-    <select id="table-treeview-sel" name="table-treeview" style="grid-area:treeview">
+    <div style="grid-area:treeview">
+    Treeview:
+    <select id="table-treeview-sel" name="table-treeview">
      <option value="1">Yes</option>
      <option value="0">No</option>
     </select>
-    <select id="table-other-sel" name="table-other" style="grid-area:other">
-     <option value="X">Other</option>
+    </div>
+    <div style="grid-area:other">
+    Show:
+    <select id="table-other-sel" name="table-other">
+     <option value="X">All</option>
+     <option value="X">Top 30</option>
+     <option value="X">Selected</option>
     </select>
+    </div>
   </form>
   <form style="grid-area:graph-cfg" name="graph-cfg" class="graph-cfg-grid">
-    <select id="graph-yscale-sel" name="graph-yscale" style="grid-area:yscale">
+    <div style="grid-area:yscale">
+    Yscale:
+    <select id="graph-yscale-sel" name="graph-yscale">
      <option value="linear">Linear</option>
      <option value="log">Logarithmic</option>
     </select>
-    <select id="graph-legend-sel" name="graph-legend" style="grid-area:legend">
+    </div>
+    <div style="grid-area:legend">
+    <select id="graph-legend-sel" name="graph-legend">
+     Legend:
      <option value="0">No</option>
      <option value="1">Yes</option>
     </select>
-    <select id="graph-other-sel" name="grapth-other" style="grid-area:other">
+    </div>
+    <div>
+    <div style="grid-area:from">
+    From :
+    <select id="graph-from-sel" name="grapth-from">
      <option value="X">Other</option>
     </select>
+    </div>
+    <div style="grid-area:from">
+    To :
+    <select id="graph-to-sel" name="grapth-to">
+     <option value="X">Other</option>
+    </select>
+    </div>
+    </div>
   </form>
 
   <div style="grid-area:footer"></div>

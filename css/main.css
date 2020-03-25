@@ -58,7 +58,6 @@ input {
   display:grid;
   margin:3px;
   grid-gap:0;
-  grid-template-columns:33% 34% 33%;
   grid-template-areas:
-    'yscale legend other';
+    'yscale legend from to';
 }
