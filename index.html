@@ -374,8 +374,13 @@
     console.log("mainform event :");
     mf = document.getElementById("main_form");
     console.log(mf.source_sel.value);
-    current_source = mf.source_sel.value;
-    tabulator.setData('data/'+current_source+'_summary.json');
+    if (current_source != mf.source_sel.value)
+     {
+      current_source = mf.source_sel.value;
+      tabulator.setData('data/'+current_source+'_summary.json');
+     }
+    /*  */
+
    };
 
 
