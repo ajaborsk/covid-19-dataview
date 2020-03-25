@@ -18,7 +18,7 @@
   <form id="main_form" style="grid-area:menu" name="panel" class="form-grid">
     <div style="grid-area:source">
     Source:
-    <select id="source-sel" name="source">
+    <select id="source_sel" name="source">
      <option value="cssejh">CSSE John Hopkins</option>
      <option value="ecdc">European CDC</option>
     </select>
@@ -310,7 +310,7 @@
     {
      console.log("mainform event :");
      mf = document.getElementById("main_form");
-     console.log(mf);
+     console.log(mf.source_sel.value);
     };
 
 
@@ -384,7 +384,7 @@
    build_chart(ctx);
   }
 
-  document.getElementById("source-sel").addEventListener('change', mainform_update);
+  document.getElementById("source_sel").addEventListener('change', mainform_update);
   document.getElementById("feature-sel").addEventListener('change', mainform_update);
   document.getElementById("variant-sel").addEventListener('change', mainform_update);
   document.getElementById("model-sel").addEventListener('change', mainform_update);
