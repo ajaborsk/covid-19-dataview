@@ -34,7 +34,7 @@
     <input type="range" id="vol" name="vol" min="0" max="50"> -->
     <div style="grid-area:feature">
     Data:
-    <select id="feature-sel" name="feature">
+    <select id="feature_sel" name="feature">
      <option value="cases">Cases</option>
      <option value="deaths">Deaths</option>
      <option value="recovered">Recovered</option>
@@ -42,7 +42,7 @@
     </div>
     <div style="grid-area:variant">
     Variant:
-    <select id="variant-sel" name="variant">
+    <select id="variant_sel" name="variant">
      <option value="raw">Raw</option>
      <option value="rpop">Relative</option>
      <option value="growth">Growth</option>
@@ -52,7 +52,7 @@
     </div>
     <div style="grid-area:model; text-align:center">
     Processing:
-    <select id="model-sel" name="model">
+    <select id="model_sel" name="model">
      <option value="smooth3">Smooth (3 days)</option>
      <option value="smooth5">Smooth (5 days)</option>
      <option value="smooth7">Smooth (7 days)</option>
@@ -61,7 +61,7 @@
     </div>
     <div style="grid-area:param1">
     Parameter:
-    <select id="param1-sel" name="param1">
+    <select id="param1_sel" name="param1">
      <option value="3">3 days</option>
     </select>
     </div>
@@ -75,14 +75,14 @@
   <form style="grid-area:table-cfg" name="table-cfg" class="table-cfg-grid">
     <div style="grid-area:treeview">
     Treeview:
-    <select id="table-treeview-sel" name="table-treeview">
+    <select id="table_treeview_sel" name="table-treeview">
      <option value="1">Yes</option>
      <option value="0">No</option>
     </select>
     </div>
     <div style="grid-area:other">
     Show:
-    <select id="table-other-sel" name="table-other">
+    <select id="table_other_sel" name="table-other">
      <option value="X">All</option>
      <option value="X">Top 30</option>
      <option value="X">Selected</option>
@@ -92,27 +92,27 @@
   <form style="grid-area:graph-cfg" name="graph-cfg" class="graph-cfg-grid">
     <div style="grid-area:yscale">
     Yscale:
-    <select id="graph-yscale-sel" name="graph-yscale">
+    <select id="graph_yscale_sel" name="graph-yscale">
      <option value="linear">Linear</option>
      <option value="log">Logarithmic</option>
     </select>
     </div>
     <div style="grid-area:legend">
     Legend:
-    <select id="graph-legend-sel" name="graph-legend">
+    <select id="graph_legend_sel" name="graph-legend">
      <option value="0">No</option>
      <option value="1">Yes</option>
     </select>
     </div>
     <div style="grid-area:from">
     From:
-    <select id="graph-from-sel" name="graph-from">
+    <select id="graph_from_sel" name="graph-from">
      <option value="first">First data</option>
     </select>
     </div>
     <div style="grid-area:to">
     To:
-    <select id="graph-to-sel" name="graph-to">
+    <select id="graph_to_sel" name="graph-to">
      <option value="last">Last data</option>
     </select>
     </div>
@@ -310,7 +310,7 @@
     {
      console.log("mainform event :");
      mf = document.getElementById("main_form");
-     console.log(mf.source-sel.value);
+     console.log(mf.source_sel.value);
     };
 
 
@@ -385,10 +385,10 @@
   }
 
   document.getElementById("source_sel").addEventListener('change', mainform_update);
-  document.getElementById("feature-sel").addEventListener('change', mainform_update);
-  document.getElementById("variant-sel").addEventListener('change', mainform_update);
-  document.getElementById("model-sel").addEventListener('change', mainform_update);
-  document.getElementById("param1-sel").addEventListener('change', mainform_update);
+  document.getElementById("feature_sel").addEventListener('change', mainform_update);
+  document.getElementById("variant_sel").addEventListener('change', mainform_update);
+  document.getElementById("model_sel").addEventListener('change', mainform_update);
+  document.getElementById("param1_sel").addEventListener('change', mainform_update);
 
 /*  document.getElementById("show0").addEventListener('click', function(event) {
       console.log('Clicked show !');
