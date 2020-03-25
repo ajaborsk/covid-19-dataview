@@ -33,28 +33,38 @@
 <!--    <label for="vol">Deaths threshold: </label>
     <input type="range" id="vol" name="vol" min="0" max="50"> -->
     <div style="grid-area:feature">
+    Data :
     <select id="feature-sel" name="feature">
      <option value="cases">Cases</option>
      <option value="deaths">Deaths</option>
      <option value="recovered">Recovered</option>
     </select>
     </div>
-    <select id="variant-sel" name="variant" style="grid-area:variant">
+    <div style="grid-area:variant">
+    Variant :
+    <select id="variant-sel" name="variant">
      <option value="raw">Raw</option>
      <option value="rpop">Relative</option>
      <option value="growth">Growth</option>
      <option value="perday">Per day</option>
      <option value="perdayrpop">Per day (relative)</option>
     </select>
-    <select id="model-sel" name="model" style="grid-area:model">
+    </div>
+    <div style="grid-area:model">
+    Processing :
+    <select id="model-sel" name="model">
      <option value="smooth3">Smooth (3 days)</option>
      <option value="smooth5">Smooth (5 days)</option>
      <option value="smooth7">Smooth (7 days)</option>
      <option value="smooth9">Smooth (9 days)</option>
     </select>
-    <select id="param1-sel" name="param1" style="grid-area:param1">
+    </div>
+    <div style="grid-area:param1">
+    Parameter :
+    <select id="param1-sel" name="param1">
      <option value="3">3 days</option>
     </select>
+    </div>
    </form>
 
   <div id="tbl" style="grid-area:main"></div>
