@@ -15,7 +15,7 @@
      <div style="grid-area:header"><h1>COVID-19 Time Series</h1></div>
 <!--  <p>Source : COVID-19 data are from John Hopkins CSSE <a href="">github repository</a></p>
   <h2>Summary</h2> -->
-  <form style="grid-area:menu" name="panel" class="form-grid">
+  <form id="main_form" style="grid-area:menu" name="panel" class="form-grid">
     <div style="grid-area:source">
     Source:
     <select id="source-sel" name="source">
@@ -309,6 +309,8 @@
    function mainform_update(event)
     {
      console.log("mainform event :");
+     mf = document.getElementById("main_form");
+     console.log(mf);
     };
 
 
@@ -386,6 +388,7 @@
   document.getElementById("feature-sel").addEventListener('change', mainform_update);
   document.getElementById("variant-sel").addEventListener('change', mainform_update);
   document.getElementById("model-sel").addEventListener('change', mainform_update);
+  document.getElementById("param1-sel").addEventListener('change', mainform_update);
 
 /*  document.getElementById("show0").addEventListener('click', function(event) {
       console.log('Clicked show !');
