@@ -1304,19 +1304,6 @@
  },
  {
   "id": 99,
-  "country": "Cruise Ship",
-  "population": 0.003711,
-  "confirmed": 0,
-  "deaths": 0,
-  "dc_percent": -1.0,
-  "confirmed_rpop": 0.0,
-  "deaths_rpop": 0.0,
-  "confirmed_growing": null,
-  "deaths_growing": null,
-  "first_case": "2020-02-05T00:00:00"
- },
- {
-  "id": 100,
   "country": "Cuba",
   "population": 11.333483,
   "confirmed": 40,
@@ -1329,7 +1316,7 @@
   "first_case": "2020-03-15T00:00:00"
  },
  {
-  "id": 101,
+  "id": 100,
   "country": "Curacao",
   "population": 0.163424,
   "confirmed": 0,
@@ -1342,7 +1329,7 @@
   "first_case": null
  },
  {
-  "id": 102,
+  "id": 101,
   "country": "Cyprus",
   "population": 1.198575,
   "confirmed": 116,
@@ -1355,7 +1342,7 @@
   "first_case": "2020-03-15T00:00:00"
  },
  {
-  "id": 103,
+  "id": 102,
   "country": "Czech Republic",
   "population": 10.689209,
   "confirmed": 1236,
@@ -1368,7 +1355,7 @@
   "first_case": "2020-03-02T00:00:00"
  },
  {
-  "id": 104,
+  "id": 103,
   "country": "DR Congo",
   "population": 86.790567,
   "confirmed": 26,
@@ -1379,6 +1366,19 @@
   "confirmed_growing": 2.1619052354185575,
   "deaths_growing": null,
   "first_case": "2020-03-11T00:00:00"
+ },
+ {
+  "id": 104,
+  "country": "Diamond Princess",
+  "population": 0.003711,
+  "confirmed": 0,
+  "deaths": 0,
+  "dc_percent": -1.0,
+  "confirmed_rpop": 0.0,
+  "deaths_rpop": 0.0,
+  "confirmed_growing": null,
+  "deaths_growing": null,
+  "first_case": "2020-02-05T00:00:00"
  },
  {
   "id": 105,
