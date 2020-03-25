@@ -2981,6 +2981,19 @@
  },
  {
   "id": 228,
+  "country": "Turks and Caicos islands",
+  "population": 0.032,
+  "confirmed": 0,
+  "deaths": 0,
+  "dc_percent": -1.0,
+  "confirmed_rpop": 0.0,
+  "deaths_rpop": 0.0,
+  "confirmed_growing": null,
+  "deaths_growing": null,
+  "first_case": null
+ },
+ {
+  "id": 229,
   "country": "Tuvalu",
   "population": 0.011646,
   "confirmed": 0,
@@ -2993,7 +3006,7 @@
   "first_case": null
  },
  {
-  "id": 229,
+  "id": 230,
   "country": "Uganda",
   "population": 44.269594,
   "confirmed": 9,
@@ -3006,7 +3019,7 @@
   "first_case": "2020-03-21T00:00:00"
  },
  {
-  "id": 230,
+  "id": 231,
   "country": "United States Virgin Islands",
   "population": 0.104578,
   "confirmed": 0,
@@ -3019,7 +3032,7 @@
   "first_case": null
  },
  {
-  "id": 231,
+  "id": 232,
   "country": "Uruguay",
   "population": 3.461734,
   "confirmed": 162,
@@ -3032,7 +3045,7 @@
   "first_case": "2020-03-14T00:00:00"
  },
  {
-  "id": 232,
+  "id": 233,
   "country": "Uzbekistan",
   "population": 32.981716,
   "confirmed": 50,
@@ -3045,7 +3058,7 @@
   "first_case": "2020-03-15T00:00:00"
  },
  {
-  "id": 233,
+  "id": 234,
   "country": "Vanuatu",
   "population": 0.299882,
   "confirmed": 0,
@@ -3058,7 +3071,7 @@
   "first_case": null
  },
  {
-  "id": 234,
+  "id": 235,
   "country": "Vatican City",
   "population": 0.000799,
   "confirmed": 4,
@@ -3071,7 +3084,7 @@
   "first_case": "2020-03-06T00:00:00"
  },
  {
-  "id": 235,
+  "id": 236,
   "country": "Venezuela",
   "population": 28.515829,
   "confirmed": 84,
@@ -3084,7 +3097,7 @@
   "first_case": "2020-03-14T00:00:00"
  },
  {
-  "id": 236,
+  "id": 237,
   "country": "Vietnam",
   "population": 96.462106,
   "confirmed": 134,
@@ -3097,7 +3110,7 @@
   "first_case": "2020-01-23T00:00:00"
  },
  {
-  "id": 237,
+  "id": 238,
   "country": "Wallis and Futuna",
   "population": 0.011432000000000001,
   "confirmed": 0,
@@ -3110,7 +3123,7 @@
   "first_case": null
  },
  {
-  "id": 238,
+  "id": 239,
   "country": "Western Sahara",
   "population": 0.582463,
   "confirmed": 0,
@@ -3123,7 +3136,7 @@
   "first_case": null
  },
  {
-  "id": 239,
+  "id": 240,
   "country": "Yemen",
   "population": 29.161921999999997,
   "confirmed": 0,
@@ -3136,7 +3149,7 @@
   "first_case": null
  },
  {
-  "id": 240,
+  "id": 241,
   "country": "Zambia",
   "population": 17.86103,
   "confirmed": 3,
@@ -3149,7 +3162,7 @@
   "first_case": "2020-03-18T00:00:00"
  },
  {
-  "id": 241,
+  "id": 242,
   "country": "Zimbabwe",
   "population": 14.645468000000001,
   "confirmed": 3,
