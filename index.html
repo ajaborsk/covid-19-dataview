@@ -90,7 +90,6 @@
   var ncolors = colors.length;
   var charts = {};
 
-  var src_obj = document.panel.data_src;
   var src_prev = null;
   var current_source = "cssejh";
 
@@ -187,6 +186,8 @@
          },
       });
 
+/*
+  var src_obj = document.panel.data_src;
   for (var i = 0; i < src_obj.length; i++) {
       src_obj[i].addEventListener('change', function() {
           (src_prev) ? console.log(src_prev.value): null;
@@ -199,7 +200,7 @@
           tabulator.setData('data/'+this.value+'_summary.json');
       });
   }
-
+*/
   // Load summaries data
   var summaries = {};
   var s_requests = [];
@@ -336,7 +337,7 @@
    let ctx = dom_charts[i];
    build_chart(ctx);
   }
-  document.getElementById("show0").addEventListener('click', function(event) {
+/*  document.getElementById("show0").addEventListener('click', function(event) {
       console.log('Clicked show !');
       charts['confirmed'].data.datasets[0].hidden = false;
       charts['confirmed'].update();
@@ -345,7 +346,7 @@
       console.log('Clicked hide !');
       charts['confirmed'].data.datasets[0].hidden = true;
       charts['confirmed'].update();
-      });
+      });*/
 
 </script>
  </body>
