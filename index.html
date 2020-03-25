@@ -306,6 +306,11 @@
      };
    };
 
+   function mainform_update(event)
+    {
+     console.log("mainform event :");
+    };
+
 
    function build_chart(ctx)
     {
@@ -376,6 +381,12 @@
    let ctx = dom_charts[i];
    build_chart(ctx);
   }
+
+  document.getElementById("source-sel").addEventListener('change', mainform_update);
+  document.getElementById("feature-sel").addEventListener('change', mainform_update);
+  document.getElementById("variant-sel").addEventListener('change', mainform_update);
+  document.getElementById("model-sel").addEventListener('change', mainform_update);
+
 /*  document.getElementById("show0").addEventListener('click', function(event) {
       console.log('Clicked show !');
       charts['confirmed'].data.datasets[0].hidden = false;
