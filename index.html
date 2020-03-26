@@ -17,7 +17,7 @@
     <div style="grid-area:source">
     Source:
     <select id="source_sel" name="source">
-     <option value="cssejh">CSSE John Hopkins</option>
+     <option value="cssejh" selected="selected">CSSE John Hopkins</option>
      <option value="ecdc">European CDC</option>
     </select>
     </div>
@@ -41,7 +41,7 @@
     <div style="grid-area:variant">
     Variant:
     <select id="variant_sel" name="variant">
-     <option value="">Raw</option>
+     <option value="" selected="true">Raw</option>
      <option value="rpop">Relative</option>
      <option value="growing">Growth</option>
      <option value="perday">Per day</option>
@@ -408,12 +408,13 @@
 
   function mainform_update(event)
    {
-    console.log("mainform event :");
-    mf = document.getElementById("main_form");
+    console.log('mainform event :');
+    mf = document.getElementById('main_form');
     console.log(mf.source_sel.value);
     if (current_source != mf.source_sel.value)
      {
       current_source = mf.source_sel.value;
+      console.log('updating summary...');
       tabulator.setData('data/'+current_source+'_summary.json');
      }
     /*  */
