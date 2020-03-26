@@ -439,7 +439,7 @@
  function chartform_update(event)
   {
     cf = document.getElementById('chart_form');
-    charts['ecdc_confirmed'].options.scales.yAxis[0].type = cf.chart_yscale.value;
+    charts['ecdc_confirmed'].options.scales.yAxes[0].type = cf.chart_yscale.value;
     charts['ecdc_confirmed'].options.legend.display = cf.chart_legend.value;
     charts['ecdc_confirmed'].update();
   };
