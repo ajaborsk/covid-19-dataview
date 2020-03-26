@@ -203,7 +203,14 @@
             //rows - array of row components for the selected rows in order of selection
             //data - array of data objects for the selected rows in order of selection
             console.log(rows);
-            console.log(data.length);
+            // Update selected_locations array
+            selected_locations = [];
+            for (var r = 0; r < rows.length;r++)
+             {
+              selected_locations.push(rows[r]._row.data.id);
+             }
+            console.log(data.length, selected_locations);
+
             if (data.length > 0)
              {
               var locations = [];
