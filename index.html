@@ -197,7 +197,7 @@
              };
 
             color_it(response);
-            console.log('response:',response.length);
+            console.log('response length:',response.length);
             return response; //return the tableData property of a response json object
            },
         rowSelectionChanged:function(data, rows){
@@ -256,7 +256,7 @@
                 rows_to_select.push(tabulator.rowManager.displayRows[1][i]);
               }
             }
-//            console.log(rows_to_select);
+            console.log(rows_to_select);
 
 //               tabulator.selectRow(rows_to_select);
 //           setTimeout(function(){
