@@ -261,10 +261,10 @@
                tabulator.selectRow(rows_to_select);
            setTimeout(function(){
                console.log('to:', tabulator.rowManager.rows.length,"Asia");
-           console.log('length',this.rowManager.displayRows.length);
+           console.log('length',tabulator.rowManager.displayRows.length);
 //               console.log('to:', tabulator.rowManager.rows[2]);
                tabulator.selectRow(tabulator.rowManager.rows[2]);
-               }, 1000);
+               }, 100);
           },
       });
 
