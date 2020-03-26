@@ -91,27 +91,27 @@
   <form style="grid-area:graph-cfg" name="graph-cfg" class="graph-cfg-grid">
     <div style="grid-area:yscale">
     Yscale:
-    <select id="graph_yscale_sel" name="graph-yscale">
+    <select id="graph_yscale_sel" name="graph_yscale">
      <option value="linear">Linear</option>
      <option value="log">Logarithmic</option>
     </select>
     </div>
     <div style="grid-area:legend">
     Legend:
-    <select id="graph_legend_sel" name="graph-legend">
+    <select id="graph_legend_sel" name="graph_legend">
      <option value="0">No</option>
      <option value="1">Yes</option>
     </select>
     </div>
     <div style="grid-area:from">
     From:
-    <select id="graph_from_sel" name="graph-from">
+    <select id="graph_from_sel" name="graph_from">
      <option value="first">First data</option>
     </select>
     </div>
     <div style="grid-area:to">
     To:
-    <select id="graph_to_sel" name="graph-to">
+    <select id="graph_to_sel" name="graph_to">
      <option value="last">Last data</option>
     </select>
     </div>
@@ -436,6 +436,13 @@
     console.log('current_dataset is now :', current_dataset);
    };
 
+ function chartform_update(event)
+  {
+    cf = document.getElementById('chart_form');
+    charts['ecdc_confirmed'].options.scales.yAxis[0].type = cf.graph_yscale.value;
+    charts['ecdc_confirmed'].options.legend.display = cf.graph_legend.value;
+    charts['ecdc_confirmed'].update();
+  };
 
  dom_charts = document.getElementsByClassName("jchart");
  for (let i = 0; i < dom_charts.length; i++)
@@ -449,6 +456,10 @@
   document.getElementById("variant_sel").addEventListener('change', mainform_update);
   document.getElementById("model_sel").addEventListener('change', mainform_update);
   document.getElementById("param1_sel").addEventListener('change', mainform_update);
+
+  document.getElementById("graph_yscale_sel").addEventListener('change', graphform_update);
+  document.getElementById("graph_legend_sel").addEventListener('change', graphform_update);
+
 
 /*  document.getElementById("show0").addEventListener('click', function(event) {
       console.log('Clicked show !');
