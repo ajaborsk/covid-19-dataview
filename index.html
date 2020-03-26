@@ -244,7 +244,7 @@
            console.log('loaded');
            console.log(selected_locations);
            console.log('length',this.rowManager.rows.length);
-           console.log('length',this.displayRows.length);
+           console.log('length',this.rowManager.displayRows.length);
 //             this.selectRow(2);
            var rows_to_select = [];
            for (var i in tabulator.rowManager.rows)
@@ -261,6 +261,7 @@
                tabulator.selectRow(rows_to_select);
            setTimeout(function(){
                console.log('to:', tabulator.rowManager.rows.length,"Asia");
+           console.log('length',this.rowManager.displayRows.length);
 //               console.log('to:', tabulator.rowManager.rows[2]);
                tabulator.selectRow(tabulator.rowManager.rows[2]);
                }, 1000);
