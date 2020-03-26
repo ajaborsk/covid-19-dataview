@@ -91,14 +91,14 @@
   <form style="grid-area:graph-cfg" name="graph-cfg" class="graph-cfg-grid">
     <div style="grid-area:yscale">
     Yscale:
-    <select id="graph_yscale_sel" name="graph_yscale">
+    <select id="chart_yscale_sel" name="chart_yscale">
      <option value="linear">Linear</option>
      <option value="log">Logarithmic</option>
     </select>
     </div>
     <div style="grid-area:legend">
     Legend:
-    <select id="graph_legend_sel" name="graph_legend">
+    <select id="chart_legend_sel" name="chart_legend">
      <option value="0">No</option>
      <option value="1">Yes</option>
     </select>
@@ -439,8 +439,8 @@
  function chartform_update(event)
   {
     cf = document.getElementById('chart_form');
-    charts['ecdc_confirmed'].options.scales.yAxis[0].type = cf.graph_yscale.value;
-    charts['ecdc_confirmed'].options.legend.display = cf.graph_legend.value;
+    charts['ecdc_confirmed'].options.scales.yAxis[0].type = cf.chart_yscale.value;
+    charts['ecdc_confirmed'].options.legend.display = cf.chart_legend.value;
     charts['ecdc_confirmed'].update();
   };
 
@@ -457,8 +457,8 @@
   document.getElementById("model_sel").addEventListener('change', mainform_update);
   document.getElementById("param1_sel").addEventListener('change', mainform_update);
 
-  document.getElementById("graph_yscale_sel").addEventListener('change', graphform_update);
-  document.getElementById("graph_legend_sel").addEventListener('change', graphform_update);
+  document.getElementById("graph_yscale_sel").addEventListener('change', chartform_update);
+  document.getElementById("graph_legend_sel").addEventListener('change', chartform_update);
 
 
 /*  document.getElementById("show0").addEventListener('click', function(event) {
