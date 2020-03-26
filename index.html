@@ -237,15 +237,17 @@
              }
            }
          },
-         tableBuilt:function()
+         dataLoaded:function()
           {
+
            console.log('loaded');
            console.log(selected_locations);
+           console.log('length',this.rowManager.rows.length);
 //             this.selectRow(2);
            var rows_to_select = [];
            for (var i in tabulator.rowManager.rows)
             {
-             console.log(i, ' id ', this.rowManager.rows[i].data.id);
+             //console.log(i, ' id ', this.rowManager.rows[i].data.id);
              //this.selectRow(selected_locations[i]);
              if (selected_locations.includes(this.rowManager.rows[i].data.id))
               {
@@ -255,11 +257,11 @@
             console.log(rows_to_select);
 
                tabulator.selectRow(rows_to_select);
-//           setTimeout(function(tab=this){
-//               console.log('to:', tabulator.rowManager.rows);
+           setTimeout(function(){
+               console.log('to:', tabulator.rowManager.rows.length);
 //               console.log('to:', tabulator.rowManager.rows[2]);
 //               tabulator.selectRow(selected_locations);
-//               }, 100);
+               }, 100);
           },
       });
 
