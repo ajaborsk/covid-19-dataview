@@ -88,7 +88,7 @@
     </select>
     </div>
   </form>
-  <form style="grid-area:graph-cfg" name="graph-cfg" class="graph-cfg-grid">
+  <form style="grid-area:graph-cfg" id="chart_form" name="char_cfg" class="graph-cfg-grid">
     <div style="grid-area:yscale">
     Yscale:
     <select id="chart_yscale_sel" name="chart_yscale">
@@ -457,8 +457,8 @@
   document.getElementById("model_sel").addEventListener('change', mainform_update);
   document.getElementById("param1_sel").addEventListener('change', mainform_update);
 
-  document.getElementById("graph_yscale_sel").addEventListener('change', chartform_update);
-  document.getElementById("graph_legend_sel").addEventListener('change', chartform_update);
+  document.getElementById("chart_yscale_sel").addEventListener('change', chartform_update);
+  document.getElementById("chart_legend_sel").addEventListener('change', chartform_update);
 
 
 /*  document.getElementById("show0").addEventListener('click', function(event) {
