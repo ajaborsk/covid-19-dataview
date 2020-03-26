@@ -240,15 +240,20 @@
          dataLoaded:function()
           {
            console.log('loaded');
-           console.log(selected_locations, this.data, this);
-             this.selectRow(2);
-           for (var i in selected_locations)
+           console.log(selected_locations);
+//             this.selectRow(2);
+           var rows_to_select = [];
+           for (var i in tabulator.rowManager.rows)
             {
-            console.log('selected locs ', selected_locations[i]);
+//            console.log('selected locs ', selected_locations[i]);
              //this.selectRow(selected_locations[i]);
+             if (selected_locations.includes(this.rowManager.rows[i].data.id))
+              {
+                rows_to_select.push(this.rowManager.rows[i]);
+              }
             }
 
-               tabulator.selectRow(tabulator.rowManager.rows[2]);
+               tabulator.selectRow(rows_to_select);
 //           setTimeout(function(tab=this){
 //               console.log('to:', tabulator.rowManager.rows);
 //               console.log('to:', tabulator.rowManager.rows[2]);
