@@ -240,7 +240,11 @@
          renderComplete:function(data)
           {
            console.log(selected_locations);
-           this.selectRow(selected_locations);
+           for (var i in selected_locations)
+            {
+            console.log('select ', selected_locations[i]);
+             this.selectRow(selected_locations[i]);
+            }
           },
       });
 
