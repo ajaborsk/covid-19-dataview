@@ -202,12 +202,13 @@
         rowSelectionChanged:function(data, rows){
             //rows - array of row components for the selected rows in order of selection
             //data - array of data objects for the selected rows in order of selection
-            console.log(rows);
-            // Update selected_locations array
+            //console.log(rows);
+
+            // Update selected_locations array (TODO: Improve efficiency...)
             selected_locations = [];
-            for (var r = 0; r < rows.length;r++)
+            for (var r in data)
              {
-              selected_locations.push(rows[r]._row.data.id);
+              selected_locations.push(data[r].id);
              }
             console.log(data.length, selected_locations);
 
@@ -218,14 +219,14 @@
                {
                 locations.push(data[i]['country']);
                }
-            var dataset = [];
-            for (d in datasets[current_dataset])
-             {
-              if (locations.includes(datasets[current_dataset][d]['label']))
+              var dataset = [];
+              for (d in datasets[current_dataset])
                {
+                if (locations.includes(datasets[current_dataset][d]['label']))
+                 {
                 dataset.push(datasets[current_dataset][d]);
+                 }
                }
-             }
             charts['ecdc_confirmed'].data.datasets = dataset;
             charts['ecdc_confirmed'].update();
            }
