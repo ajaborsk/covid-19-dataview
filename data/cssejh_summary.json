@@ -1,6 +1,6 @@
 [
  {
-  "id": 0,
+  "id": "World",
   "country": "World",
   "population": 5875.505813,
   "cases": 450822,
@@ -13,7 +13,7 @@
   "first_case": "2020-01-22T00:00:00",
   "_children": [
    {
-    "id": 1,
+    "id": "Asia",
     "country": "Asia",
     "population": 3890.589091,
     "cases": 98429,
@@ -26,7 +26,7 @@
     "first_case": "2020-01-22T00:00:00",
     "_children": [
      {
-      "id": 2,
+      "id": "China",
       "country": "China",
       "population": 1433.783686,
       "cases": 81661,
@@ -39,7 +39,7 @@
       "first_case": "2020-01-22T00:00:00"
      },
      {
-      "id": 3,
+      "id": "Japan",
       "country": "Japan",
       "population": 126.860301,
       "cases": 1307,
@@ -52,7 +52,7 @@
       "first_case": "2020-01-22T00:00:00"
      },
      {
-      "id": 4,
+      "id": "South_Korea",
       "country": "South Korea",
       "population": 51.225308,
       "cases": 9137,
@@ -65,7 +65,7 @@
       "first_case": "2020-01-22T00:00:00"
      },
      {
-      "id": 5,
+      "id": "Malaysia",
       "country": "Malaysia",
       "population": 31.949776999999997,
       "cases": 1796,
@@ -78,7 +78,7 @@
       "first_case": "2020-01-25T00:00:00"
      },
      {
-      "id": 6,
+      "id": "India",
       "country": "India",
       "population": 1366.417754,
       "cases": 657,
@@ -91,7 +91,7 @@
       "first_case": "2020-01-30T00:00:00"
      },
      {
-      "id": 7,
+      "id": "Indonesia",
       "country": "Indonesia",
       "population": 270.62556800000004,
       "cases": 790,
@@ -104,7 +104,7 @@
       "first_case": "2020-03-02T00:00:00"
      },
      {
-      "id": 8,
+      "id": "Pakistan",
       "country": "Pakistan",
       "population": 216.565318,
       "cases": 1063,
@@ -117,7 +117,7 @@
       "first_case": "2020-02-26T00:00:00"
      },
      {
-      "id": 9,
+      "id": "Bangladesh",
       "country": "Bangladesh",
       "population": 163.04616099999998,
       "cases": 39,
@@ -130,7 +130,7 @@
       "first_case": "2020-03-08T00:00:00"
      },
      {
-      "id": 10,
+      "id": "Taiwan",
       "country": "Taiwan",
       "population": 23.773876,
       "cases": 235,
@@ -143,7 +143,7 @@
       "first_case": "2020-01-22T00:00:00"
      },
      {
-      "id": 11,
+      "id": "Philippines",
       "country": "Philippines",
       "population": 108.11661500000001,
       "cases": 636,
@@ -156,7 +156,7 @@
       "first_case": "2020-01-30T00:00:00"
      },
      {
-      "id": 12,
+      "id": "Thailand",
       "country": "Thailand",
       "population": 69.625582,
       "cases": 934,
@@ -169,7 +169,7 @@
       "first_case": "2020-01-22T00:00:00"
      },
      {
-      "id": 13,
+      "id": "Kazakhstan",
       "country": "Kazakhstan",
       "population": 18.551427,
       "cases": 81,
@@ -182,7 +182,7 @@
       "first_case": "2020-03-13T00:00:00"
      },
      {
-      "id": 14,
+      "id": "Azerbaijan",
       "country": "Azerbaijan",
       "population": 10.047718000000001,
       "cases": 93,
@@ -197,7 +197,7 @@
     ]
    },
    {
-    "id": 15,
+    "id": "Middle_East",
     "country": "Middle East",
     "population": 147.36930800000002,
     "cases": 30398,
@@ -210,7 +210,7 @@
     "first_case": "2020-01-29T00:00:00",
     "_children": [
      {
-      "id": 16,
+      "id": "Israel",
       "country": "Israel",
       "population": 8.519377,
       "cases": 2369,
@@ -223,7 +223,7 @@
       "first_case": "2020-02-21T00:00:00"
      },
      {
-      "id": 17,
+      "id": "Iran",
       "country": "Iran",
       "population": 82.913906,
       "cases": 27017,
@@ -236,7 +236,7 @@
       "first_case": "2020-02-19T00:00:00"
      },
      {
-      "id": 18,
+      "id": "Iraq",
       "country": "Iraq",
       "population": 39.309783,
       "cases": 346,
@@ -249,7 +249,7 @@
       "first_case": "2020-02-24T00:00:00"
      },
      {
-      "id": 19,
+      "id": "United_Arab_Emirates",
       "country": "United Arab Emirates",
       "population": 9.770529,
       "cases": 333,
@@ -262,7 +262,7 @@
       "first_case": "2020-01-29T00:00:00"
      },
      {
-      "id": 20,
+      "id": "Lebanon",
       "country": "Lebanon",
       "population": 6.855713,
       "cases": 333,
@@ -277,7 +277,7 @@
     ]
    },
    {
-    "id": 21,
+    "id": "Europe",
     "country": "Europe",
     "population": 757.8361729999999,
     "cases": 244298,
@@ -290,7 +290,7 @@
     "first_case": "2020-01-24T00:00:00",
     "_children": [
      {
-      "id": 22,
+      "id": "France",
       "country": "France",
       "population": 65.129728,
       "cases": 25600,
@@ -303,7 +303,7 @@
       "first_case": "2020-01-24T00:00:00"
      },
      {
-      "id": 23,
+      "id": "Italy",
       "country": "Italy",
       "population": 60.550075,
       "cases": 74386,
@@ -316,7 +316,7 @@
       "first_case": "2020-01-31T00:00:00"
      },
      {
-      "id": 24,
+      "id": "Belgium",
       "country": "Belgium",
       "population": 11.539328,
       "cases": 4937,
@@ -329,7 +329,7 @@
       "first_case": "2020-02-04T00:00:00"
      },
      {
-      "id": 25,
+      "id": "Austria",
       "country": "Austria",
       "population": 8.955102,
       "cases": 5588,
@@ -342,7 +342,7 @@
       "first_case": "2020-02-25T00:00:00"
      },
      {
-      "id": 26,
+      "id": "Spain",
       "country": "Spain",
       "population": 46.736776,
       "cases": 49515,
@@ -355,7 +355,7 @@
       "first_case": "2020-02-01T00:00:00"
      },
      {
-      "id": 27,
+      "id": "Portugal",
       "country": "Portugal",
       "population": 10.226187,
       "cases": 2995,
@@ -368,7 +368,7 @@
       "first_case": "2020-03-02T00:00:00"
      },
      {
-      "id": 28,
+      "id": "Germany",
       "country": "Germany",
       "population": 83.517045,
       "cases": 37323,
@@ -381,7 +381,7 @@
       "first_case": "2020-01-27T00:00:00"
      },
      {
-      "id": 29,
+      "id": "United_Kingdom",
       "country": "United Kingdom",
       "population": 67.53017200000001,
       "cases": 9640,
@@ -394,7 +394,7 @@
       "first_case": "2020-01-31T00:00:00"
      },
      {
-      "id": 30,
+      "id": "Switzerland",
       "country": "Switzerland",
       "population": 8.591365,
       "cases": 10897,
@@ -407,7 +407,7 @@
       "first_case": "2020-02-25T00:00:00"
      },
      {
-      "id": 31,
+      "id": "Norway",
       "country": "Norway",
       "population": 5.378857,
       "cases": 3084,
@@ -420,7 +420,7 @@
       "first_case": "2020-02-26T00:00:00"
      },
      {
-      "id": 32,
+      "id": "Sweden",
       "country": "Sweden",
       "population": 10.036379,
       "cases": 2526,
@@ -433,7 +433,7 @@
       "first_case": "2020-01-31T00:00:00"
      },
      {
-      "id": 33,
+      "id": "Denmark",
       "country": "Denmark",
       "population": 5.771876,
       "cases": 1862,
@@ -446,7 +446,7 @@
       "first_case": "2020-02-27T00:00:00"
      },
      {
-      "id": 34,
+      "id": "Netherlands",
       "country": "Netherlands",
       "population": 17.09713,
       "cases": 6438,
@@ -459,7 +459,7 @@
       "first_case": "2020-02-27T00:00:00"
      },
      {
-      "id": 35,
+      "id": "Russia",
       "country": "Russia",
       "population": 145.872256,
       "cases": 658,
@@ -472,7 +472,7 @@
       "first_case": "2020-01-31T00:00:00"
      },
      {
-      "id": 36,
+      "id": "Turkey",
       "country": "Turkey",
       "population": 83.429615,
       "cases": 2433,
@@ -485,7 +485,7 @@
       "first_case": "2020-03-11T00:00:00"
      },
      {
-      "id": 37,
+      "id": "Ukraine",
       "country": "Ukraine",
       "population": 43.993638,
       "cases": 145,
@@ -498,7 +498,7 @@
       "first_case": "2020-03-03T00:00:00"
      },
      {
-      "id": 38,
+      "id": "Poland",
       "country": "Poland",
       "population": 37.887767999999994,
       "cases": 1051,
@@ -511,7 +511,7 @@
       "first_case": "2020-03-04T00:00:00"
      },
      {
-      "id": 39,
+      "id": "Greece",
       "country": "Greece",
       "population": 10.473455,
       "cases": 821,
@@ -524,7 +524,7 @@
       "first_case": "2020-02-26T00:00:00"
      },
      {
-      "id": 40,
+      "id": "Serbia",
       "country": "Serbia",
       "population": 8.772235,
       "cases": 384,
@@ -537,7 +537,7 @@
       "first_case": "2020-03-06T00:00:00"
      },
      {
-      "id": 41,
+      "id": "Hungary",
       "country": "Hungary",
       "population": 9.684679000000001,
       "cases": 226,
@@ -550,7 +550,7 @@
       "first_case": "2020-03-04T00:00:00"
      },
      {
-      "id": 42,
+      "id": "Bulgaria",
       "country": "Bulgaria",
       "population": 7.000119,
       "cases": 242,
@@ -563,7 +563,7 @@
       "first_case": "2020-03-08T00:00:00"
      },
      {
-      "id": 43,
+      "id": "Croatia",
       "country": "Croatia",
       "population": 4.130304,
       "cases": 442,
@@ -576,7 +576,7 @@
       "first_case": "2020-02-25T00:00:00"
      },
      {
-      "id": 44,
+      "id": "Luxembourg",
       "country": "Luxembourg",
       "population": 0.6157290000000001,
       "cases": 1333,
@@ -589,7 +589,7 @@
       "first_case": "2020-02-29T00:00:00"
      },
      {
-      "id": 45,
+      "id": "Ireland",
       "country": "Ireland",
       "population": 4.882495,
       "cases": 1564,
@@ -602,7 +602,7 @@
       "first_case": "2020-02-29T00:00:00"
      },
      {
-      "id": 46,
+      "id": "San_Marino",
       "country": "San Marino",
       "population": 0.03386,
       "cases": 208,
@@ -617,7 +617,7 @@
     ]
    },
    {
-    "id": 47,
+    "id": "North_America",
     "country": "North America",
     "population": 494.05149300000005,
     "cases": 69434,
@@ -630,7 +630,7 @@
     "first_case": "2020-01-22T00:00:00",
     "_children": [
      {
-      "id": 48,
+      "id": "United_States",
       "country": "United States",
       "population": 329.06491700000004,
       "cases": 65778,
@@ -643,7 +643,7 @@
       "first_case": "2020-01-22T00:00:00"
      },
      {
-      "id": 49,
+      "id": "Canada",
       "country": "Canada",
       "population": 37.411046999999996,
       "cases": 3251,
@@ -656,7 +656,7 @@
       "first_case": "2020-01-26T00:00:00"
      },
      {
-      "id": 50,
+      "id": "Mexico",
       "country": "Mexico",
       "population": 127.57552899999999,
       "cases": 405,
@@ -671,7 +671,7 @@
     ]
    },
    {
-    "id": 51,
+    "id": "South_America",
     "country": "South America",
     "population": 305.71431900000005,
     "cases": 4594,
@@ -684,7 +684,7 @@
     "first_case": "2020-02-26T00:00:00",
     "_children": [
      {
-      "id": 52,
+      "id": "Brazil",
       "country": "Brazil",
       "population": 211.049527,
       "cases": 2554,
@@ -697,7 +697,7 @@
       "first_case": "2020-02-26T00:00:00"
      },
      {
-      "id": 53,
+      "id": "Argentina",
       "country": "Argentina",
       "population": 44.780677000000004,
       "cases": 387,
@@ -710,7 +710,7 @@
       "first_case": "2020-03-03T00:00:00"
      },
      {
-      "id": 54,
+      "id": "Peru",
       "country": "Peru",
       "population": 32.510453,
       "cases": 480,
@@ -723,7 +723,7 @@
       "first_case": "2020-03-06T00:00:00"
      },
      {
-      "id": 55,
+      "id": "Ecuador",
       "country": "Ecuador",
       "population": 17.373662,
       "cases": 1173,
@@ -738,7 +738,7 @@
     ]
    },
    {
-    "id": 56,
+    "id": "Africa",
     "country": "Africa",
     "population": 254.742231,
     "cases": 1305,
@@ -751,7 +751,7 @@
     "first_case": "2020-02-14T00:00:00",
     "_children": [
      {
-      "id": 57,
+      "id": "Egypt",
       "country": "Egypt",
       "population": 100.388073,
       "cases": 456,
@@ -764,7 +764,7 @@
       "first_case": "2020-02-14T00:00:00"
      },
      {
-      "id": 58,
+      "id": "Algeria",
       "country": "Algeria",
       "population": 43.053053999999996,
       "cases": 302,
@@ -777,7 +777,7 @@
       "first_case": "2020-02-25T00:00:00"
      },
      {
-      "id": 59,
+      "id": "Sudan",
       "country": "Sudan",
       "population": 42.813238,
       "cases": 3,
@@ -790,7 +790,7 @@
       "first_case": "2020-03-13T00:00:00"
      },
      {
-      "id": 60,
+      "id": "Morocco",
       "country": "Morocco",
       "population": 36.471769,
       "cases": 225,
@@ -803,7 +803,7 @@
       "first_case": "2020-03-02T00:00:00"
      },
      {
-      "id": 61,
+      "id": "Tunisia",
       "country": "Tunisia",
       "population": 11.694719,
       "cases": 173,
@@ -816,7 +816,7 @@
       "first_case": "2020-03-04T00:00:00"
      },
      {
-      "id": 62,
+      "id": "Burkina_Faso",
       "country": "Burkina Faso",
       "population": 20.321378,
       "cases": 146,
@@ -831,7 +831,7 @@
     ]
    },
    {
-    "id": 63,
+    "id": "Oceania",
     "country": "Oceania",
     "population": 25.203198,
     "cases": 2364,
@@ -844,7 +844,7 @@
     "first_case": "2020-01-26T00:00:00",
     "_children": [
      {
-      "id": 64,
+      "id": "Australia",
       "country": "Australia",
       "population": 25.203198,
       "cases": 2364,
@@ -861,7 +861,7 @@
   ]
  },
  {
-  "id": 65,
+  "id": "Afghanistan",
   "country": "Afghanistan",
   "population": 38.041754,
   "cases": 84,
@@ -874,7 +874,7 @@
   "first_case": "2020-02-24T00:00:00"
  },
  {
-  "id": 66,
+  "id": "Albania",
   "country": "Albania",
   "population": 2.8809169999999997,
   "cases": 146,
@@ -887,7 +887,7 @@
   "first_case": "2020-03-09T00:00:00"
  },
  {
-  "id": 67,
+  "id": "American_Samoa",
   "country": "American Samoa",
   "population": 0.055312,
   "cases": 0,
@@ -900,7 +900,7 @@
   "first_case": null
  },
  {
-  "id": 68,
+  "id": "Andorra",
   "country": "Andorra",
   "population": 0.077142,
   "cases": 188,
@@ -913,7 +913,7 @@
   "first_case": "2020-03-02T00:00:00"
  },
  {
-  "id": 69,
+  "id": "Angola",
   "country": "Angola",
   "population": 31.825294999999997,
   "cases": 3,
@@ -926,7 +926,7 @@
   "first_case": "2020-03-20T00:00:00"
  },
  {
-  "id": 70,
+  "id": "Anguilla",
   "country": "Anguilla",
   "population": 0.014869,
   "cases": 0,
@@ -939,7 +939,7 @@
   "first_case": null
  },
  {
-  "id": 71,
+  "id": "Antigua_and_Barbuda",
   "country": "Antigua and Barbuda",
   "population": 0.097118,
   "cases": 3,
@@ -952,7 +952,7 @@
   "first_case": "2020-03-13T00:00:00"
  },
  {
-  "id": 72,
+  "id": "Armenia",
   "country": "Armenia",
   "population": 2.9577310000000003,
   "cases": 265,
@@ -965,7 +965,7 @@
   "first_case": "2020-03-01T00:00:00"
  },
  {
-  "id": 73,
+  "id": "Aruba",
   "country": "Aruba",
   "population": 0.10631399999999999,
   "cases": 0,
@@ -978,7 +978,7 @@
   "first_case": null
  },
  {
-  "id": 74,
+  "id": "Bahamas",
   "country": "Bahamas",
   "population": 0.38948200000000005,
   "cases": 5,
@@ -991,7 +991,7 @@
   "first_case": "2020-03-16T00:00:00"
  },
  {
-  "id": 75,
+  "id": "Bahrain",
   "country": "Bahrain",
   "population": 1.641172,
   "cases": 419,
@@ -1004,7 +1004,7 @@
   "first_case": "2020-02-24T00:00:00"
  },
  {
-  "id": 76,
+  "id": "Barbados",
   "country": "Barbados",
   "population": 0.287025,
   "cases": 18,
@@ -1017,7 +1017,7 @@
   "first_case": "2020-03-17T00:00:00"
  },
  {
-  "id": 77,
+  "id": "Belarus",
   "country": "Belarus",
   "population": 9.452411,
   "cases": 86,
@@ -1030,7 +1030,7 @@
   "first_case": "2020-02-28T00:00:00"
  },
  {
-  "id": 78,
+  "id": "Belize",
   "country": "Belize",
   "population": 0.390353,
   "cases": 2,
@@ -1043,7 +1043,7 @@
   "first_case": "2020-03-23T00:00:00"
  },
  {
-  "id": 79,
+  "id": "Benin",
   "country": "Benin",
   "population": 11.801150999999999,
   "cases": 6,
@@ -1056,7 +1056,7 @@
   "first_case": "2020-03-16T00:00:00"
  },
  {
-  "id": 80,
+  "id": "Bermuda",
   "country": "Bermuda",
   "population": 0.062506,
   "cases": 0,
@@ -1069,7 +1069,7 @@
   "first_case": null
  },
  {
-  "id": 81,
+  "id": "Bhutan",
   "country": "Bhutan",
   "population": 0.763092,
   "cases": 2,
@@ -1082,7 +1082,7 @@
   "first_case": "2020-03-06T00:00:00"
  },
  {
-  "id": 82,
+  "id": "Bolivia",
   "country": "Bolivia",
   "population": 11.5131,
   "cases": 32,
@@ -1095,7 +1095,7 @@
   "first_case": "2020-03-11T00:00:00"
  },
  {
-  "id": 83,
+  "id": "Bosnia_and_Herzegovina",
   "country": "Bosnia and Herzegovina",
   "population": 3.301,
   "cases": 176,
@@ -1108,7 +1108,7 @@
   "first_case": "2020-03-05T00:00:00"
  },
  {
-  "id": 84,
+  "id": "Botswana",
   "country": "Botswana",
   "population": 2.303697,
   "cases": 0,
@@ -1121,7 +1121,7 @@
   "first_case": null
  },
  {
-  "id": 85,
+  "id": "British_Virgin_Islands",
   "country": "British Virgin Islands",
   "population": 0.03003,
   "cases": 0,
@@ -1134,7 +1134,7 @@
   "first_case": null
  },
  {
-  "id": 86,
+  "id": "Brunei",
   "country": "Brunei",
   "population": 0.43328500000000003,
   "cases": 109,
@@ -1147,7 +1147,7 @@
   "first_case": "2020-03-09T00:00:00"
  },
  {
-  "id": 87,
+  "id": "Burundi",
   "country": "Burundi",
   "population": 11.53058,
   "cases": 0,
@@ -1160,7 +1160,7 @@
   "first_case": null
  },
  {
-  "id": 88,
+  "id": "Cambodia",
   "country": "Cambodia",
   "population": 16.486542,
   "cases": 96,
@@ -1173,7 +1173,7 @@
   "first_case": "2020-01-27T00:00:00"
  },
  {
-  "id": 89,
+  "id": "Cameroon",
   "country": "Cameroon",
   "population": 25.87638,
   "cases": 75,
@@ -1186,7 +1186,7 @@
   "first_case": "2020-03-06T00:00:00"
  },
  {
-  "id": 90,
+  "id": "Cape_Verde",
   "country": "Cape Verde",
   "population": 0.549935,
   "cases": 4,
@@ -1199,7 +1199,7 @@
   "first_case": "2020-03-20T00:00:00"
  },
  {
-  "id": 91,
+  "id": "Cayman_Islands",
   "country": "Cayman Islands",
   "population": 0.06494799999999999,
   "cases": 0,
@@ -1212,7 +1212,7 @@
   "first_case": null
  },
  {
-  "id": 92,
+  "id": "Central_African_Republic",
   "country": "Central African Republic",
   "population": 4.745185,
   "cases": 3,
@@ -1225,7 +1225,7 @@
   "first_case": "2020-03-15T00:00:00"
  },
  {
-  "id": 93,
+  "id": "Chad",
   "country": "Chad",
   "population": 15.946876,
   "cases": 3,
@@ -1238,7 +1238,7 @@
   "first_case": "2020-03-19T00:00:00"
  },
  {
-  "id": 94,
+  "id": "Chile",
   "country": "Chile",
   "population": 18.952038,
   "cases": 1142,
@@ -1251,7 +1251,7 @@
   "first_case": "2020-03-03T00:00:00"
  },
  {
-  "id": 95,
+  "id": "Colombia",
   "country": "Colombia",
   "population": 50.339443,
   "cases": 470,
@@ -1264,7 +1264,7 @@
   "first_case": "2020-03-06T00:00:00"
  },
  {
-  "id": 96,
+  "id": "Comoros",
   "country": "Comoros",
   "population": 0.8508859999999999,
   "cases": 0,
@@ -1277,7 +1277,7 @@
   "first_case": null
  },
  {
-  "id": 97,
+  "id": "Cook_Islands",
   "country": "Cook Islands",
   "population": 0.017547999999999998,
   "cases": 0,
@@ -1290,7 +1290,7 @@
   "first_case": null
  },
  {
-  "id": 98,
+  "id": "Costa_Rica",
   "country": "Costa Rica",
   "population": 5.047561,
   "cases": 201,
@@ -1303,7 +1303,7 @@
   "first_case": "2020-03-06T00:00:00"
  },
  {
-  "id": 99,
+  "id": "Cuba",
   "country": "Cuba",
   "population": 11.333483,
   "cases": 57,
@@ -1316,7 +1316,7 @@
   "first_case": "2020-03-12T00:00:00"
  },
  {
-  "id": 100,
+  "id": "Curacao",
   "country": "Curacao",
   "population": 0.163424,
   "cases": 0,
@@ -1329,7 +1329,7 @@
   "first_case": null
  },
  {
-  "id": 101,
+  "id": "Cyprus",
   "country": "Cyprus",
   "population": 1.198575,
   "cases": 132,
@@ -1342,7 +1342,7 @@
   "first_case": "2020-03-09T00:00:00"
  },
  {
-  "id": 102,
+  "id": "Czech_Republic",
   "country": "Czech Republic",
   "population": 10.689209,
   "cases": 1654,
@@ -1355,7 +1355,7 @@
   "first_case": "2020-03-01T00:00:00"
  },
  {
-  "id": 103,
+  "id": "DR_Congo",
   "country": "DR Congo",
   "population": 86.790567,
   "cases": 48,
@@ -1368,7 +1368,7 @@
   "first_case": "2020-03-11T00:00:00"
  },
  {
-  "id": 104,
+  "id": "Diamond_Princess",
   "country": "Diamond Princess",
   "population": 0.003711,
   "cases": 712,
@@ -1381,7 +1381,7 @@
   "first_case": "2020-02-07T00:00:00"
  },
  {
-  "id": 105,
+  "id": "Djibouti",
   "country": "Djibouti",
   "population": 0.97356,
   "cases": 11,
@@ -1394,7 +1394,7 @@
   "first_case": "2020-03-18T00:00:00"
  },
  {
-  "id": 106,
+  "id": "Dominica",
   "country": "Dominica",
   "population": 0.07180800000000001,
   "cases": 7,
@@ -1407,7 +1407,7 @@
   "first_case": "2020-03-22T00:00:00"
  },
  {
-  "id": 107,
+  "id": "Dominican_Republic",
   "country": "Dominican Republic",
   "population": 10.738958,
   "cases": 392,
@@ -1420,7 +1420,7 @@
   "first_case": "2020-03-01T00:00:00"
  },
  {
-  "id": 108,
+  "id": "El_Salvador",
   "country": "El Salvador",
   "population": 6.453553,
   "cases": 9,
@@ -1433,7 +1433,7 @@
   "first_case": "2020-03-19T00:00:00"
  },
  {
-  "id": 109,
+  "id": "Equatorial_Guinea",
   "country": "Equatorial Guinea",
   "population": 1.3559860000000001,
   "cases": 9,
@@ -1446,7 +1446,7 @@
   "first_case": "2020-03-15T00:00:00"
  },
  {
-  "id": 110,
+  "id": "Eritrea",
   "country": "Eritrea",
   "population": 3.4971170000000003,
   "cases": 4,
@@ -1459,7 +1459,7 @@
   "first_case": "2020-03-21T00:00:00"
  },
  {
-  "id": 111,
+  "id": "Estonia",
   "country": "Estonia",
   "population": 1.325648,
   "cases": 404,
@@ -1472,7 +1472,7 @@
   "first_case": "2020-02-27T00:00:00"
  },
  {
-  "id": 112,
+  "id": "Ethiopia",
   "country": "Ethiopia",
   "population": 112.07873,
   "cases": 12,
@@ -1485,7 +1485,7 @@
   "first_case": "2020-03-13T00:00:00"
  },
  {
-  "id": 113,
+  "id": "Falkland_Islands",
   "country": "Falkland Islands",
   "population": 0.003377,
   "cases": 0,
@@ -1498,7 +1498,7 @@
   "first_case": null
  },
  {
-  "id": 114,
+  "id": "Faroe_Islands",
   "country": "Faroe Islands",
   "population": 0.048678,
   "cases": 0,
@@ -1511,7 +1511,7 @@
   "first_case": null
  },
  {
-  "id": 115,
+  "id": "Fiji",
   "country": "Fiji",
   "population": 0.889953,
   "cases": 5,
@@ -1524,7 +1524,7 @@
   "first_case": "2020-03-19T00:00:00"
  },
  {
-  "id": 116,
+  "id": "Finland",
   "country": "Finland",
   "population": 5.532156,
   "cases": 880,
@@ -1537,7 +1537,7 @@
   "first_case": "2020-01-29T00:00:00"
  },
  {
-  "id": 117,
+  "id": "French_Guiana",
   "country": "French Guiana",
   "population": 0.290832,
   "cases": 0,
@@ -1550,7 +1550,7 @@
   "first_case": null
  },
  {
-  "id": 118,
+  "id": "French_Polynesia",
   "country": "French Polynesia",
   "population": 0.27928699999999995,
   "cases": 0,
@@ -1563,7 +1563,7 @@
   "first_case": null
  },
  {
-  "id": 119,
+  "id": "Gabon",
   "country": "Gabon",
   "population": 2.1725790000000003,
   "cases": 6,
@@ -1576,7 +1576,7 @@
   "first_case": "2020-03-14T00:00:00"
  },
  {
-  "id": 120,
+  "id": "Gambia",
   "country": "Gambia",
   "population": 2.347706,
   "cases": 3,
@@ -1589,7 +1589,7 @@
   "first_case": "2020-03-17T00:00:00"
  },
  {
-  "id": 121,
+  "id": "Georgia",
   "country": "Georgia",
   "population": 3.996765,
   "cases": 75,
@@ -1602,7 +1602,7 @@
   "first_case": "2020-02-26T00:00:00"
  },
  {
-  "id": 122,
+  "id": "Ghana",
   "country": "Ghana",
   "population": 30.417856,
   "cases": 93,
@@ -1615,7 +1615,7 @@
   "first_case": "2020-03-14T00:00:00"
  },
  {
-  "id": 123,
+  "id": "Gibraltar",
   "country": "Gibraltar",
   "population": 0.033701,
   "cases": 0,
@@ -1628,7 +1628,7 @@
   "first_case": null
  },
  {
-  "id": 124,
+  "id": "Greenland",
   "country": "Greenland",
   "population": 0.056672,
   "cases": 0,
@@ -1641,7 +1641,7 @@
   "first_case": null
  },
  {
-  "id": 125,
+  "id": "Grenada",
   "country": "Grenada",
   "population": 0.112003,
   "cases": 1,
@@ -1654,7 +1654,7 @@
   "first_case": "2020-03-22T00:00:00"
  },
  {
-  "id": 126,
+  "id": "Guadeloupe",
   "country": "Guadeloupe",
   "population": 0.40005599999999997,
   "cases": 0,
@@ -1667,7 +1667,7 @@
   "first_case": null
  },
  {
-  "id": 127,
+  "id": "Guam",
   "country": "Guam",
   "population": 0.167294,
   "cases": 0,
@@ -1680,7 +1680,7 @@
   "first_case": null
  },
  {
-  "id": 128,
+  "id": "Guatemala",
   "country": "Guatemala",
   "population": 17.581472,
   "cases": 24,
@@ -1693,7 +1693,7 @@
   "first_case": "2020-03-14T00:00:00"
  },
  {
-  "id": 129,
+  "id": "Guinea",
   "country": "Guinea",
   "population": 12.771246,
   "cases": 4,
@@ -1706,7 +1706,7 @@
   "first_case": "2020-03-13T00:00:00"
  },
  {
-  "id": 130,
+  "id": "Guinea_Bissau",
   "country": "Guinea-Bissau",
   "population": 1.920922,
   "cases": 2,
@@ -1719,7 +1719,7 @@
   "first_case": "2020-03-25T00:00:00"
  },
  {
-  "id": 131,
+  "id": "Guyana",
   "country": "Guyana",
   "population": 0.782766,
   "cases": 5,
@@ -1732,7 +1732,7 @@
   "first_case": "2020-03-12T00:00:00"
  },
  {
-  "id": 132,
+  "id": "Haiti",
   "country": "Haiti",
   "population": 11.263077,
   "cases": 8,
@@ -1745,7 +1745,7 @@
   "first_case": "2020-03-20T00:00:00"
  },
  {
-  "id": 133,
+  "id": "Honduras",
   "country": "Honduras",
   "population": 9.746117,
   "cases": 36,
@@ -1758,7 +1758,7 @@
   "first_case": "2020-03-11T00:00:00"
  },
  {
-  "id": 134,
+  "id": "Hong_Kong",
   "country": "Hong Kong",
   "population": 7.436154,
   "cases": 0,
@@ -1771,7 +1771,7 @@
   "first_case": null
  },
  {
-  "id": 135,
+  "id": "Iceland",
   "country": "Iceland",
   "population": 0.339031,
   "cases": 737,
@@ -1784,7 +1784,7 @@
   "first_case": "2020-02-28T00:00:00"
  },
  {
-  "id": 136,
+  "id": "Isle_of_Man",
   "country": "Isle of Man",
   "population": 0.084584,
   "cases": 0,
@@ -1797,7 +1797,7 @@
   "first_case": null
  },
  {
-  "id": 137,
+  "id": "Ivory_Coast",
   "country": "Ivory Coast",
   "population": 25.716544000000003,
   "cases": 80,
@@ -1810,7 +1810,7 @@
   "first_case": "2020-03-11T00:00:00"
  },
  {
-  "id": 138,
+  "id": "Jamaica",
   "country": "Jamaica",
   "population": 2.948279,
   "cases": 26,
@@ -1823,7 +1823,7 @@
   "first_case": "2020-03-11T00:00:00"
  },
  {
-  "id": 139,
+  "id": "Jordan",
   "country": "Jordan",
   "population": 10.101694,
   "cases": 172,
@@ -1836,7 +1836,7 @@
   "first_case": "2020-03-03T00:00:00"
  },
  {
-  "id": 140,
+  "id": "Kenya",
   "country": "Kenya",
   "population": 52.573972999999995,
   "cases": 28,
@@ -1849,7 +1849,7 @@
   "first_case": "2020-03-13T00:00:00"
  },
  {
-  "id": 141,
+  "id": "Kiribati",
   "country": "Kiribati",
   "population": 0.11760599999999999,
   "cases": 0,
@@ -1862,7 +1862,7 @@
   "first_case": null
  },
  {
-  "id": 142,
+  "id": "Kosovo",
   "country": "Kosovo",
   "population": 1.810463,
   "cases": 0,
@@ -1875,7 +1875,7 @@
   "first_case": null
  },
  {
-  "id": 143,
+  "id": "Kuwait",
   "country": "Kuwait",
   "population": 4.207083,
   "cases": 195,
@@ -1888,7 +1888,7 @@
   "first_case": "2020-02-24T00:00:00"
  },
  {
-  "id": 144,
+  "id": "Kyrgyzstan",
   "country": "Kyrgyzstan",
   "population": 6.415850000000001,
   "cases": 44,
@@ -1901,7 +1901,7 @@
   "first_case": "2020-03-18T00:00:00"
  },
  {
-  "id": 145,
+  "id": "Laos",
   "country": "Laos",
   "population": 7.169455,
   "cases": 3,
@@ -1914,7 +1914,7 @@
   "first_case": "2020-03-24T00:00:00"
  },
  {
-  "id": 146,
+  "id": "Latvia",
   "country": "Latvia",
   "population": 1.9067429999999999,
   "cases": 221,
@@ -1927,7 +1927,7 @@
   "first_case": "2020-03-02T00:00:00"
  },
  {
-  "id": 147,
+  "id": "Lesotho",
   "country": "Lesotho",
   "population": 2.125268,
   "cases": 0,
@@ -1940,7 +1940,7 @@
   "first_case": null
  },
  {
-  "id": 148,
+  "id": "Liberia",
   "country": "Liberia",
   "population": 4.937374,
   "cases": 3,
@@ -1953,7 +1953,7 @@
   "first_case": "2020-03-16T00:00:00"
  },
  {
-  "id": 149,
+  "id": "Libya",
   "country": "Libya",
   "population": 6.777452,
   "cases": 1,
@@ -1966,7 +1966,7 @@
   "first_case": "2020-03-24T00:00:00"
  },
  {
-  "id": 150,
+  "id": "Liechtenstein",
   "country": "Liechtenstein",
   "population": 0.038019,
   "cases": 51,
@@ -1979,7 +1979,7 @@
   "first_case": "2020-03-04T00:00:00"
  },
  {
-  "id": 151,
+  "id": "Lithuania",
   "country": "Lithuania",
   "population": 2.759627,
   "cases": 274,
@@ -1992,7 +1992,7 @@
   "first_case": "2020-02-28T00:00:00"
  },
  {
-  "id": 152,
+  "id": "Macau",
   "country": "Macau",
   "population": 0.640445,
   "cases": 0,
@@ -2005,7 +2005,7 @@
   "first_case": null
  },
  {
-  "id": 153,
+  "id": "Macedonia",
   "country": "Macedonia",
   "population": 2.083459,
   "cases": 177,
@@ -2018,7 +2018,7 @@
   "first_case": "2020-02-26T00:00:00"
  },
  {
-  "id": 154,
+  "id": "Madagascar",
   "country": "Madagascar",
   "population": 26.969307,
   "cases": 19,
@@ -2031,7 +2031,7 @@
   "first_case": "2020-03-20T00:00:00"
  },
  {
-  "id": 155,
+  "id": "Malawi",
   "country": "Malawi",
   "population": 18.628747,
   "cases": 0,
@@ -2044,7 +2044,7 @@
   "first_case": null
  },
  {
-  "id": 156,
+  "id": "Maldives",
   "country": "Maldives",
   "population": 0.530953,
   "cases": 13,
@@ -2057,7 +2057,7 @@
   "first_case": "2020-03-08T00:00:00"
  },
  {
-  "id": 157,
+  "id": "Mali",
   "country": "Mali",
   "population": 19.658030999999998,
   "cases": 2,
@@ -2070,7 +2070,7 @@
   "first_case": "2020-03-25T00:00:00"
  },
  {
-  "id": 158,
+  "id": "Malta",
   "country": "Malta",
   "population": 0.44037200000000004,
   "cases": 129,
@@ -2083,7 +2083,7 @@
   "first_case": "2020-03-07T00:00:00"
  },
  {
-  "id": 159,
+  "id": "Marshall_Islands",
   "country": "Marshall Islands",
   "population": 0.058790999999999996,
   "cases": 0,
@@ -2096,7 +2096,7 @@
   "first_case": null
  },
  {
-  "id": 160,
+  "id": "Martinique",
   "country": "Martinique",
   "population": 0.375554,
   "cases": 0,
@@ -2109,7 +2109,7 @@
   "first_case": null
  },
  {
-  "id": 161,
+  "id": "Mauritania",
   "country": "Mauritania",
   "population": 4.525696,
   "cases": 2,
@@ -2122,7 +2122,7 @@
   "first_case": "2020-03-14T00:00:00"
  },
  {
-  "id": 162,
+  "id": "Mauritius",
   "country": "Mauritius",
   "population": 1.2696679999999998,
   "cases": 48,
@@ -2135,7 +2135,7 @@
   "first_case": "2020-03-18T00:00:00"
  },
  {
-  "id": 163,
+  "id": "Mayotte",
   "country": "Mayotte",
   "population": 0.26615,
   "cases": 0,
@@ -2148,7 +2148,7 @@
   "first_case": null
  },
  {
-  "id": 164,
+  "id": "Micronesia",
   "country": "Micronesia",
   "population": 0.113815,
   "cases": 0,
@@ -2161,7 +2161,7 @@
   "first_case": null
  },
  {
-  "id": 165,
+  "id": "Moldova",
   "country": "Moldova",
   "population": 4.043263,
   "cases": 149,
@@ -2174,7 +2174,7 @@
   "first_case": "2020-03-08T00:00:00"
  },
  {
-  "id": 166,
+  "id": "Monaco",
   "country": "Monaco",
   "population": 0.038964,
   "cases": 31,
@@ -2187,7 +2187,7 @@
   "first_case": "2020-02-29T00:00:00"
  },
  {
-  "id": 167,
+  "id": "Mongolia",
   "country": "Mongolia",
   "population": 3.225167,
   "cases": 10,
@@ -2200,7 +2200,7 @@
   "first_case": "2020-03-10T00:00:00"
  },
  {
-  "id": 168,
+  "id": "Montenegro",
   "country": "Montenegro",
   "population": 0.627987,
   "cases": 52,
@@ -2213,7 +2213,7 @@
   "first_case": "2020-03-17T00:00:00"
  },
  {
-  "id": 169,
+  "id": "Montserrat",
   "country": "Montserrat",
   "population": 0.0049889999999999995,
   "cases": 0,
@@ -2226,7 +2226,7 @@
   "first_case": null
  },
  {
-  "id": 170,
+  "id": "Mozambique",
   "country": "Mozambique",
   "population": 30.366036,
   "cases": 5,
@@ -2239,7 +2239,7 @@
   "first_case": "2020-03-22T00:00:00"
  },
  {
-  "id": 171,
+  "id": "Myanmar",
   "country": "Myanmar",
   "population": 54.04542,
   "cases": 0,
@@ -2252,7 +2252,7 @@
   "first_case": null
  },
  {
-  "id": 172,
+  "id": "Namibia",
   "country": "Namibia",
   "population": 2.49453,
   "cases": 7,
@@ -2265,7 +2265,7 @@
   "first_case": "2020-03-14T00:00:00"
  },
  {
-  "id": 173,
+  "id": "Nauru",
   "country": "Nauru",
   "population": 0.010756,
   "cases": 0,
@@ -2278,7 +2278,7 @@
   "first_case": null
  },
  {
-  "id": 174,
+  "id": "Nepal",
   "country": "Nepal",
   "population": 28.60871,
   "cases": 3,
@@ -2291,7 +2291,7 @@
   "first_case": "2020-01-25T00:00:00"
  },
  {
-  "id": 175,
+  "id": "New_Caledonia",
   "country": "New Caledonia",
   "population": 0.28275,
   "cases": 0,
@@ -2304,7 +2304,7 @@
   "first_case": null
  },
  {
-  "id": 176,
+  "id": "New_Zealand",
   "country": "New Zealand",
   "population": 4.783063,
   "cases": 205,
@@ -2317,7 +2317,7 @@
   "first_case": "2020-02-28T00:00:00"
  },
  {
-  "id": 177,
+  "id": "Nicaragua",
   "country": "Nicaragua",
   "population": 6.545502000000001,
   "cases": 2,
@@ -2330,7 +2330,7 @@
   "first_case": "2020-03-19T00:00:00"
  },
  {
-  "id": 178,
+  "id": "Niger",
   "country": "Niger",
   "population": 23.310715000000002,
   "cases": 7,
@@ -2343,7 +2343,7 @@
   "first_case": "2020-03-20T00:00:00"
  },
  {
-  "id": 179,
+  "id": "Nigeria",
   "country": "Nigeria",
   "population": 200.963599,
   "cases": 51,
@@ -2356,7 +2356,7 @@
   "first_case": "2020-02-28T00:00:00"
  },
  {
-  "id": 180,
+  "id": "Niue",
   "country": "Niue",
   "population": 0.001615,
   "cases": 0,
@@ -2369,7 +2369,7 @@
   "first_case": null
  },
  {
-  "id": 181,
+  "id": "North_Korea",
   "country": "North Korea",
   "population": 25.666161,
   "cases": 0,
@@ -2382,7 +2382,7 @@
   "first_case": null
  },
  {
-  "id": 182,
+  "id": "Northern_Mariana_Islands",
   "country": "Northern Mariana Islands",
   "population": 0.057216,
   "cases": 0,
@@ -2395,7 +2395,7 @@
   "first_case": null
  },
  {
-  "id": 183,
+  "id": "Oman",
   "country": "Oman",
   "population": 4.9749859999999995,
   "cases": 99,
@@ -2408,7 +2408,7 @@
   "first_case": "2020-02-24T00:00:00"
  },
  {
-  "id": 184,
+  "id": "Palau",
   "country": "Palau",
   "population": 0.018008,
   "cases": 0,
@@ -2421,7 +2421,7 @@
   "first_case": null
  },
  {
-  "id": 185,
+  "id": "Palestine",
   "country": "Palestine",
   "population": 4.98142,
   "cases": 0,
@@ -2434,7 +2434,7 @@
   "first_case": null
  },
  {
-  "id": 186,
+  "id": "Panama",
   "country": "Panama",
   "population": 4.2464390000000005,
   "cases": 443,
@@ -2447,7 +2447,7 @@
   "first_case": "2020-03-10T00:00:00"
  },
  {
-  "id": 187,
+  "id": "Papua_New_Guinea",
   "country": "Papua New Guinea",
   "population": 8.776109,
   "cases": 1,
@@ -2460,7 +2460,7 @@
   "first_case": "2020-03-20T00:00:00"
  },
  {
-  "id": 188,
+  "id": "Paraguay",
   "country": "Paraguay",
   "population": 7.044636000000001,
   "cases": 37,
@@ -2473,7 +2473,7 @@
   "first_case": "2020-03-08T00:00:00"
  },
  {
-  "id": 189,
+  "id": "Puerto_Rico",
   "country": "Puerto Rico",
   "population": 2.933408,
   "cases": 0,
@@ -2486,7 +2486,7 @@
   "first_case": null
  },
  {
-  "id": 190,
+  "id": "Qatar",
   "country": "Qatar",
   "population": 2.832067,
   "cases": 537,
@@ -2499,7 +2499,7 @@
   "first_case": "2020-02-29T00:00:00"
  },
  {
-  "id": 191,
+  "id": "Republic_of_the_Congo",
   "country": "Republic of the Congo",
   "population": 5.380508,
   "cases": 4,
@@ -2512,7 +2512,7 @@
   "first_case": "2020-03-15T00:00:00"
  },
  {
-  "id": 192,
+  "id": "Reunion",
   "country": "Reunion",
   "population": 0.888927,
   "cases": 0,
@@ -2525,7 +2525,7 @@
   "first_case": null
  },
  {
-  "id": 193,
+  "id": "Romania",
   "country": "Romania",
   "population": 19.364557,
   "cases": 906,
@@ -2538,7 +2538,7 @@
   "first_case": "2020-02-26T00:00:00"
  },
  {
-  "id": 194,
+  "id": "Rwanda",
   "country": "Rwanda",
   "population": 12.62695,
   "cases": 41,
@@ -2551,7 +2551,7 @@
   "first_case": "2020-03-14T00:00:00"
  },
  {
-  "id": 195,
+  "id": "Saint_Barth\u00e9lemy",
   "country": "Saint Barth\u00e9lemy",
   "population": 0.009847,
   "cases": 0,
@@ -2564,7 +2564,7 @@
   "first_case": null
  },
  {
-  "id": 196,
+  "id": "Saint_Kitts_and_Nevis",
   "country": "Saint Kitts and Nevis",
   "population": 0.052823,
   "cases": 2,
@@ -2577,7 +2577,7 @@
   "first_case": "2020-03-25T00:00:00"
  },
  {
-  "id": 197,
+  "id": "Saint_Lucia",
   "country": "Saint Lucia",
   "population": 0.18278999999999998,
   "cases": 3,
@@ -2590,7 +2590,7 @@
   "first_case": "2020-03-14T00:00:00"
  },
  {
-  "id": 198,
+  "id": "Saint_Martin",
   "country": "Saint Martin",
   "population": 0.038002,
   "cases": 0,
@@ -2603,7 +2603,7 @@
   "first_case": null
  },
  {
-  "id": 199,
+  "id": "Saint_Pierre_and_Miquelon",
   "country": "Saint Pierre and Miquelon",
   "population": 0.005822,
   "cases": 0,
@@ -2616,7 +2616,7 @@
   "first_case": null
  },
  {
-  "id": 200,
+  "id": "Saint_Vincent_and_the_Grenadines",
   "country": "Saint Vincent and the Grenadines",
   "population": 0.11058899999999999,
   "cases": 1,
@@ -2629,7 +2629,7 @@
   "first_case": "2020-03-14T00:00:00"
  },
  {
-  "id": 201,
+  "id": "Samoa",
   "country": "Samoa",
   "population": 0.19709700000000002,
   "cases": 0,
@@ -2642,7 +2642,7 @@
   "first_case": null
  },
  {
-  "id": 202,
+  "id": "Sao_Tome_and_Principe",
   "country": "Sao Tome and Principe",
   "population": 0.21505600000000002,
   "cases": 0,
@@ -2655,7 +2655,7 @@
   "first_case": null
  },
  {
-  "id": 203,
+  "id": "Saudi_Arabia",
   "country": "Saudi Arabia",
   "population": 34.268527999999996,
   "cases": 900,
@@ -2668,7 +2668,7 @@
   "first_case": "2020-03-02T00:00:00"
  },
  {
-  "id": 204,
+  "id": "Senegal",
   "country": "Senegal",
   "population": 16.296364,
   "cases": 99,
@@ -2681,7 +2681,7 @@
   "first_case": "2020-03-02T00:00:00"
  },
  {
-  "id": 205,
+  "id": "Seychelles",
   "country": "Seychelles",
   "population": 0.097739,
   "cases": 7,
@@ -2694,7 +2694,7 @@
   "first_case": "2020-03-14T00:00:00"
  },
  {
-  "id": 206,
+  "id": "Sierra_Leone",
   "country": "Sierra Leone",
   "population": 7.8132150000000005,
   "cases": 0,
@@ -2707,7 +2707,7 @@
   "first_case": null
  },
  {
-  "id": 207,
+  "id": "Singapore",
   "country": "Singapore",
   "population": 5.804337,
   "cases": 631,
@@ -2720,7 +2720,7 @@
   "first_case": "2020-01-23T00:00:00"
  },
  {
-  "id": 208,
+  "id": "Sint_Maarten",
   "country": "Sint Maarten",
   "population": 0.042387999999999995,
   "cases": 0,
@@ -2733,7 +2733,7 @@
   "first_case": null
  },
  {
-  "id": 209,
+  "id": "Slovakia",
   "country": "Slovakia",
   "population": 5.457013,
   "cases": 216,
@@ -2746,7 +2746,7 @@
   "first_case": "2020-03-06T00:00:00"
  },
  {
-  "id": 210,
+  "id": "Slovenia",
   "country": "Slovenia",
   "population": 2.078654,
   "cases": 528,
@@ -2759,7 +2759,7 @@
   "first_case": "2020-03-05T00:00:00"
  },
  {
-  "id": 211,
+  "id": "Solomon_Islands",
   "country": "Solomon Islands",
   "population": 0.669823,
   "cases": 0,
@@ -2772,7 +2772,7 @@
   "first_case": null
  },
  {
-  "id": 212,
+  "id": "Somalia",
   "country": "Somalia",
   "population": 15.442905000000001,
   "cases": 1,
@@ -2785,7 +2785,7 @@
   "first_case": "2020-03-16T00:00:00"
  },
  {
-  "id": 213,
+  "id": "South_Africa",
   "country": "South Africa",
   "population": 58.55827,
   "cases": 709,
@@ -2798,7 +2798,7 @@
   "first_case": "2020-03-05T00:00:00"
  },
  {
-  "id": 214,
+  "id": "South_Sudan",
   "country": "South Sudan",
   "population": 11.062113,
   "cases": 0,
@@ -2811,7 +2811,7 @@
   "first_case": null
  },
  {
-  "id": 215,
+  "id": "Sri_Lanka",
   "country": "Sri Lanka",
   "population": 21.323733,
   "cases": 102,
@@ -2824,7 +2824,7 @@
   "first_case": "2020-01-27T00:00:00"
  },
  {
-  "id": 216,
+  "id": "Suriname",
   "country": "Suriname",
   "population": 0.581372,
   "cases": 8,
@@ -2837,7 +2837,7 @@
   "first_case": "2020-03-14T00:00:00"
  },
  {
-  "id": 217,
+  "id": "Swaziland",
   "country": "Swaziland",
   "population": 1.14813,
   "cases": 4,
@@ -2850,7 +2850,7 @@
   "first_case": "2020-03-14T00:00:00"
  },
  {
-  "id": 218,
+  "id": "Syria",
   "country": "Syria",
   "population": 17.070134999999997,
   "cases": 5,
@@ -2863,7 +2863,7 @@
   "first_case": "2020-03-22T00:00:00"
  },
  {
-  "id": 219,
+  "id": "Tajikistan",
   "country": "Tajikistan",
   "population": 9.321018,
   "cases": 0,
@@ -2876,7 +2876,7 @@
   "first_case": null
  },
  {
-  "id": 220,
+  "id": "Tanzania",
   "country": "Tanzania",
   "population": 58.005463000000006,
   "cases": 12,
@@ -2889,7 +2889,7 @@
   "first_case": "2020-03-16T00:00:00"
  },
  {
-  "id": 221,
+  "id": "Timor_Leste",
   "country": "Timor-Leste",
   "population": 1.293119,
   "cases": 1,
@@ -2902,7 +2902,7 @@
   "first_case": "2020-03-22T00:00:00"
  },
  {
-  "id": 222,
+  "id": "Togo",
   "country": "Togo",
   "population": 8.082366,
   "cases": 23,
@@ -2915,7 +2915,7 @@
   "first_case": "2020-03-06T00:00:00"
  },
  {
-  "id": 223,
+  "id": "Tokelau",
   "country": "Tokelau",
   "population": 0.00134,
   "cases": 0,
@@ -2928,7 +2928,7 @@
   "first_case": null
  },
  {
-  "id": 224,
+  "id": "Tonga",
   "country": "Tonga",
   "population": 0.104494,
   "cases": 0,
@@ -2941,7 +2941,7 @@
   "first_case": null
  },
  {
-  "id": 225,
+  "id": "Trinidad_and_Tobago",
   "country": "Trinidad and Tobago",
   "population": 1.394973,
   "cases": 60,
@@ -2954,7 +2954,7 @@
   "first_case": "2020-03-14T00:00:00"
  },
  {
-  "id": 226,
+  "id": "Turkmenistan",
   "country": "Turkmenistan",
   "population": 5.942089,
   "cases": 0,
@@ -2967,7 +2967,7 @@
   "first_case": null
  },
  {
-  "id": 227,
+  "id": "Turks_and_Caicos_Islands",
   "country": "Turks and Caicos Islands",
   "population": 0.038191,
   "cases": 0,
@@ -2980,7 +2980,7 @@
   "first_case": null
  },
  {
-  "id": 228,
+  "id": "Turks_and_Caicos_islands",
   "country": "Turks and Caicos islands",
   "population": 0.032,
   "cases": 0,
@@ -2993,7 +2993,7 @@
   "first_case": null
  },
  {
-  "id": 229,
+  "id": "Tuvalu",
   "country": "Tuvalu",
   "population": 0.011646,
   "cases": 0,
@@ -3006,7 +3006,7 @@
   "first_case": null
  },
  {
-  "id": 230,
+  "id": "Uganda",
   "country": "Uganda",
   "population": 44.269594,
   "cases": 14,
@@ -3019,7 +3019,7 @@
   "first_case": "2020-03-21T00:00:00"
  },
  {
-  "id": 231,
+  "id": "United_States_Virgin_Islands",
   "country": "United States Virgin Islands",
   "population": 0.104578,
   "cases": 0,
@@ -3032,7 +3032,7 @@
   "first_case": null
  },
  {
-  "id": 232,
+  "id": "Uruguay",
   "country": "Uruguay",
   "population": 3.461734,
   "cases": 189,
@@ -3045,7 +3045,7 @@
   "first_case": "2020-03-14T00:00:00"
  },
  {
-  "id": 233,
+  "id": "Uzbekistan",
   "country": "Uzbekistan",
   "population": 32.981716,
   "cases": 60,
@@ -3058,7 +3058,7 @@
   "first_case": "2020-03-15T00:00:00"
  },
  {
-  "id": 234,
+  "id": "Vanuatu",
   "country": "Vanuatu",
   "population": 0.299882,
   "cases": 0,
@@ -3071,7 +3071,7 @@
   "first_case": null
  },
  {
-  "id": 235,
+  "id": "Vatican_City",
   "country": "Vatican City",
   "population": 0.000799,
   "cases": 4,
@@ -3084,7 +3084,7 @@
   "first_case": "2020-03-06T00:00:00"
  },
  {
-  "id": 236,
+  "id": "Venezuela",
   "country": "Venezuela",
   "population": 28.515829,
   "cases": 91,
@@ -3097,7 +3097,7 @@
   "first_case": "2020-03-14T00:00:00"
  },
  {
-  "id": 237,
+  "id": "Vietnam",
   "country": "Vietnam",
   "population": 96.462106,
   "cases": 141,
@@ -3110,7 +3110,7 @@
   "first_case": "2020-01-23T00:00:00"
  },
  {
-  "id": 238,
+  "id": "Wallis_and_Futuna",
   "country": "Wallis and Futuna",
   "population": 0.011432000000000001,
   "cases": 0,
@@ -3123,7 +3123,7 @@
   "first_case": null
  },
  {
-  "id": 239,
+  "id": "Western_Sahara",
   "country": "Western Sahara",
   "population": 0.582463,
   "cases": 0,
@@ -3136,7 +3136,7 @@
   "first_case": null
  },
  {
-  "id": 240,
+  "id": "Yemen",
   "country": "Yemen",
   "population": 29.161921999999997,
   "cases": 0,
@@ -3149,7 +3149,7 @@
   "first_case": null
  },
  {
-  "id": 241,
+  "id": "Zambia",
   "country": "Zambia",
   "population": 17.86103,
   "cases": 12,
@@ -3162,7 +3162,7 @@
   "first_case": "2020-03-18T00:00:00"
  },
  {
-  "id": 242,
+  "id": "Zimbabwe",
   "country": "Zimbabwe",
   "population": 14.645468000000001,
   "cases": 3,
