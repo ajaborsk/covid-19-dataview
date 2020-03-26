@@ -249,7 +249,8 @@
             }
 
            setTimeout(function(tab=this){
-               console.log('to:', tabulator);
+               console.log('to:', tabulator.rowManager.rows);
+               console.log('to:', tabulator.rowManager.rows[2]);
                tabulator.selectRow(1);
                tabulator.selectRow(selected_locations);
                }, 100);
