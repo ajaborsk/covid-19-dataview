@@ -13,8 +13,6 @@
   </head>
  <body class="main-grid">
      <div style="grid-area:header"><h1>COVID-19 Time Series</h1></div>
-<!--  <p>Source : COVID-19 data are from John Hopkins CSSE <a href="">github repository</a></p>
-  <h2>Summary</h2> -->
   <form id="main_form" style="grid-area:menu" name="panel" class="form-grid">
     <div style="grid-area:source">
     Source:
@@ -151,18 +149,16 @@
   ];
 
   // To memorize selected location (and keep them selected between sources)
-  //TODO
   var selected_locations = [];
 
   var tabulator = new Tabulator("#tbl", {
           layout:"fitColumns",
           selectable:true,
           dataTree:true,
-//          height:"500px",
           dataTreeStartExpanded:true, //start with an expanded tree
-//          initialFilter:[
-//            {field:"deaths", type:">=", value:"20"}
-//          ],
+          initialFilter:[
+            {field:"deaths", type:">=", value:"20"}
+          ],
           columns:[
            {title:'Country', field:'country'},
            //{title:'Population (M)', field:'population', align:'right', formatter:'money', formatterParams:{precision:3}},
@@ -234,8 +230,6 @@
             else
              {
               console.log('select is 0...');
-//              this.selectRow(tabulator.rowManager.displayRows[1][0]);
-//              this.selectRow('World');
              }
          },
          renderComplete:function(data)
@@ -261,17 +255,11 @@
                 rows_to_select.push(tabulator.rowManager.displayRows[1][i]);
               }
             }
-            console.log(rows_to_select);
+           console.log(rows_to_select);
 
-               tabulator.selectRow(rows_to_select);
-}
-//           setTimeout(function(){
-//               console.log('to:', tabulator.rowManager.rows.length,"Asia");
-//           console.log('length',tabulator.rowManager.displayRows[1].length);
-//               console.log('to:', tabulator.rowManager.rows[2]);
-//               tabulator.selectRow(tabulator.rowManager.rows[2]);
-//               }, 100);
-          },
+           tabulator.selectRow(rows_to_select);
+          }
+        },
       });
 
 /*
