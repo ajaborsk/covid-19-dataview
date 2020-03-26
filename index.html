@@ -203,7 +203,7 @@
         rowSelectionChanged:function(data, rows){
             //rows - array of row components for the selected rows in order of selection
             //data - array of data objects for the selected rows in order of selection
-            //console.log(rows);
+            console.log(rows);
             if (data.length > 0)
              {
             // Update selected_locations array (TODO: Improve efficiency...)
@@ -261,7 +261,7 @@
            setTimeout(function(){
                console.log('to:', tabulator.rowManager.rows.length,"Asia");
 //               console.log('to:', tabulator.rowManager.rows[2]);
-               tabulator.selectRow("Asia");
+               tabulator.selectRow(tabulator.rowManager.rows[2]);
                }, 1000);
           },
       });
