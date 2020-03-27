@@ -343,80 +343,91 @@
      };
    };
 
-   function build_chart(ctx)
-    {
-   var request = new XMLHttpRequest();
-   request.open('GET', 'data/'+ctx.dataset.source+'.json');
-   request.responseType = 'json';
-   request.send();
-   request.onload = function() {
-       var data = request.response;
-       datasets[ctx.dataset.source] = []
-       var j = 0;
-       for (var key in data) {
-           var dataset =
-            {
-             "label":key,
-             "fill":false,
-             "borderWidth":2,
-             "borderColor":colors[j % ncolors],
-              data:[]};
-           j++;
-           var i=0;
-           for (var d in data[key])
-            {
-             dataset.data.push({x:d,y:data[key][d]});
-             i++;
-            }
-           datasets[ctx.dataset.source].push(dataset);
-         };
+function build_chart(ctx)
+ {
+  var request = new XMLHttpRequest();
+  request.open('GET', 'data/'+ctx.dataset.source+'.json');
+  request.responseType = 'json';
+  request.send();
+  request.onload = function()
+   {
+    var data = request.response;
+    datasets[ctx.dataset.source] = []
+    var j = 0;
+    for (var key in data)
+     {
+      var dataset =
+       {
+        "label":key,
+        "fill":false,
+        "borderWidth":2,
+        "borderColor":colors[j % ncolors], data:[]
+       };
+      j++;
+      var i=0;
+      for (var d in data[key])
+       {
+        dataset.data.push({x:d,y:data[key][d]});
+        i++;
+       }
+      datasets[ctx.dataset.source].push(dataset);
+     };
 
-   charts[ctx.dataset.source] = new Chart(ctx, {
-    type: 'line',
-    data: {
+    charts[ctx.dataset.source] = new Chart(ctx,
+     {
+      type: 'line',
+      data:
+       {
         datasets: datasets[ctx.dataset.source]
-    },
-    options: {
+       },
+      options:
+       {
         maintainAspectRatio:false,
-        title: {
-            display: true,
-            text: 'Deaths',
-        },
-        legend: {
-            position:'right',
-            },
-        scales: {
-            yAxes: [{
+        title:
+         {
+          display: true,
+          text: 'Deaths',
+         },
+        legend:
+         {
+          position:'right',
+         },
+        scales:
+         {
+          yAxes: [{
                 type: ctx.dataset.yscale,
                 ticks: {
                     //beginAtZero: true,
-
                 }
-            }],
-            xAxes: [{
-                type:'time',
-                ticks: {
-//                    beginAtZero: true,
+           }],
+          xAxes: [{
+               type:'time',
+               ticks: {
+//                   beginAtZero: true,
+                },
+           }]
+         },
+        tooltips:
+         {
+          callbacks:
+           {
+            label: function(tooltipItem, data)
+             {
+              var label = data.datasets[tooltipItem.datasetIndex].label || '';
 
-                }
-            }]
-        },
-        tooltips: {
-            callbacks: {
-                label: function(tooltipItem, data) {
-                    var label = data.datasets[tooltipItem.datasetIndex].label || '';
-
-                    if (label) {
-                        label += ': ';
-                    }
-                    label += Math.round(tooltipItem.yLabel * 100) / 100;
-                    return label;
-                }
-            },
-        }
-      });
-     }
-    };
+              if (label)
+               {
+                label += ': ';
+               }
+              label += Math.round(tooltipItem.yLabel * 100) / 100;
+              return label;
+             }
+           },
+         },
+       },
+     });
+   },
+ };
 
   function mainform_update(event)
    {
