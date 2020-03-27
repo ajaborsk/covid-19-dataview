@@ -424,7 +424,7 @@ function build_chart(ctx)
              },
             title: function(tooltipItem, data)
              {
-              return '=> ' + tooltipItem[0].label + ' <=';
+              return moment(tooltipItem[0].label).format("MM/DD/YYYY");
              }
 
            },
