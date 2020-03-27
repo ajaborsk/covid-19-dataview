@@ -419,9 +419,14 @@ function build_chart(ctx)
                {
                 label += ': ';
                }
-              label += Math.round(tooltipItem.yLabel * 100) / 100;
+              label += Math.round(tooltipItem.value * 100) / 100;
               return label;
+             },
+            title: function(tooltipItem, data)
+             {
+              return '=>' + tooltipItem.label;
              }
+
            },
          },
        },
