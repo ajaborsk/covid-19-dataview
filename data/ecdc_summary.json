@@ -3123,6 +3123,19 @@
   "first_case": null
  },
  {
+  "id": "West_Bank_and_Gaza",
+  "country": "West Bank and Gaza",
+  "population": 1.0,
+  "cases": 0,
+  "deaths": 0,
+  "dc_percent": -1.0,
+  "cases_rpop": 0.0,
+  "deaths_rpop": 0.0,
+  "cases_growing": null,
+  "deaths_growing": null,
+  "first_case": null
+ },
+ {
   "id": "Western_Sahara",
   "country": "Western Sahara",
   "population": 0.582463,
