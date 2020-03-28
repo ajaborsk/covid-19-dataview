@@ -128,9 +128,10 @@
   var ncolors = colors.length;
   var charts = {};
 
-  var src_prev = null;
-  var current_source = "cssejh";
-  var current_dataset = "cssejh_deaths";
+//  var src_prev = null;
+  var current_source = "-";
+  var current_feature = "-";
+  var current_dataset = "-";
 
   var sources = ['cssejh', 'ecdc'];
   var features = [
@@ -489,6 +490,12 @@ function build_chart(ctx)
       {
        current_source = mf.source_sel.value;
        tabulator.setData('data/'+current_source+'_summary.json');
+       chart_datasets_update_done = false;
+      }
+
+     if (current_feature != mf.feature_sel.value)
+      {
+       current_feature = mf.feature_sel.value;
        chart_datasets_update_done = false;
       }
 
