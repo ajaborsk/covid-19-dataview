@@ -524,7 +524,7 @@ function build_chart(ctx)
       }
     }
 
-   while (changed.size != 0)
+   while (0)// (changed.size != 0)
     {
 //     var datasets_update_done = true;
 //     var chart_datasets_update_done = true;
@@ -575,7 +575,7 @@ function build_chart(ctx)
            dataset.push(datasets[settings['dataset']][location]);
           }
         }
-//DEBUG       charts['main_chart'].data.datasets = dataset;
+       charts['main_chart'].data.datasets = dataset;
        changed.delete('selection');
        changed.delete('datasets');
        //chart_update_done = false;
