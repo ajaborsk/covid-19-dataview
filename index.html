@@ -500,7 +500,7 @@ function build_chart(ctx)
      if (!chart_update_done)
       {
        charts['main_chart'].update();
-       chart_update_done = true,
+       chart_update_done = true;
       }
 
      done =
@@ -508,7 +508,7 @@ function build_chart(ctx)
        chart_options_update_done &&
        chart_update_done;
     }
-  }
+  };
 
  dom_charts = document.getElementsByClassName("jchart");
  for (let i = 0; i < dom_charts.length; i++)
