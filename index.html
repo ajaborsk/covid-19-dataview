@@ -111,7 +111,7 @@
     </div>
   </form>
 
-  <div style="grid-area:footer; text-align:center">Updated on: <span id="update_timestamp">####</span>Greetings...</div>
+  <div style="grid-area:footer; text-align:center">Updated on: <span id="update_timestamp">####</span></div>
   <script>
 
   var colors = ["#fad390", "#f8c291", "#6a89cc", "#82ccdd", "#b8e994",
@@ -312,7 +312,7 @@
       page_globals = e.target.response;
 
       var elt = document.getElementById("update_timestamp");
-      elt.firstChild.nodeValue = moment(page_globals.now*1000).format('MM/DD/YYYY hh:mm');
+      elt.firstChild.nodeValue = moment(page_globals.now*1000).format('MM/DD/YYYY HH:mm:ss');
      }
 
   // Load features data (datasets)
