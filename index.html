@@ -236,7 +236,7 @@
               charts['main_chart'].data.datasets = dataset;
              */ //charts['main_chart'].update();
 
-              page_update(new Set(['selection']));
+              page_update({}, new Set(['selection']));
              }
             else
              {
@@ -491,7 +491,7 @@ function build_chart(ctx)
   };
 
 */
- function page_update(changed = new Set())
+ function page_update(event, changed = new Set())
   {
    console.log('page_update, changed=', changed);
    var mf = document.getElementById('main_form');
