@@ -312,7 +312,7 @@
       page_globals = e.target.response;
 
       var elt = document.getElementById("update_timestamp");
-      elt.firstChild.nodeValue = moment(page_globals.now).format('MM/DD/YYYY hh:mm');
+      elt.firstChild.nodeValue = moment(page_globals.now*1000000).format('MM/DD/YYYY hh:mm');
      }
 
   // Load features data (datasets)
