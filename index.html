@@ -123,6 +123,7 @@
 
   var charts = {};
   var datasets = {};
+  var page_globals = {};
 
   var settings = {
       source: '-',
@@ -300,6 +301,16 @@
      }
    }
 */
+
+  // Load page globals data
+  var globals_request = new XMLHttpRequest();
+    f_requests[i].open('GET', 'data/globals.json');
+    f_requests[i].responseType = 'json';
+    f_requests[i].send();
+    f_requests[i].onload = function(e)
+     {
+      page_globals = e.target.response;
+     }
 
   // Load features data (datasets)
   var f_requests = [];
