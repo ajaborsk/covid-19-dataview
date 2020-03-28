@@ -408,6 +408,15 @@ function build_chart(ctx)
      });
   // }
  }
+
+ dom_charts = document.getElementsByClassName("jchart");
+ for (let i = 0; i < dom_charts.length; i++)
+  {
+   let ctx = dom_charts[i];
+   build_chart(ctx);
+  }
+
+
 /*
   function mainform_update(event)
    {
@@ -566,7 +575,7 @@ function build_chart(ctx)
            dataset.push(datasets[settings['dataset']][location]);
           }
         }
-       charts['main_chart'].data.datasets = dataset;
+//DEBUG       charts['main_chart'].data.datasets = dataset;
        changed.delete('selection');
        changed.delete('datasets');
        //chart_update_done = false;
@@ -585,13 +594,6 @@ function build_chart(ctx)
 //       chart_update_done;
     } // while()
   };
-
- dom_charts = document.getElementsByClassName("jchart");
- for (let i = 0; i < dom_charts.length; i++)
-  {
-   let ctx = dom_charts[i];
-   build_chart(ctx);
-  }
 
 /*
   document.getElementById("source_sel").addEventListener('change', page_update);
