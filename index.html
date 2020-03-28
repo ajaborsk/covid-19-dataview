@@ -356,7 +356,7 @@
 
 function build_chart(ctx)
  {
-  var request = new XMLHttpRequest();
+/*  var request = new XMLHttpRequest();
   request.open('GET', 'data/'+ctx.dataset.source+'.json');
   request.responseType = 'json';
   request.send();
@@ -383,13 +383,13 @@ function build_chart(ctx)
        }
       datasets[ctx.dataset.source].push(dataset);
      };
-
+*/
     charts[ctx.dataset.source] = new Chart(ctx,
      {
       type: 'line',
       data:
        {
-        datasets: datasets[ctx.dataset.source]
+        datasets: []
        },
       options:
        {
@@ -442,7 +442,7 @@ function build_chart(ctx)
          },
        },
      });
-   }
+  // }
  }
 /*
   function mainform_update(event)
