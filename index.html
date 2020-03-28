@@ -444,7 +444,7 @@ function build_chart(ctx)
      });
    }
  }
-
+/*
   function mainform_update(event)
    {
     console.log('mainform event :');
@@ -456,7 +456,7 @@ function build_chart(ctx)
       console.log('updating summary...');
       tabulator.setData('data/'+current_source+'_summary.json');
      }
-    /*  */
+
     current_dataset = current_source + '_' + mf.feature_sel.value;
     if (mf.variant_sel.value != '')
      {
@@ -490,9 +490,10 @@ function build_chart(ctx)
    page_update(changed);
   };
 
-
+*/
  function page_update(changed = new Set())
   {
+   console.log('page_update, changed=', changed);
    var mf = document.getElementById('main_form');
    var cf = document.getElementById('chart_form');
    var tf = document.getElementById('table_form');
