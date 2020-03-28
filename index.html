@@ -133,6 +133,14 @@
   var current_feature = "-";
   var current_dataset = "-";
 
+  var settings = {
+      source: '-',
+      feature: '-',
+      variant: '-',
+      model: '-',
+      param1: '-',
+  };
+
   var sources = ['cssejh', 'ecdc'];
   var features = [
   'cssejh_cases',
@@ -211,7 +219,7 @@
               selected_locations.push(data[r].id);
              }
             console.log(data.length, selected_locations);
-
+/*
               var locations = [];
               for (i in data)
                {
@@ -226,7 +234,9 @@
                  }
                }
               charts['main_chart'].data.datasets = dataset;
-              charts['main_chart'].update();
+             */ //charts['main_chart'].update();
+
+              page_update(['selection']);
              }
             else
              {
@@ -467,79 +477,145 @@ function build_chart(ctx)
 
  function chartform_update(event)
   {
-    cf = document.getElementById('chart_form');
-    charts['main_chart'].options.scales.yAxes[0].type = cf.chart_yscale.value;
-    charts['main_chart'].options.legend.display = (cf.chart_legend.value == "true");
-    charts['main_chart'].update();
+   var changed = [];
+   cf = document.getElementById('chart_form');
+   if (charts['main_chart'].options.scales.yAxes[0].type != cf.chart_yscale.value)
+    {
+     changed.push('chart_yscale');
+    };
+   if (charts['main_chart'].options.legend.display != (cf.chart_legend.value == "true"))
+    {
+     changed.push('chart_legend');
+    };
+   page_update(changed);
   };
 
- function page_update()
+
+ function page_update(changed = new Set())
   {
-   var done = false;
-   while (!done)
+   var mf = document.getElementById('main_form');
+   var cf = document.getElementById('chart_form');
+   var tf = document.getElementById('table_form');
+
+   if (settings['source'] != mf.source_sel.value)
     {
-     var chart_datasets_update_done = true;
-     var chart_options_update_done = true;
-     var chart_update_done = true;
+     settings['source'] = mf.source_sel.value;
+     tabulator.setData('data/' + settings['source'] + '_summary.json');
+     changed.add('source');
+     //chart_datasets_update_done = false;
+    }
 
-     var mf = document.getElementById('main_form');
-     var cf = document.getElementById('chart_form');
-     var tf = document.getElementById('table_form');
+   if (settings['feature'] != mf.feature_sel.value)
+    {
+     settings['feature'] = mf.feature_sel.value;
+     changed.add('feature');
+     //datasets_update_done = false;
+    }
 
-     if (current_source != mf.source_sel.value)
+   if (settings['variant'] != mf.variant_sel.value)
+    {
+     settings['variant'] = mf.variant_sel.value;
+     changed.add('variant');
+     //datasets_update_done = false;
+    }
+
+   if (settings['model'] != mf.model_sel.value)
+    {
+     settings['model'] = mf.model_sel.value;
+     changed.add('model');
+     //datasets_update_done = false;
+    }
+
+   if (settings['param1'] != mf.param1_sel.value)
+    {
+     settings['param1'] = mf.param1_sel.value;
+     changed.add('param1');
+     //datasets_update_done = false;
+    }
+
+   if (charts['main_chart'].options.scales.yAxes[0].type != cf.chart_yscale.value)
+    {
+     charts['main_chart'].options.scales.yAxes[0].type = cf.chart_yscale.value;
+     //chart_update_done = false;
+     changed.add('chart_data');
+    }
+
+   if (charts['main_chart'].options.legend.display != (cf.chart_legend.value == "true"))
+    {
+     charts['main_chart'].options.legend.display = (cf.chart_legend.value == "true");
+     //chart_update_done = false;
+     changed.add('chart_data');
+    }
+
+   while (changed.size != 0)
+    {
+//     var datasets_update_done = true;
+//     var chart_datasets_update_done = true;
+//     var chart_options_update_done = true;
+//     var chart_update_done = true;
+
+     if (changed.has('source') ||
+       changed.has('feature') ||
+       changed.has('variant') ||
+       changed.has('model') ||
+       changed.has('param1'))
+     //if (chart_datasets_update_done == false)
       {
-       current_source = mf.source_sel.value;
-       tabulator.setData('data/'+current_source+'_summary.json');
-       chart_datasets_update_done = false;
-      }
-
-     if (current_feature != mf.feature_sel.value)
-      {
-       current_feature = mf.feature_sel.value;
-       chart_datasets_update_done = false;
-      }
-
-     if (chart_datasets_update_done == false)
-      {
-       current_dataset = current_source + '_' + mf.feature_sel.value;
-       if (mf.variant_sel.value != '')
+       settings['dataset'] = settings['source'] + '_' + settings['feature'];
+       if (settings['variant'] != '')
         {
-         current_dataset += '_' + mf.variant_sel.value;
+         settings['dataset'] += '_' + settings['variant'];
         }
-       if (mf.model_sel.value != '')
+       if (settings['model'] != '')
         {
-         current_dataset += '_' + mf.model_sel.value;
+         settings['dataset'] += '_' + settings['model'];
         }
-       if (mf.param1_sel.value != '')
+       if (settings['param1'] != '')
         {
-         current_dataset += '_' + mf.param1_sel.value;
+         settings['dataset'] += '_' + settings['param1'];
         }
-       chart_update_done = false;
+       changed.delete('source');
+       changed.delete('feature');
+       changed.delete('variant');
+       changed.delete('model');
+       changed.delete('param1');
+       changed.add('dataset');
+       //chart_update_done = false;
       }
-
-     if (charts['main_chart'].options.scales.yAxes[0].type != cf.chart_yscale.value)
+      if (changed.has('selection') || changed.has('dataset'))
       {
-       charts['main_chart'].options.scales.yAxes[0].type = cf.chart_yscale.value;
-       chart_update_done = false;
+       var data = tabulator.getSelectedData();
+       var locations = [];
+       for (i in data)
+        {
+         locations.push(data[i]['country']);
+        }
+       var dataset = [];
+       for (d in datasets[current_dataset])
+        {
+         if (locations.includes(datasets[current_dataset][d]['label']))
+          {
+           dataset.push(datasets[current_dataset][d]);
+          }
+        }
+       charts['main_chart'].data.datasets = dataset;
+       changed.delete('selection');
+       changed.delete('datasets');
+       //chart_update_done = false;
+       changed.add('chart_data');
       }
 
-     if (charts['main_chart'].options.legend.display != (cf.chart_legend.value == "true"))
-      {
-       charts['main_chart'].options.legend.display = (cf.chart_legend.value == "true");
-       chart_update_done = false;
-      }
-
-     if (!chart_update_done)
+     if (changed.has('chart_data'))
       {
        charts['main_chart'].update();
-       chart_update_done = true;
+       changed.delete('chart_data');
       }
 
-     done =
-       chart_datasets_update_done &&
-       chart_options_update_done &&
-       chart_update_done;
-    }
+//     done =
+//       chart_datasets_update_done &&
+//       chart_options_update_done &&
+//       chart_update_done;
+    } // while()
   };
 
  dom_charts = document.getElementsByClassName("jchart");
