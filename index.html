@@ -485,6 +485,31 @@ function build_chart(ctx)
      var cf = document.getElementById('chart_form');
      var tf = document.getElementById('table_form');
 
+     if (current_source != mf.source_sel.value)
+      {
+       current_source = mf.source_sel.value;
+       tabulator.setData('data/'+current_source+'_summary.json');
+       chart_datasets_update_done = false;
+      }
+
+     if (chart_datasets_update_done == false)
+      {
+       current_dataset = current_source + '_' + mf.feature_sel.value;
+       if (mf.variant_sel.value != '')
+        {
+         current_dataset += '_' + mf.variant_sel.value;
+        }
+       if (mf.model_sel.value != '')
+        {
+         current_dataset += '_' + mf.model_sel.value;
+        }
+       if (mf.param1_sel.value != '')
+        {
+         current_dataset += '_' + mf.param1_sel.value;
+        }
+       chart_update_done = false;
+      }
+
      if (charts['main_chart'].options.scales.yAxes[0].type != cf.chart_yscale.value)
       {
        charts['main_chart'].options.scales.yAxes[0].type = cf.chart_yscale.value;
