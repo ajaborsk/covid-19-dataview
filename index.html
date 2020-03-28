@@ -534,18 +534,21 @@ function build_chart(ctx)
      //datasets_update_done = false;
     }
 
-   if (charts['main_chart'].options.scales.yAxes[0].type != cf.chart_yscale.value)
+   if (charts.includes('main_chart'))
     {
-     charts['main_chart'].options.scales.yAxes[0].type = cf.chart_yscale.value;
-     //chart_update_done = false;
-     changed.add('chart_data');
-    }
+     if (charts['main_chart'].options.scales.yAxes[0].type != cf.chart_yscale.value)
+      {
+       charts['main_chart'].options.scales.yAxes[0].type = cf.chart_yscale.value;
+       //chart_update_done = false;
+       changed.add('chart_data');
+      }
 
-   if (charts['main_chart'].options.legend.display != (cf.chart_legend.value == "true"))
-    {
-     charts['main_chart'].options.legend.display = (cf.chart_legend.value == "true");
-     //chart_update_done = false;
-     changed.add('chart_data');
+     if (charts['main_chart'].options.legend.display != (cf.chart_legend.value == "true"))
+      {
+       charts['main_chart'].options.legend.display = (cf.chart_legend.value == "true");
+       //chart_update_done = false;
+       changed.add('chart_data');
+      }
     }
 
    while (changed.size != 0)
