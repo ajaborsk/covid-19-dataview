@@ -68,10 +68,10 @@
 
   <div id="tbl" style="grid-area:main"></div>
   <div style="grid-area:right">
-    <canvas class="jchart" data-source="ecdc_confirmed" data-yscale="logarithmic"></canvas>
+    <canvas class="jchart" data-source="main_chart" data-yscale="logarithmic"></canvas>
   </div>
 
-  <form style="grid-area:table-cfg" name="table-cfg" class="table-cfg-grid">
+  <form id="table_form" style="grid-area:table-cfg" name="table-cfg" class="table-cfg-grid">
     <div style="grid-area:treeview">
     Treeview:
     <select id="table_treeview_sel" name="table-treeview">
@@ -224,8 +224,8 @@
                 dataset.push(datasets[current_dataset][d]);
                  }
                }
-              charts['ecdc_confirmed'].data.datasets = dataset;
-              charts['ecdc_confirmed'].update();
+              charts['main_chart'].data.datasets = dataset;
+              charts['main_chart'].update();
              }
             else
              {
@@ -467,13 +467,47 @@ function build_chart(ctx)
  function chartform_update(event)
   {
     cf = document.getElementById('chart_form');
-    charts['ecdc_confirmed'].options.scales.yAxes[0].type = cf.chart_yscale.value;
-    charts['ecdc_confirmed'].options.legend.display = (cf.chart_legend.value == "true");
-    charts['ecdc_confirmed'].update();
+    charts['main_chart'].options.scales.yAxes[0].type = cf.chart_yscale.value;
+    charts['main_chart'].options.legend.display = (cf.chart_legend.value == "true");
+    charts['main_chart'].update();
   };
 
  function page_update()
   {
+   var done = false;
+   while (!done)
+    {
+     var chart_datasets_update_done = true;
+     var chart_options_update_done = true;
+     var chart_update_done = true;
+
+     var mf = document.getElementById('main_form');
+     var cf = document.getElementById('chart_form');
+     var tf = document.getElementById('table_form');
+
+     if (charts['main_chart'].options.scales.yAxes[0].type != cf.chart_yscale.value)
+      {
+       charts['main_chart'].options.scales.yAxes[0].type = cf.chart_yscale.value;
+       chart_update_done = false;
+      }
+
+     if (charts['main_chart'].options.legend.display != (cf.chart_legend.value == "true"))
+      {
+       charts['main_chart'].options.legend.display = (cf.chart_legend.value == "true");
+       chart_update_done = false;
+      }
+
+     if (!chart_update_done)
+      {
+       charts['main_chart'].update();
+       chart_update_done = true,
+      }
+
+     done =
+       chart_datasets_update_done &&
+       chart_options_update_done &&
+       chart_update_done;
+    }
   }
 
  dom_charts = document.getElementsByClassName("jchart");
@@ -483,14 +517,14 @@ function build_chart(ctx)
    build_chart(ctx);
   }
 
-  document.getElementById("source_sel").addEventListener('change', mainform_update);
-  document.getElementById("feature_sel").addEventListener('change', mainform_update);
-  document.getElementById("variant_sel").addEventListener('change', mainform_update);
-  document.getElementById("model_sel").addEventListener('change', mainform_update);
-  document.getElementById("param1_sel").addEventListener('change', mainform_update);
+  document.getElementById("source_sel").addEventListener('change', page_update);
+  document.getElementById("feature_sel").addEventListener('change', page_update);
+  document.getElementById("variant_sel").addEventListener('change', page_update);
+  document.getElementById("model_sel").addEventListener('change', page_update);
+  document.getElementById("param1_sel").addEventListener('change', page_update);
 
-  document.getElementById("chart_yscale_sel").addEventListener('change', chartform_update);
-  document.getElementById("chart_legend_sel").addEventListener('change', chartform_update);
+  document.getElementById("chart_yscale_sel").addEventListener('change', page_update);
+  document.getElementById("chart_legend_sel").addEventListener('change', page_update);
 
 
 /*  document.getElementById("show0").addEventListener('click', function(event) {
@@ -503,6 +537,11 @@ function build_chart(ctx)
       charts['confirmed'].data.datasets[0].hidden = true;
       charts['confirmed'].update();
       });*/
+
+document.onLoad = function()
+ {
+  page_update();
+ }
 
 </script>
  </body>
