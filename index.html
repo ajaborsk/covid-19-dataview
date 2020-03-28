@@ -351,9 +351,9 @@ function build_chart(ctx)
      {
       type: 'line',
       data:
-       {
+ /*      {
         datasets: [{}],
-       },
+       }, */
       options:
        {
         maintainAspectRatio:false,
@@ -589,7 +589,7 @@ function build_chart(ctx)
  for (let i = 0; i < dom_charts.length; i++)
   {
    let ctx = dom_charts[i];
-   //build_chart(ctx);
+   build_chart(ctx);
   }
 
 /*
