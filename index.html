@@ -592,11 +592,11 @@ function build_chart(ctx)
          locations.push(data[i]['country']);
         }
        var dataset = [];
-       for (d in datasets[current_dataset])
+       for (var location in datasets[settings['dataset']])
         {
-         if (locations.includes(datasets[current_dataset][d]['label']))
+         if (locations.includes(datasets[settings['dataset']][location]['label']))
           {
-           dataset.push(datasets[current_dataset][d]);
+           dataset.push(datasets[settings['dataset']][location]);
           }
         }
        charts['main_chart'].data.datasets = dataset;
