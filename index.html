@@ -447,10 +447,10 @@ function build_chart(ctx)
        changed.add('chart_data');
       }
 
-     if (charts['main_chart'].options.scales.xAxes[0]['refmax'] != cf.chart_to.value)
+     if (charts['main_chart'].options.scales.xAxes[0].ticks['refmax'] != cf.chart_to.value)
       {
-       charts['main_chart'].options.scales.xAxes[0]['refmax'] = cf.chart_to.value;
-       charts['main_chart'].options.scales.xAxes[0]['max'] = moment().add(charts['main_chart'].options.scales.xAxes[0]['refmax'], 'days');
+       charts['main_chart'].options.scales.xAxes[0].ticks['refmax'] = cf.chart_to.value;
+       charts['main_chart'].options.scales.xAxes[0].ticks['max'] = moment().add(charts['main_chart'].options.scales.xAxes[0]['refmax'], 'days');
        changed.add('chart_data');
       }
     }
