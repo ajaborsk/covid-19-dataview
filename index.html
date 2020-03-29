@@ -395,7 +395,6 @@ function build_chart(ctx)
    build_chart(ctx);
   }
 
-
  function page_update(event, changed = new Set())
   {
    console.log('page_update, changed=', changed);
@@ -515,7 +514,11 @@ function build_chart(ctx)
     } // while()
   };
 
-  document.getElementsByClassName("auto").forEach(addEventListener('change', page_update));
+var selectors = document.getElementsByClassName("auto");
+for (var i = 0; i < selectors.length; i++)
+ {
+  selectors[i].addEventListener('change', page_update));
+ }
 
 </script>
  </body>
