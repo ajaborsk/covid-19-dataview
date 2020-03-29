@@ -165,7 +165,7 @@
   'ecdc_deaths_perday',
   ];
 */
-  var unloaded = features.length;
+  var unloaded = 0;
 
   // To memorize selected location (and keep them selected between sources)
   var selected_locations = [];
@@ -283,6 +283,7 @@
       elt.firstChild.nodeValue = moment(page_globals.now * 1000).format('MM/DD/YYYY HH:mm:ss');
 
       // Load features data (datasets)
+      unloaded = page_globals.datasets.length;
       var f_requests = [];
       for (var i = 0 ; i < page_globals.datasets.length ; i++)
        {
