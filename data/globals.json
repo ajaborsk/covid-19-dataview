@@ -1,24 +1,62 @@
 {
- "now": 1585483345.840224,
+ "now": 1585483442.215995,
  "datasets": [
-  "cssejh_cases",
-  "cssejh_deaths",
-  "cssejh_recovered",
-  "cssejh_population",
-  "cssejh_cases_rpop",
-  "cssejh_deaths_rpop",
-  "cssejh_cases_growing",
-  "cssejh_deaths_growing",
-  "cssejh_cases_perday",
-  "cssejh_deaths_perday",
-  "ecdc_cases",
-  "ecdc_deaths",
-  "ecdc_population",
-  "ecdc_cases_rpop",
-  "ecdc_deaths_rpop",
-  "ecdc_cases_growing",
-  "ecdc_deaths_growing",
-  "ecdc_cases_perday",
-  "ecdc_deaths_perday"
+  {
+   "fname": "cssejh_cases"
+  },
+  {
+   "fname": "cssejh_deaths"
+  },
+  {
+   "fname": "cssejh_recovered"
+  },
+  {
+   "fname": "cssejh_population"
+  },
+  {
+   "fname": "cssejh_cases_rpop"
+  },
+  {
+   "fname": "cssejh_deaths_rpop"
+  },
+  {
+   "fname": "cssejh_cases_growing"
+  },
+  {
+   "fname": "cssejh_deaths_growing"
+  },
+  {
+   "fname": "cssejh_cases_perday"
+  },
+  {
+   "fname": "cssejh_deaths_perday"
+  },
+  {
+   "fname": "ecdc_cases"
+  },
+  {
+   "fname": "ecdc_deaths"
+  },
+  {
+   "fname": "ecdc_population"
+  },
+  {
+   "fname": "ecdc_cases_rpop"
+  },
+  {
+   "fname": "ecdc_deaths_rpop"
+  },
+  {
+   "fname": "ecdc_cases_growing"
+  },
+  {
+   "fname": "ecdc_deaths_growing"
+  },
+  {
+   "fname": "ecdc_cases_perday"
+  },
+  {
+   "fname": "ecdc_deaths_perday"
+  }
  ]
 }
