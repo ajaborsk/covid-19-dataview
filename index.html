@@ -120,12 +120,14 @@
   <div style="grid-area:footer; text-align:center">Updated on: <span id="update_timestamp">####</span></div>
   <script>
 
+/*
   var colors = ["#fad390", "#f8c291", "#6a89cc", "#82ccdd", "#b8e994",
                 "#f6b93b", "#e55039", "#4a69bd", "#60a3bc", "#78e08f",
                 "#fa983a", "#eb2f06", "#1e3799", "#3c6382", "#38ada9",
                 "#e58e26", "#b71540", "#0c2461", "#0a3d62", "#079992",
                 ];
   var ncolors = colors.length;
+*/
 
   var charts = {};
   var datasets = {};
@@ -196,7 +198,7 @@
             //url - the URL of the request
             //params - the parameters passed with the request
             //response - the JSON object returned in the body of the response.
-
+/*
             function color_it(array)
              {
               for (var i = 0; i<array.length ;i++)
@@ -208,8 +210,8 @@
                  }
                }
              };
-
-            color_it(response);
+*/
+            //color_it(response);
             console.log('response length:',response.length);
             return response; //return the tableData property of a response json object
            },
