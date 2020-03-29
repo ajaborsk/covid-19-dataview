@@ -17,14 +17,14 @@
   <form id="main_form" style="grid-area:menu" name="panel" class="form-grid">
     <div style="grid-area:source">
     Source:
-    <select id="source_sel" name="source">
+    <select class="auto" id="source_sel" name="source">
      <option value="cssejh" selected="selected">CSSE John Hopkins</option>
      <option value="ecdc">European CDC</option>
     </select>
     </div>
     <div style="grid-area:feature">
     Data:
-    <select id="feature_sel" name="feature">
+    <select class="auto" id="feature_sel" name="feature">
      <option value="cases">Cases</option>
      <option value="deaths">Deaths</option>
      <option value="recovered">Recovered</option>
@@ -32,7 +32,7 @@
     </div>
     <div style="grid-area:variant">
     Variant:
-    <select id="variant_sel" name="variant">
+    <select class="auto" id="variant_sel" name="variant">
      <option value="" selected="true">Absolute</option>
      <option value="rpop">Relative</option>
      <option value="growing">Growing</option>
@@ -43,14 +43,14 @@
     </div>
     <div style="grid-area:model; text-align:center">
     Processing:
-    <select id="model_sel" name="model">
+    <select class="auto" id="model_sel" name="model">
      <option value="">None</option>
      <option value="movavg">Moving Average</option>
     </select>
     </div>
     <div style="grid-area:param1">
     Parameter:
-    <select id="param1_sel" name="param1">
+    <select class="auto" id="param1_sel" name="param1">
      <option value="">None</option>
      <option value="3">3 days</option>
      <option value="5">5 days</option>
@@ -68,14 +68,14 @@
   <form id="table_form" style="grid-area:table-cfg" name="table-cfg" class="table-cfg-grid">
     <div style="grid-area:treeview">
     Treeview:
-    <select id="table_treeview_sel" name="table-treeview">
+    <select class="auto" id="table_treeview_sel" name="table-treeview">
      <option value="1">Yes</option>
      <option value="0" disabled="disabled">No</option>
     </select>
     </div>
     <div style="grid-area:other">
     Show:
-    <select id="table_other_sel" name="table-other">
+    <select class="auto" id="table_other_sel" name="table-other">
      <option value="X" disabled="disabled">All</option>
      <option value="X" selected="selected"> >= 20 deaths</option>
      <option value="X" disabled="disabled">Selected</option>
@@ -86,28 +86,29 @@
   <form style="grid-area:graph-cfg" id="chart_form" name="char_cfg" class="graph-cfg-grid">
     <div style="grid-area:yscale">
     Yscale:
-    <select id="chart_yscale_sel" name="chart_yscale">
+    <select class="auto" id="chart_yscale_sel" name="chart_yscale">
      <option value="linear">Linear</option>
      <option value="logarithmic" selected>Logarithmic</option>
     </select>
     </div>
     <div style="grid-area:legend">
     Legend:
-    <select id="chart_legend_sel" name="chart_legend">
+    <select class="auto" id="chart_legend_sel" name="chart_legend">
      <option value="false">No</option>
      <option value="true">Yes</option>
     </select>
     </div>
     <div style="grid-area:from">
     From:
-    <select id="graph_from_sel" name="graph_from">
+    <select class="auto" id="graph_from_sel" name="graph_from">
      <option value="first">First data</option>
     </select>
     </div>
     <div style="grid-area:to">
     To:
-    <select id="graph_to_sel" name="graph_to">
+    <select class="auto" id="graph_to_sel" name="graph_to">
      <option value="last">Last data</option>
+     <option value="10days">10 days from now</option>
     </select>
     </div>
   </form>
@@ -506,7 +507,8 @@ function build_chart(ctx)
     } // while()
   };
 
-
+  document.getElementsByClassname("auto").forEach(addEventListener('change', page_update));
+/*
   document.getElementById("source_sel").addEventListener('change', page_update);
   document.getElementById("feature_sel").addEventListener('change', page_update);
   document.getElementById("variant_sel").addEventListener('change', page_update);
@@ -520,7 +522,7 @@ document.onLoad = function()
  {
 //  page_update();
  }
-
+*/
 </script>
  </body>
 </html>
