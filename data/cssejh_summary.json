@@ -11,6 +11,9 @@
   "cases_growing": 6.033855396979205,
   "deaths_growing": 5.653481452561051,
   "first_case": "2020-01-22T00:00:00",
+  "color": "#b8e994",
+  "point_style": "crossRot",
+  "line_thickness": 1,
   "_children": [
    {
     "id": "Asia",
@@ -24,6 +27,9 @@
     "cases_growing": 55.483173540561566,
     "deaths_growing": 54.198935998548755,
     "first_case": "2020-01-22T00:00:00",
+    "color": "#0c2461",
+    "point_style": "cross",
+    "line_thickness": 1,
     "_children": [
      {
       "id": "China",
@@ -36,7 +42,10 @@
       "deaths_rpop": 2.3009049637073358,
       "cases_growing": 503.4333119148514,
       "deaths_growing": 488.96508842853467,
-      "first_case": "2020-01-22T00:00:00"
+      "first_case": "2020-01-22T00:00:00",
+      "color": "#fad390",
+      "point_style": "circle",
+      "line_thickness": 1
      },
      {
       "id": "Japan",
@@ -49,7 +58,10 @@
       "deaths_rpop": 0.4098997053459616,
       "cases_growing": 8.035940323078673,
       "deaths_growing": 14.382513959655023,
-      "first_case": "2020-01-22T00:00:00"
+      "first_case": "2020-01-22T00:00:00",
+      "color": "#fa983a",
+      "point_style": "circle",
+      "line_thickness": 1
      },
      {
       "id": "South_Korea",
@@ -62,7 +74,10 @@
       "deaths_rpop": 2.8111104768760007,
       "cases_growing": 56.75142826616493,
       "deaths_growing": 15.572679209053312,
-      "first_case": "2020-01-22T00:00:00"
+      "first_case": "2020-01-22T00:00:00",
+      "color": "#4a69bd",
+      "point_style": "cross",
+      "line_thickness": 1
      },
      {
       "id": "Malaysia",
@@ -75,7 +90,10 @@
       "deaths_rpop": 0.8450763208769815,
       "cases_growing": 8.122653029533978,
       "deaths_growing": 6.9290560490971105,
-      "first_case": "2020-01-25T00:00:00"
+      "first_case": "2020-01-25T00:00:00",
+      "color": "#82ccdd",
+      "point_style": "crossRot",
+      "line_thickness": 1
      },
      {
       "id": "India",
@@ -88,7 +106,10 @@
       "deaths_rpop": 0.01756417459429468,
       "cases_growing": 5.109368466346092,
       "deaths_growing": 2.9999999999999996,
-      "first_case": "2020-01-30T00:00:00"
+      "first_case": "2020-01-30T00:00:00",
+      "color": "#f8c291",
+      "point_style": "circle",
+      "line_thickness": 1
      },
      {
       "id": "Indonesia",
@@ -101,7 +122,10 @@
       "deaths_rpop": 0.37690452071402203,
       "cases_growing": 5.4747693197127765,
       "deaths_growing": 3.683492938007844,
-      "first_case": "2020-03-02T00:00:00"
+      "first_case": "2020-03-02T00:00:00",
+      "color": "#82ccdd",
+      "point_style": "circle",
+      "line_thickness": 1
      },
      {
       "id": "Pakistan",
@@ -114,7 +138,10 @@
       "deaths_rpop": 0.05541053438667405,
       "cases_growing": 6.097512795909616,
       "deaths_growing": 5.128533874054364,
-      "first_case": "2020-02-26T00:00:00"
+      "first_case": "2020-02-26T00:00:00",
+      "color": "#b8e994",
+      "point_style": "circle",
+      "line_thickness": 1
      },
      {
       "id": "Bangladesh",
@@ -127,7 +154,10 @@
       "deaths_rpop": 0.030666162081546957,
       "cases_growing": 10.014678786465383,
       "deaths_growing": null,
-      "first_case": "2020-03-08T00:00:00"
+      "first_case": "2020-03-08T00:00:00",
+      "color": "#4a69bd",
+      "point_style": "circle",
+      "line_thickness": 1
      },
      {
       "id": "Taiwan",
@@ -140,7 +170,10 @@
       "deaths_rpop": 0.0841259540514134,
       "cases_growing": 11.188131189662343,
       "deaths_growing": null,
-      "first_case": "2020-01-22T00:00:00"
+      "first_case": "2020-01-22T00:00:00",
+      "color": "#e58e26",
+      "point_style": "crossRot",
+      "line_thickness": 1
      },
      {
       "id": "Philippines",
@@ -153,7 +186,10 @@
       "deaths_rpop": 0.6289505086706608,
       "cases_growing": 3.961766370436932,
       "deaths_growing": 3.5734053120043856,
-      "first_case": "2020-01-30T00:00:00"
+      "first_case": "2020-01-30T00:00:00",
+      "color": "#1e3799",
+      "point_style": "circle",
+      "line_thickness": 1
      },
      {
       "id": "Thailand",
@@ -166,7 +202,10 @@
       "deaths_rpop": 0.08617522220496485,
       "cases_growing": 7.234995024196745,
       "deaths_growing": 5.128533874054364,
-      "first_case": "2020-01-22T00:00:00"
+      "first_case": "2020-01-22T00:00:00",
+      "color": "#079992",
+      "point_style": "circle",
+      "line_thickness": 1
      },
      {
       "id": "Kazakhstan",
@@ -179,7 +218,10 @@
       "deaths_rpop": 0.05390420909399584,
       "cases_growing": 2.0093232447453504,
       "deaths_growing": null,
-      "first_case": "2020-03-13T00:00:00"
+      "first_case": "2020-03-13T00:00:00",
+      "color": "#82ccdd",
+      "point_style": "dash",
+      "line_thickness": 1
      },
      {
       "id": "Azerbaijan",
@@ -192,7 +234,10 @@
       "deaths_rpop": 0.39810034477480355,
       "cases_growing": 3.0971392033023815,
       "deaths_growing": 2.9999999999999996,
-      "first_case": "2020-03-01T00:00:00"
+      "first_case": "2020-03-01T00:00:00",
+      "color": "#78e08f",
+      "point_style": "line",
+      "line_thickness": 1
      }
     ]
    },
@@ -208,6 +253,9 @@
     "cases_growing": 7.3020586162595205,
     "deaths_growing": 10.543090263300419,
     "first_case": "2020-01-29T00:00:00",
+    "color": "#0a3d62",
+    "point_style": "cross",
+    "line_thickness": 1,
     "_children": [
      {
       "id": "Israel",
@@ -220,7 +268,10 @@
       "deaths_rpop": 1.4085537005816269,
       "cases_growing": 4.9074703890323175,
       "deaths_growing": 2.3752322075656727,
-      "first_case": "2020-02-21T00:00:00"
+      "first_case": "2020-02-21T00:00:00",
+      "color": "#fad390",
+      "point_style": "rect",
+      "line_thickness": 1
      },
      {
       "id": "Iran",
@@ -233,7 +284,10 @@
       "deaths_rpop": 30.356789607764952,
       "cases_growing": 7.688209851272843,
       "deaths_growing": 10.822354643427031,
-      "first_case": "2020-02-19T00:00:00"
+      "first_case": "2020-02-19T00:00:00",
+      "color": "#0a3d62",
+      "point_style": "circle",
+      "line_thickness": 1
      },
      {
       "id": "Iraq",
@@ -246,7 +300,10 @@
       "deaths_rpop": 1.068436322835972,
       "cases_growing": 5.4708052142561145,
       "deaths_growing": 5.61444035022517,
-      "first_case": "2020-02-24T00:00:00"
+      "first_case": "2020-02-24T00:00:00",
+      "color": "#e58e26",
+      "point_style": "cross",
+      "line_thickness": 1
      },
      {
       "id": "United_Arab_Emirates",
@@ -259,7 +316,10 @@
       "deaths_rpop": 0.20469720728529642,
       "cases_growing": 6.1101494667834055,
       "deaths_growing": null,
-      "first_case": "2020-01-29T00:00:00"
+      "first_case": "2020-01-29T00:00:00",
+      "color": "#eb2f06",
+      "point_style": "line",
+      "line_thickness": 1
      },
      {
       "id": "Lebanon",
@@ -272,7 +332,10 @@
       "deaths_rpop": 1.1669099917105632,
       "cases_growing": 9.768100090551599,
       "deaths_growing": 7.2282625189596255,
-      "first_case": "2020-02-21T00:00:00"
+      "first_case": "2020-02-21T00:00:00",
+      "color": "#4a69bd",
+      "point_style": "rect",
+      "line_thickness": 1
      }
     ]
    },
@@ -288,6 +351,9 @@
     "cases_growing": 5.636517559289925,
     "deaths_growing": 4.905172542419831,
     "first_case": "2020-01-24T00:00:00",
+    "color": "#079992",
+    "point_style": "cross",
+    "line_thickness": 1,
     "_children": [
      {
       "id": "France",
@@ -300,7 +366,10 @@
       "deaths_rpop": 35.575152409664604,
       "cases_growing": 5.227969941238579,
       "deaths_growing": 3.7613722090180874,
-      "first_case": "2020-01-24T00:00:00"
+      "first_case": "2020-01-24T00:00:00",
+      "color": "#f8c291",
+      "point_style": "cross",
+      "line_thickness": 1
      },
      {
       "id": "Italy",
@@ -313,7 +382,10 @@
       "deaths_rpop": 165.53241263532703,
       "cases_growing": 9.55458222714542,
       "deaths_growing": 7.180900095653506,
-      "first_case": "2020-01-31T00:00:00"
+      "first_case": "2020-01-31T00:00:00",
+      "color": "#6a89cc",
+      "point_style": "cross",
+      "line_thickness": 1
      },
      {
       "id": "Belgium",
@@ -326,7 +398,10 @@
       "deaths_rpop": 30.591036150458677,
       "cases_growing": 3.3798546111894567,
       "deaths_growing": 3.0370798835229142,
-      "first_case": "2020-02-04T00:00:00"
+      "first_case": "2020-02-04T00:00:00",
+      "color": "#0a3d62",
+      "point_style": "dash",
+      "line_thickness": 1
      },
      {
       "id": "Austria",
@@ -339,7 +414,10 @@
       "deaths_rpop": 7.5934366800065485,
       "cases_growing": 5.302885369209855,
       "deaths_growing": 2.5411405452523086,
-      "first_case": "2020-02-25T00:00:00"
+      "first_case": "2020-02-25T00:00:00",
+      "color": "#b71540",
+      "point_style": "line",
+      "line_thickness": 1
      },
      {
       "id": "Spain",
@@ -352,7 +430,10 @@
       "deaths_rpop": 127.99342427898749,
       "cases_growing": 5.312859625993352,
       "deaths_growing": 4.2021649760008,
-      "first_case": "2020-02-01T00:00:00"
+      "first_case": "2020-02-01T00:00:00",
+      "color": "#78e08f",
+      "point_style": "cross",
+      "line_thickness": 1
      },
      {
       "id": "Portugal",
@@ -365,7 +446,10 @@
       "deaths_rpop": 9.77881589687339,
       "cases_growing": 3.8090000900230483,
       "deaths_growing": 2.4638806693158575,
-      "first_case": "2020-03-02T00:00:00"
+      "first_case": "2020-03-02T00:00:00",
+      "color": "#4a69bd",
+      "point_style": "line",
+      "line_thickness": 1
      },
      {
       "id": "Germany",
@@ -378,7 +462,10 @@
       "deaths_rpop": 5.184570407154611,
       "cases_growing": 4.774171026233199,
       "deaths_growing": 2.799231587488639,
-      "first_case": "2020-01-27T00:00:00"
+      "first_case": "2020-01-27T00:00:00",
+      "color": "#b71540",
+      "point_style": "circle",
+      "line_thickness": 1
      },
      {
       "id": "United_Kingdom",
@@ -391,7 +478,10 @@
       "deaths_rpop": 15.119167769926602,
       "cases_growing": 3.551694037157609,
       "deaths_growing": 2.651157967039444,
-      "first_case": "2020-01-31T00:00:00"
+      "first_case": "2020-01-31T00:00:00",
+      "color": "#fad390",
+      "point_style": "cross",
+      "line_thickness": 1
      },
      {
       "id": "Switzerland",
@@ -404,7 +494,10 @@
       "deaths_rpop": 30.728528004572034,
       "cases_growing": 8.123335830663526,
       "deaths_growing": 3.8119136898242774,
-      "first_case": "2020-02-25T00:00:00"
+      "first_case": "2020-02-25T00:00:00",
+      "color": "#079992",
+      "point_style": "line",
+      "line_thickness": 1
      },
      {
       "id": "Norway",
@@ -417,7 +510,10 @@
       "deaths_rpop": 4.2760013883990595,
       "cases_growing": 7.882348642419898,
       "deaths_growing": 4.188732946739635,
-      "first_case": "2020-02-26T00:00:00"
+      "first_case": "2020-02-26T00:00:00",
+      "color": "#0a3d62",
+      "point_style": "rect",
+      "line_thickness": 1
      },
      {
       "id": "Sweden",
@@ -430,7 +526,10 @@
       "deaths_rpop": 10.461940506630928,
       "cases_growing": 6.689162176666173,
       "deaths_growing": 3.94711285962539,
-      "first_case": "2020-01-31T00:00:00"
+      "first_case": "2020-01-31T00:00:00",
+      "color": "#fa983a",
+      "point_style": "line",
+      "line_thickness": 1
      },
      {
       "id": "Denmark",
@@ -443,7 +542,10 @@
       "deaths_rpop": 11.261503192376274,
       "cases_growing": 8.680630888637557,
       "deaths_growing": 3.208882282756761,
-      "first_case": "2020-02-27T00:00:00"
+      "first_case": "2020-02-27T00:00:00",
+      "color": "#38ada9",
+      "point_style": "rect",
+      "line_thickness": 1
      },
      {
       "id": "Netherlands",
@@ -456,7 +558,10 @@
       "deaths_rpop": 37.43318323016787,
       "cases_growing": 4.9264034223619495,
       "deaths_growing": 3.562319927776328,
-      "first_case": "2020-02-27T00:00:00"
+      "first_case": "2020-02-27T00:00:00",
+      "color": "#4a69bd",
+      "point_style": "dash",
+      "line_thickness": 1
      },
      {
       "id": "Russia",
@@ -469,7 +574,10 @@
       "deaths_rpop": 0.027421252743222126,
       "cases_growing": 3.1852646279658074,
       "deaths_growing": 7.2282625189596255,
-      "first_case": "2020-01-31T00:00:00"
+      "first_case": "2020-01-31T00:00:00",
+      "color": "#60a3bc",
+      "point_style": "circle",
+      "line_thickness": 1
      },
      {
       "id": "Turkey",
@@ -482,7 +590,10 @@
       "deaths_rpop": 1.2945043555576758,
       "cases_growing": 1.8689506560201086,
       "deaths_growing": 3.439402784808862,
-      "first_case": "2020-03-11T00:00:00"
+      "first_case": "2020-03-11T00:00:00",
+      "color": "#0c2461",
+      "point_style": "circle",
+      "line_thickness": 1
      },
      {
       "id": "Ukraine",
@@ -495,7 +606,10 @@
       "deaths_rpop": 0.204575034235632,
       "cases_growing": 2.31512860593222,
       "deaths_growing": 3.5377487545181263,
-      "first_case": "2020-03-03T00:00:00"
+      "first_case": "2020-03-03T00:00:00",
+      "color": "#1e3799",
+      "point_style": "cross",
+      "line_thickness": 1
      },
      {
       "id": "Poland",
@@ -508,7 +622,10 @@
       "deaths_rpop": 0.47508736856707956,
       "cases_growing": 4.68623553884741,
       "deaths_growing": 8.274262468351182,
-      "first_case": "2020-03-04T00:00:00"
+      "first_case": "2020-03-04T00:00:00",
+      "color": "#0c2461",
+      "point_style": "cross",
+      "line_thickness": 1
      },
      {
       "id": "Greece",
@@ -521,7 +638,10 @@
       "deaths_rpop": 3.0553432463308434,
       "cases_growing": 8.108753978318692,
       "deaths_growing": 5.549714159080837,
-      "first_case": "2020-02-26T00:00:00"
+      "first_case": "2020-02-26T00:00:00",
+      "color": "#e55039",
+      "point_style": "line",
+      "line_thickness": 1
      },
      {
       "id": "Serbia",
@@ -534,7 +654,10 @@
       "deaths_rpop": 1.1399603407797443,
       "cases_growing": 3.8502402626870373,
       "deaths_growing": 2.2694123920980895,
-      "first_case": "2020-03-06T00:00:00"
+      "first_case": "2020-03-06T00:00:00",
+      "color": "#0a3d62",
+      "point_style": "line",
+      "line_thickness": 1
      },
      {
       "id": "Hungary",
@@ -547,7 +670,10 @@
       "deaths_rpop": 1.1358146201851398,
       "cases_growing": 4.984334206373946,
       "deaths_growing": 21.817622692025118,
-      "first_case": "2020-03-04T00:00:00"
+      "first_case": "2020-03-04T00:00:00",
+      "color": "#3c6382",
+      "point_style": "line",
+      "line_thickness": 1
      },
      {
       "id": "Bulgaria",
@@ -560,7 +686,10 @@
       "deaths_rpop": 0.9999830002889951,
       "cases_growing": 6.639751040992934,
       "deaths_growing": 2.4542036973037558,
-      "first_case": "2020-03-08T00:00:00"
+      "first_case": "2020-03-08T00:00:00",
+      "color": "#e55039",
+      "point_style": "rect",
+      "line_thickness": 1
      },
      {
       "id": "Croatia",
@@ -573,7 +702,10 @@
       "deaths_rpop": 1.2105646460890047,
       "cases_growing": 5.246158491897941,
       "deaths_growing": 1.2920296742201791,
-      "first_case": "2020-02-25T00:00:00"
+      "first_case": "2020-02-25T00:00:00",
+      "color": "#78e08f",
+      "point_style": "rectRounded",
+      "line_thickness": 1
      },
      {
       "id": "Luxembourg",
@@ -586,7 +718,10 @@
       "deaths_rpop": 29.23364012414552,
       "cases_growing": 6.55086183107727,
       "deaths_growing": 2.564266937027183,
-      "first_case": "2020-02-29T00:00:00"
+      "first_case": "2020-02-29T00:00:00",
+      "color": "#fa983a",
+      "point_style": "star",
+      "line_thickness": 1
      },
      {
       "id": "Ireland",
@@ -599,7 +734,10 @@
       "deaths_rpop": 7.373279440122315,
       "cases_growing": 4.786347984528406,
       "deaths_growing": 1.5000000000000002,
-      "first_case": "2020-02-29T00:00:00"
+      "first_case": "2020-02-29T00:00:00",
+      "color": "#82ccdd",
+      "point_style": "rectRounded",
+      "line_thickness": 1
      },
      {
       "id": "San_Marino",
@@ -612,7 +750,10 @@
       "deaths_rpop": 649.7341996455995,
       "cases_growing": 28.05962005499837,
       "deaths_growing": 44.69993213244119,
-      "first_case": "2020-02-27T00:00:00"
+      "first_case": "2020-02-27T00:00:00",
+      "color": "#0a3d62",
+      "point_style": "circle",
+      "line_thickness": 1
      }
     ]
    },
@@ -628,6 +769,9 @@
     "cases_growing": 3.4096866885188635,
     "deaths_growing": 2.7191851307695063,
     "first_case": "2020-01-22T00:00:00",
+    "color": "#fad390",
+    "point_style": "crossRot",
+    "line_thickness": 1,
     "_children": [
      {
       "id": "United_States",
@@ -640,7 +784,10 @@
       "deaths_rpop": 6.1568398675571965,
       "cases_growing": 3.389761514100775,
       "deaths_growing": 2.7153370702259667,
-      "first_case": "2020-01-22T00:00:00"
+      "first_case": "2020-01-22T00:00:00",
+      "color": "#6a89cc",
+      "point_style": "circle",
+      "line_thickness": 1
      },
      {
       "id": "Canada",
@@ -653,7 +800,10 @@
       "deaths_rpop": 1.6305344247649634,
       "cases_growing": 3.854322018382626,
       "deaths_growing": 2.930126040420323,
-      "first_case": "2020-01-26T00:00:00"
+      "first_case": "2020-01-26T00:00:00",
+      "color": "#0a3d62",
+      "point_style": "cross",
+      "line_thickness": 1
      },
      {
       "id": "Mexico",
@@ -666,7 +816,10 @@
       "deaths_rpop": 0.09406192624919471,
       "cases_growing": 3.6405504417796872,
       "deaths_growing": 2.3752322075656727,
-      "first_case": "2020-02-28T00:00:00"
+      "first_case": "2020-02-28T00:00:00",
+      "color": "#78e08f",
+      "point_style": "circle",
+      "line_thickness": 1
      }
     ]
    },
@@ -682,6 +835,9 @@
     "cases_growing": 4.795183739110592,
     "deaths_growing": 3.3631634001636646,
     "first_case": "2020-02-26T00:00:00",
+    "color": "#f8c291",
+    "point_style": "crossRot",
+    "line_thickness": 1,
     "_children": [
      {
       "id": "Brazil",
@@ -694,7 +850,10 @@
       "deaths_rpop": 0.5259428987016872,
       "cases_growing": 4.900403161861103,
       "deaths_growing": 3.29029331002595,
-      "first_case": "2020-02-26T00:00:00"
+      "first_case": "2020-02-26T00:00:00",
+      "color": "#f6b93b",
+      "point_style": "circle",
+      "line_thickness": 1
      },
      {
       "id": "Argentina",
@@ -707,7 +866,10 @@
       "deaths_rpop": 0.4019590860584801,
       "cases_growing": 3.5959891968166424,
       "deaths_growing": 2.5642669370271816,
-      "first_case": "2020-03-03T00:00:00"
+      "first_case": "2020-03-03T00:00:00",
+      "color": "#fa983a",
+      "point_style": "cross",
+      "line_thickness": 1
      },
      {
       "id": "Peru",
@@ -720,7 +882,10 @@
       "deaths_rpop": 0.4921494019169773,
       "cases_growing": 6.207602583999786,
       "deaths_growing": 3.6141312594798145,
-      "first_case": "2020-03-06T00:00:00"
+      "first_case": "2020-03-06T00:00:00",
+      "color": "#6a89cc",
+      "point_style": "crossRot",
+      "line_thickness": 1
      },
      {
       "id": "Ecuador",
@@ -733,7 +898,10 @@
       "deaths_rpop": 2.7628026837404804,
       "cases_growing": 4.716153966049192,
       "deaths_growing": 3.85798709055279,
-      "first_case": "2020-03-01T00:00:00"
+      "first_case": "2020-03-01T00:00:00",
+      "color": "#e55039",
+      "point_style": "dash",
+      "line_thickness": 1
      }
     ]
    },
@@ -749,6 +917,9 @@
     "cases_growing": 5.370968023120231,
     "deaths_growing": 3.248937776265584,
     "first_case": "2020-02-14T00:00:00",
+    "color": "#6a89cc",
+    "point_style": "crossRot",
+    "line_thickness": 1,
     "_children": [
      {
       "id": "Egypt",
@@ -761,7 +932,10 @@
       "deaths_rpop": 0.35860833786499713,
       "cases_growing": 8.901153035276153,
       "deaths_growing": 3.857987090552794,
-      "first_case": "2020-02-14T00:00:00"
+      "first_case": "2020-02-14T00:00:00",
+      "color": "#3c6382",
+      "point_style": "circle",
+      "line_thickness": 1
      },
      {
       "id": "Algeria",
@@ -774,7 +948,10 @@
       "deaths_rpop": 0.6735875229664312,
       "cases_growing": 5.100793828678529,
       "deaths_growing": 6.442419330479236,
-      "first_case": "2020-02-25T00:00:00"
+      "first_case": "2020-02-25T00:00:00",
+      "color": "#3c6382",
+      "point_style": "cross",
+      "line_thickness": 1
      },
      {
       "id": "Sudan",
@@ -787,7 +964,10 @@
       "deaths_rpop": 0.02335726160212409,
       "cases_growing": 4.070746346570172,
       "deaths_growing": null,
-      "first_case": "2020-03-13T00:00:00"
+      "first_case": "2020-03-13T00:00:00",
+      "color": "#38ada9",
+      "point_style": "cross",
+      "line_thickness": 1
      },
      {
       "id": "Morocco",
@@ -800,7 +980,10 @@
       "deaths_rpop": 0.6854616785931058,
       "cases_growing": 3.583071420928537,
       "deaths_growing": 1.4570932029905048,
-      "first_case": "2020-03-02T00:00:00"
+      "first_case": "2020-03-02T00:00:00",
+      "color": "#079992",
+      "point_style": "cross",
+      "line_thickness": 1
      },
      {
       "id": "Tunisia",
@@ -813,7 +996,10 @@
       "deaths_rpop": 0.6840694504929961,
       "cases_growing": 4.383959794908645,
       "deaths_growing": 4.424309542070849,
-      "first_case": "2020-03-04T00:00:00"
+      "first_case": "2020-03-04T00:00:00",
+      "color": "#0c2461",
+      "point_style": "dash",
+      "line_thickness": 1
      },
      {
       "id": "Burkina_Faso",
@@ -826,7 +1012,10 @@
       "deaths_rpop": 0.54130187431187,
       "cases_growing": 5.9563707916729856,
       "deaths_growing": 2.055594768325743,
-      "first_case": "2020-03-10T00:00:00"
+      "first_case": "2020-03-10T00:00:00",
+      "color": "#0a3d62",
+      "point_style": "crossRot",
+      "line_thickness": 1
      }
     ]
    },
@@ -842,6 +1031,9 @@
     "cases_growing": 4.817664139709263,
     "deaths_growing": 3.7158378775399985,
     "first_case": "2020-01-26T00:00:00",
+    "color": "#82ccdd",
+    "point_style": "crossRot",
+    "line_thickness": 1,
     "_children": [
      {
       "id": "Australia",
@@ -854,7 +1046,10 @@
       "deaths_rpop": 0.5554850618560391,
       "cases_growing": 4.817664139709263,
       "deaths_growing": 3.7158378775399985,
-      "first_case": "2020-01-26T00:00:00"
+      "first_case": "2020-01-26T00:00:00",
+      "color": "#38ada9",
+      "point_style": "crossRot",
+      "line_thickness": 1
      }
     ]
    }
@@ -871,7 +1066,10 @@
   "deaths_rpop": 0.1051476227936283,
   "cases_growing": 7.711243922217758,
   "deaths_growing": 2.9999999999999996,
-  "first_case": "2020-02-24T00:00:00"
+  "first_case": "2020-02-24T00:00:00",
+  "color": "#b71540",
+  "point_style": "cross",
+  "line_thickness": 1
  },
  {
   "id": "Albania",
@@ -884,7 +1082,10 @@
   "deaths_rpop": 3.471117008924589,
   "cases_growing": 6.940793128132667,
   "deaths_growing": 2.9999999999999996,
-  "first_case": "2020-03-09T00:00:00"
+  "first_case": "2020-03-09T00:00:00",
+  "color": "#079992",
+  "point_style": "rectRounded",
+  "line_thickness": 1
  },
  {
   "id": "American_Samoa",
@@ -897,7 +1098,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#fa983a",
+  "point_style": "circle",
+  "line_thickness": 1
  },
  {
   "id": "Andorra",
@@ -910,7 +1114,10 @@
   "deaths_rpop": 38.889320992455474,
   "cases_growing": 4.212313584083086,
   "deaths_growing": 1.8927892607143717,
-  "first_case": "2020-03-02T00:00:00"
+  "first_case": "2020-03-02T00:00:00",
+  "color": "#82ccdd",
+  "point_style": "circle",
+  "line_thickness": 1
  },
  {
   "id": "Angola",
@@ -923,7 +1130,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 4.070746346570172,
   "deaths_growing": null,
-  "first_case": "2020-03-20T00:00:00"
+  "first_case": "2020-03-20T00:00:00",
+  "color": "#b8e994",
+  "point_style": "crossRot",
+  "line_thickness": 1
  },
  {
   "id": "Anguilla",
@@ -936,7 +1146,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#b8e994",
+  "point_style": "cross",
+  "line_thickness": 1
  },
  {
   "id": "Antigua_and_Barbuda",
@@ -949,7 +1162,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 2.4542036973037558,
   "deaths_growing": null,
-  "first_case": "2020-03-13T00:00:00"
+  "first_case": "2020-03-13T00:00:00",
+  "color": "#f8c291",
+  "point_style": "circle",
+  "line_thickness": 1
  },
  {
   "id": "Armenia",
@@ -962,7 +1178,10 @@
   "deaths_rpop": 0.33809700746957716,
   "cases_growing": 4.846241402403448,
   "deaths_growing": null,
-  "first_case": "2020-03-01T00:00:00"
+  "first_case": "2020-03-01T00:00:00",
+  "color": "#b71540",
+  "point_style": "rectRounded",
+  "line_thickness": 1
  },
  {
   "id": "Aruba",
@@ -975,7 +1194,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#0c2461",
+  "point_style": "triangle",
+  "line_thickness": 1
  },
  {
   "id": "Bahamas",
@@ -988,7 +1210,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 2.9999999999999996,
   "deaths_growing": null,
-  "first_case": "2020-03-16T00:00:00"
+  "first_case": "2020-03-16T00:00:00",
+  "color": "#079992",
+  "point_style": "star",
+  "line_thickness": 1
  },
  {
   "id": "Bahrain",
@@ -1001,7 +1226,10 @@
   "deaths_rpop": 2.4372826248558956,
   "cases_growing": 16.30334396464201,
   "deaths_growing": null,
-  "first_case": "2020-02-24T00:00:00"
+  "first_case": "2020-02-24T00:00:00",
+  "color": "#1e3799",
+  "point_style": "rectRot",
+  "line_thickness": 1
  },
  {
   "id": "Barbados",
@@ -1014,7 +1242,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 5.65488553959072,
   "deaths_growing": null,
-  "first_case": "2020-03-17T00:00:00"
+  "first_case": "2020-03-17T00:00:00",
+  "color": "#b8e994",
+  "point_style": "triangle",
+  "line_thickness": 1
  },
  {
   "id": "Belarus",
@@ -1027,7 +1258,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 23.37830595115605,
   "deaths_growing": null,
-  "first_case": "2020-02-28T00:00:00"
+  "first_case": "2020-02-28T00:00:00",
+  "color": "#38ada9",
+  "point_style": "line",
+  "line_thickness": 1
  },
  {
   "id": "Belize",
@@ -1040,7 +1274,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": "2020-03-23T00:00:00"
+  "first_case": "2020-03-23T00:00:00",
+  "color": "#0a3d62",
+  "point_style": "star",
+  "line_thickness": 1
  },
  {
   "id": "Benin",
@@ -1053,7 +1290,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": "2020-03-16T00:00:00"
+  "first_case": "2020-03-16T00:00:00",
+  "color": "#b71540",
+  "point_style": "dash",
+  "line_thickness": 1
  },
  {
   "id": "Bermuda",
@@ -1066,7 +1306,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#e55039",
+  "point_style": "circle",
+  "line_thickness": 1
  },
  {
   "id": "Bhutan",
@@ -1079,7 +1322,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 5.128533874054364,
   "deaths_growing": null,
-  "first_case": "2020-03-06T00:00:00"
+  "first_case": "2020-03-06T00:00:00",
+  "color": "#e55039",
+  "point_style": "star",
+  "line_thickness": 1
  },
  {
   "id": "Bolivia",
@@ -1092,7 +1338,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 2.4804594251055847,
   "deaths_growing": null,
-  "first_case": "2020-03-11T00:00:00"
+  "first_case": "2020-03-11T00:00:00",
+  "color": "#fad390",
+  "point_style": "line",
+  "line_thickness": 1
  },
  {
   "id": "Bosnia_and_Herzegovina",
@@ -1105,7 +1354,10 @@
   "deaths_rpop": 1.5146925174189638,
   "cases_growing": 5.4367954365751965,
   "deaths_growing": 4.070746346570172,
-  "first_case": "2020-03-05T00:00:00"
+  "first_case": "2020-03-05T00:00:00",
+  "color": "#38ada9",
+  "point_style": "rectRounded",
+  "line_thickness": 1
  },
  {
   "id": "Botswana",
@@ -1118,7 +1370,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#b8e994",
+  "point_style": "rectRot",
+  "line_thickness": 1
  },
  {
   "id": "British_Virgin_Islands",
@@ -1131,7 +1386,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#f8c291",
+  "point_style": "cross",
+  "line_thickness": 1
  },
  {
   "id": "Brunei",
@@ -1144,7 +1402,10 @@
   "deaths_rpop": 2.3079497328548184,
   "cases_growing": 21.62843815217555,
   "deaths_growing": null,
-  "first_case": "2020-03-09T00:00:00"
+  "first_case": "2020-03-09T00:00:00",
+  "color": "#b71540",
+  "point_style": "star",
+  "line_thickness": 1
  },
  {
   "id": "Burundi",
@@ -1157,7 +1418,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#079992",
+  "point_style": "dash",
+  "line_thickness": 1
  },
  {
   "id": "Cambodia",
@@ -1170,7 +1434,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 67.57651786663362,
   "deaths_growing": null,
-  "first_case": "2020-01-27T00:00:00"
+  "first_case": "2020-01-27T00:00:00",
+  "color": "#78e08f",
+  "point_style": "dash",
+  "line_thickness": 1
  },
  {
   "id": "Cameroon",
@@ -1183,7 +1450,10 @@
   "deaths_rpop": 0.07729056382693406,
   "cases_growing": 10.753615152832381,
   "deaths_growing": 2.9999999999999996,
-  "first_case": "2020-03-06T00:00:00"
+  "first_case": "2020-03-06T00:00:00",
+  "color": "#eb2f06",
+  "point_style": "crossRot",
+  "line_thickness": 1
  },
  {
   "id": "Cape_Verde",
@@ -1196,7 +1466,10 @@
   "deaths_rpop": 1.818396719612318,
   "cases_growing": 9.318851158516164,
   "deaths_growing": null,
-  "first_case": "2020-03-20T00:00:00"
+  "first_case": "2020-03-20T00:00:00",
+  "color": "#3c6382",
+  "point_style": "star",
+  "line_thickness": 1
  },
  {
   "id": "Cayman_Islands",
@@ -1209,7 +1482,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#f6b93b",
+  "point_style": "circle",
+  "line_thickness": 1
  },
  {
   "id": "Central_African_Republic",
@@ -1222,7 +1498,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": "2020-03-15T00:00:00"
+  "first_case": "2020-03-15T00:00:00",
+  "color": "#f6b93b",
+  "point_style": "rectRounded",
+  "line_thickness": 1
  },
  {
   "id": "Chad",
@@ -1235,7 +1514,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": "2020-03-19T00:00:00"
+  "first_case": "2020-03-19T00:00:00",
+  "color": "#eb2f06",
+  "point_style": "dash",
+  "line_thickness": 1
  },
  {
   "id": "Chile",
@@ -1248,7 +1530,10 @@
   "deaths_rpop": 0.3165886433955018,
   "cases_growing": 4.047193229989103,
   "deaths_growing": 3.0000000000000018,
-  "first_case": "2020-03-03T00:00:00"
+  "first_case": "2020-03-03T00:00:00",
+  "color": "#f8c291",
+  "point_style": "dash",
+  "line_thickness": 1
  },
  {
   "id": "Colombia",
@@ -1261,7 +1546,10 @@
   "deaths_rpop": 0.11919083014088971,
   "cases_growing": 8.077314614962733,
   "deaths_growing": 5.128533874054364,
-  "first_case": "2020-03-06T00:00:00"
+  "first_case": "2020-03-06T00:00:00",
+  "color": "#60a3bc",
+  "point_style": "cross",
+  "line_thickness": 1
  },
  {
   "id": "Comoros",
@@ -1274,7 +1562,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#b8e994",
+  "point_style": "star",
+  "line_thickness": 1
  },
  {
   "id": "Cook_Islands",
@@ -1287,7 +1578,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#82ccdd",
+  "point_style": "cross",
+  "line_thickness": 1
  },
  {
   "id": "Costa_Rica",
@@ -1300,7 +1594,10 @@
   "deaths_rpop": 0.39623097175051475,
   "cases_growing": 5.419863716368997,
   "deaths_growing": null,
-  "first_case": "2020-03-06T00:00:00"
+  "first_case": "2020-03-06T00:00:00",
+  "color": "#079992",
+  "point_style": "rect",
+  "line_thickness": 1
  },
  {
   "id": "Cuba",
@@ -1313,7 +1610,10 @@
   "deaths_rpop": 0.2647023867243636,
   "cases_growing": 2.8250509532503485,
   "deaths_growing": 1.8927892607143717,
-  "first_case": "2020-03-12T00:00:00"
+  "first_case": "2020-03-12T00:00:00",
+  "color": "#f8c291",
+  "point_style": "line",
+  "line_thickness": 1
  },
  {
   "id": "Curacao",
@@ -1326,7 +1626,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#1e3799",
+  "point_style": "triangle",
+  "line_thickness": 1
  },
  {
   "id": "Cyprus",
@@ -1339,7 +1642,10 @@
   "deaths_rpop": 4.1716204659700065,
   "cases_growing": 6.827155525964304,
   "deaths_growing": 4.070746346570172,
-  "first_case": "2020-03-09T00:00:00"
+  "first_case": "2020-03-09T00:00:00",
+  "color": "#0a3d62",
+  "point_style": "rectRot",
+  "line_thickness": 1
  },
  {
   "id": "Czech_Republic",
@@ -1352,7 +1658,10 @@
   "deaths_rpop": 1.0290752103359566,
   "cases_growing": 4.479938740278507,
   "deaths_growing": 3.430652882458553,
-  "first_case": "2020-03-01T00:00:00"
+  "first_case": "2020-03-01T00:00:00",
+  "color": "#f6b93b",
+  "point_style": "line",
+  "line_thickness": 1
  },
  {
   "id": "DR_Congo",
@@ -1365,7 +1674,10 @@
   "deaths_rpop": 0.06913193688433905,
   "cases_growing": 6.858627263064344,
   "deaths_growing": 1.8927892607143726,
-  "first_case": "2020-03-11T00:00:00"
+  "first_case": "2020-03-11T00:00:00",
+  "color": "#e58e26",
+  "point_style": "circle",
+  "line_thickness": 1
  },
  {
   "id": "Diamond_Princess",
@@ -1378,7 +1690,10 @@
   "deaths_rpop": 2694.691457828079,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": "2020-02-07T00:00:00"
+  "first_case": "2020-02-07T00:00:00",
+  "color": "#eb2f06",
+  "point_style": "cross",
+  "line_thickness": 1
  },
  {
   "id": "Djibouti",
@@ -1391,7 +1706,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 8.622590009085615,
   "deaths_growing": null,
-  "first_case": "2020-03-18T00:00:00"
+  "first_case": "2020-03-18T00:00:00",
+  "color": "#f8c291",
+  "point_style": "star",
+  "line_thickness": 1
  },
  {
   "id": "Dominica",
@@ -1404,7 +1722,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 4.600685802353858,
   "deaths_growing": null,
-  "first_case": "2020-03-22T00:00:00"
+  "first_case": "2020-03-22T00:00:00",
+  "color": "#b8e994",
+  "point_style": "circle",
+  "line_thickness": 1
  },
  {
   "id": "Dominican_Republic",
@@ -1417,7 +1738,10 @@
   "deaths_rpop": 2.6073293144455914,
   "cases_growing": 3.4280303234889704,
   "deaths_growing": 2.0196215290624866,
-  "first_case": "2020-03-01T00:00:00"
+  "first_case": "2020-03-01T00:00:00",
+  "color": "#b8e994",
+  "point_style": "line",
+  "line_thickness": 1
  },
  {
   "id": "El_Salvador",
@@ -1430,7 +1754,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 2.782924869470488,
   "deaths_growing": null,
-  "first_case": "2020-03-19T00:00:00"
+  "first_case": "2020-03-19T00:00:00",
+  "color": "#fa983a",
+  "point_style": "rect",
+  "line_thickness": 1
  },
  {
   "id": "Equatorial_Guinea",
@@ -1443,7 +1770,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 7.2282625189596255,
   "deaths_growing": null,
-  "first_case": "2020-03-15T00:00:00"
+  "first_case": "2020-03-15T00:00:00",
+  "color": "#38ada9",
+  "point_style": "rectRot",
+  "line_thickness": 1
  },
  {
   "id": "Eritrea",
@@ -1456,7 +1786,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 5.128533874054364,
   "deaths_growing": null,
-  "first_case": "2020-03-21T00:00:00"
+  "first_case": "2020-03-21T00:00:00",
+  "color": "#1e3799",
+  "point_style": "rectRounded",
+  "line_thickness": 1
  },
  {
   "id": "Estonia",
@@ -1469,7 +1802,10 @@
   "deaths_rpop": 0.7543480622306977,
   "cases_growing": 4.444814071502844,
   "deaths_growing": null,
-  "first_case": "2020-02-27T00:00:00"
+  "first_case": "2020-02-27T00:00:00",
+  "color": "#e58e26",
+  "point_style": "rectRot",
+  "line_thickness": 1
  },
  {
   "id": "Ethiopia",
@@ -1482,7 +1818,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 7.2282625189596255,
   "deaths_growing": null,
-  "first_case": "2020-03-13T00:00:00"
+  "first_case": "2020-03-13T00:00:00",
+  "color": "#eb2f06",
+  "point_style": "circle",
+  "line_thickness": 1
  },
  {
   "id": "Falkland_Islands",
@@ -1495,7 +1834,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#1e3799",
+  "point_style": "cross",
+  "line_thickness": 1
  },
  {
   "id": "Faroe_Islands",
@@ -1508,7 +1850,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#1e3799",
+  "point_style": "circle",
+  "line_thickness": 1
  },
  {
   "id": "Fiji",
@@ -1521,7 +1866,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": "2020-03-19T00:00:00"
+  "first_case": "2020-03-19T00:00:00",
+  "color": "#6a89cc",
+  "point_style": "star",
+  "line_thickness": 1
  },
  {
   "id": "Finland",
@@ -1534,7 +1882,10 @@
   "deaths_rpop": 1.6268521711969077,
   "cases_growing": 7.366859988430679,
   "deaths_growing": 1.8927892607143717,
-  "first_case": "2020-01-29T00:00:00"
+  "first_case": "2020-01-29T00:00:00",
+  "color": "#e58e26",
+  "point_style": "rect",
+  "line_thickness": 1
  },
  {
   "id": "French_Guiana",
@@ -1547,7 +1898,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#82ccdd",
+  "point_style": "triangle",
+  "line_thickness": 1
  },
  {
   "id": "French_Polynesia",
@@ -1560,7 +1914,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#e55039",
+  "point_style": "triangle",
+  "line_thickness": 1
  },
  {
   "id": "Gabon",
@@ -1573,7 +1930,10 @@
   "deaths_rpop": 0.4602824569325212,
   "cases_growing": 13.48966831680579,
   "deaths_growing": null,
-  "first_case": "2020-03-14T00:00:00"
+  "first_case": "2020-03-14T00:00:00",
+  "color": "#f6b93b",
+  "point_style": "rectRot",
+  "line_thickness": 1
  },
  {
   "id": "Gambia",
@@ -1586,7 +1946,10 @@
   "deaths_rpop": 0.4259477123626212,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": "2020-03-17T00:00:00"
+  "first_case": "2020-03-17T00:00:00",
+  "color": "#82ccdd",
+  "point_style": "rectRot",
+  "line_thickness": 1
  },
  {
   "id": "Georgia",
@@ -1599,7 +1962,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 11.405352050771777,
   "deaths_growing": null,
-  "first_case": "2020-02-26T00:00:00"
+  "first_case": "2020-02-26T00:00:00",
+  "color": "#eb2f06",
+  "point_style": "rectRounded",
+  "line_thickness": 1
  },
  {
   "id": "Ghana",
@@ -1612,7 +1978,10 @@
   "deaths_rpop": 0.1643771342727114,
   "cases_growing": 4.9967309612981055,
   "deaths_growing": 9.318851158516164,
-  "first_case": "2020-03-14T00:00:00"
+  "first_case": "2020-03-14T00:00:00",
+  "color": "#f6b93b",
+  "point_style": "crossRot",
+  "line_thickness": 1
  },
  {
   "id": "Gibraltar",
@@ -1625,7 +1994,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#079992",
+  "point_style": "circle",
+  "line_thickness": 1
  },
  {
   "id": "Greenland",
@@ -1638,7 +2010,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#78e08f",
+  "point_style": "circle",
+  "line_thickness": 1
  },
  {
   "id": "Grenada",
@@ -1651,7 +2026,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 1.0686215613240664,
   "deaths_growing": null,
-  "first_case": "2020-03-22T00:00:00"
+  "first_case": "2020-03-22T00:00:00",
+  "color": "#e58e26",
+  "point_style": "triangle",
+  "line_thickness": 1
  },
  {
   "id": "Guadeloupe",
@@ -1664,7 +2042,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#0c2461",
+  "point_style": "star",
+  "line_thickness": 1
  },
  {
   "id": "Guam",
@@ -1677,7 +2058,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#eb2f06",
+  "point_style": "triangle",
+  "line_thickness": 1
  },
  {
   "id": "Guatemala",
@@ -1690,7 +2074,10 @@
   "deaths_rpop": 0.05687805890200775,
   "cases_growing": 5.970145207942943,
   "deaths_growing": null,
-  "first_case": "2020-03-14T00:00:00"
+  "first_case": "2020-03-14T00:00:00",
+  "color": "#f6b93b",
+  "point_style": "dash",
+  "line_thickness": 1
  },
  {
   "id": "Guinea",
@@ -1703,7 +2090,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 2.9999999999999996,
   "deaths_growing": null,
-  "first_case": "2020-03-13T00:00:00"
+  "first_case": "2020-03-13T00:00:00",
+  "color": "#38ada9",
+  "point_style": "dash",
+  "line_thickness": 1
  },
  {
   "id": "Guinea_Bissau",
@@ -1716,7 +2106,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": "2020-03-25T00:00:00"
+  "first_case": "2020-03-25T00:00:00",
+  "color": "#78e08f",
+  "point_style": "rectRot",
+  "line_thickness": 1
  },
  {
   "id": "Guyana",
@@ -1729,7 +2122,10 @@
   "deaths_rpop": 1.2775209960575702,
   "cases_growing": 4.424309542070849,
   "deaths_growing": null,
-  "first_case": "2020-03-12T00:00:00"
+  "first_case": "2020-03-12T00:00:00",
+  "color": "#f6b93b",
+  "point_style": "star",
+  "line_thickness": 1
  },
  {
   "id": "Haiti",
@@ -1742,7 +2138,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": "2020-03-20T00:00:00"
+  "first_case": "2020-03-20T00:00:00",
+  "color": "#6a89cc",
+  "point_style": "line",
+  "line_thickness": 1
  },
  {
   "id": "Honduras",
@@ -1755,7 +2154,10 @@
   "deaths_rpop": 0.10260496564939657,
   "cases_growing": 2.1429633620680253,
   "deaths_growing": null,
-  "first_case": "2020-03-11T00:00:00"
+  "first_case": "2020-03-11T00:00:00",
+  "color": "#1e3799",
+  "point_style": "line",
+  "line_thickness": 1
  },
  {
   "id": "Hong_Kong",
@@ -1768,7 +2170,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#82ccdd",
+  "point_style": "rect",
+  "line_thickness": 1
  },
  {
   "id": "Iceland",
@@ -1781,7 +2186,10 @@
   "deaths_rpop": 5.899165563031109,
   "cases_growing": 7.774615377418908,
   "deaths_growing": null,
-  "first_case": "2020-02-28T00:00:00"
+  "first_case": "2020-02-28T00:00:00",
+  "color": "#f8c291",
+  "point_style": "triangle",
+  "line_thickness": 1
  },
  {
   "id": "Isle_of_Man",
@@ -1794,7 +2202,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#6a89cc",
+  "point_style": "circle",
+  "line_thickness": 1
  },
  {
   "id": "Ivory_Coast",
@@ -1807,7 +2218,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 8.92104727221731,
   "deaths_growing": null,
-  "first_case": "2020-03-11T00:00:00"
+  "first_case": "2020-03-11T00:00:00",
+  "color": "#1e3799",
+  "point_style": "crossRot",
+  "line_thickness": 1
  },
  {
   "id": "Jamaica",
@@ -1820,7 +2234,10 @@
   "deaths_rpop": 0.339180925550126,
   "cases_growing": 14.531301764378997,
   "deaths_growing": null,
-  "first_case": "2020-03-11T00:00:00"
+  "first_case": "2020-03-11T00:00:00",
+  "color": "#0c2461",
+  "point_style": "rectRounded",
+  "line_thickness": 1
  },
  {
   "id": "Jordan",
@@ -1833,7 +2250,10 @@
   "deaths_rpop": 0.09899329755979541,
   "cases_growing": 5.8111408214676725,
   "deaths_growing": null,
-  "first_case": "2020-03-03T00:00:00"
+  "first_case": "2020-03-03T00:00:00",
+  "color": "#60a3bc",
+  "point_style": "line",
+  "line_thickness": 1
  },
  {
   "id": "Kenya",
@@ -1846,7 +2266,10 @@
   "deaths_rpop": 0.01902081853315518,
   "cases_growing": 6.809320549338779,
   "deaths_growing": null,
-  "first_case": "2020-03-13T00:00:00"
+  "first_case": "2020-03-13T00:00:00",
+  "color": "#e55039",
+  "point_style": "cross",
+  "line_thickness": 1
  },
  {
   "id": "Kiribati",
@@ -1859,7 +2282,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#3c6382",
+  "point_style": "triangle",
+  "line_thickness": 1
  },
  {
   "id": "Kosovo",
@@ -1872,7 +2298,10 @@
   "deaths_rpop": 0.5523448974102205,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": "2020-03-26T00:00:00"
+  "first_case": "2020-03-26T00:00:00",
+  "color": "#eb2f06",
+  "point_style": "rectRot",
+  "line_thickness": 1
  },
  {
   "id": "Kuwait",
@@ -1885,7 +2314,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 11.144684149518799,
   "deaths_growing": null,
-  "first_case": "2020-02-24T00:00:00"
+  "first_case": "2020-02-24T00:00:00",
+  "color": "#60a3bc",
+  "point_style": "rectRounded",
+  "line_thickness": 1
  },
  {
   "id": "Kyrgyzstan",
@@ -1898,7 +2330,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 7.527298189295261,
   "deaths_growing": null,
-  "first_case": "2020-03-18T00:00:00"
+  "first_case": "2020-03-18T00:00:00",
+  "color": "#eb2f06",
+  "point_style": "rect",
+  "line_thickness": 1
  },
  {
   "id": "Laos",
@@ -1911,7 +2346,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 2.1200851578342714,
   "deaths_growing": null,
-  "first_case": "2020-03-24T00:00:00"
+  "first_case": "2020-03-24T00:00:00",
+  "color": "#b8e994",
+  "point_style": "rect",
+  "line_thickness": 1
  },
  {
   "id": "Latvia",
@@ -1924,7 +2362,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 6.45490458447255,
   "deaths_growing": null,
-  "first_case": "2020-03-02T00:00:00"
+  "first_case": "2020-03-02T00:00:00",
+  "color": "#fa983a",
+  "point_style": "rectRot",
+  "line_thickness": 1
  },
  {
   "id": "Lesotho",
@@ -1937,7 +2378,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#e55039",
+  "point_style": "rectRot",
+  "line_thickness": 1
  },
  {
   "id": "Liberia",
@@ -1950,7 +2394,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": "2020-03-16T00:00:00"
+  "first_case": "2020-03-16T00:00:00",
+  "color": "#6a89cc",
+  "point_style": "rectRounded",
+  "line_thickness": 1
  },
  {
   "id": "Libya",
@@ -1963,7 +2410,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 1.8927892607143717,
   "deaths_growing": null,
-  "first_case": "2020-03-24T00:00:00"
+  "first_case": "2020-03-24T00:00:00",
+  "color": "#60a3bc",
+  "point_style": "rect",
+  "line_thickness": 1
  },
  {
   "id": "Liechtenstein",
@@ -1976,7 +2426,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 22.233820027346606,
   "deaths_growing": null,
-  "first_case": "2020-03-04T00:00:00"
+  "first_case": "2020-03-04T00:00:00",
+  "color": "#b71540",
+  "point_style": "circle",
+  "line_thickness": 1
  },
  {
   "id": "Lithuania",
@@ -1989,7 +2442,10 @@
   "deaths_rpop": 2.5365746892605414,
   "cases_growing": 5.724975208111773,
   "deaths_growing": 3.7158378775399985,
-  "first_case": "2020-02-28T00:00:00"
+  "first_case": "2020-02-28T00:00:00",
+  "color": "#f8c291",
+  "point_style": "rectRot",
+  "line_thickness": 1
  },
  {
   "id": "MS_Zaandam",
@@ -2002,7 +2458,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": "2020-03-28T00:00:00"
+  "first_case": "2020-03-28T00:00:00",
+  "color": "#3c6382",
+  "point_style": "cross",
+  "line_thickness": 1
  },
  {
   "id": "Macau",
@@ -2015,7 +2474,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#60a3bc",
+  "point_style": "star",
+  "line_thickness": 1
  },
  {
   "id": "Macedonia",
@@ -2028,7 +2490,10 @@
   "deaths_rpop": 1.9198841925855032,
   "cases_growing": 6.737276526412446,
   "deaths_growing": 7.2282625189596255,
-  "first_case": "2020-02-26T00:00:00"
+  "first_case": "2020-02-26T00:00:00",
+  "color": "#4a69bd",
+  "point_style": "rectRot",
+  "line_thickness": 1
  },
  {
   "id": "Madagascar",
@@ -2041,7 +2506,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 6.629655441018278,
   "deaths_growing": null,
-  "first_case": "2020-03-20T00:00:00"
+  "first_case": "2020-03-20T00:00:00",
+  "color": "#fa983a",
+  "point_style": "crossRot",
+  "line_thickness": 1
  },
  {
   "id": "Malawi",
@@ -2054,7 +2522,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#6a89cc",
+  "point_style": "dash",
+  "line_thickness": 1
  },
  {
   "id": "Maldives",
@@ -2067,7 +2538,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 10.014678786465414,
   "deaths_growing": null,
-  "first_case": "2020-03-08T00:00:00"
+  "first_case": "2020-03-08T00:00:00",
+  "color": "#38ada9",
+  "point_style": "star",
+  "line_thickness": 1
  },
  {
   "id": "Mali",
@@ -2080,7 +2554,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 0.9463946303571864,
   "deaths_growing": null,
-  "first_case": "2020-03-25T00:00:00"
+  "first_case": "2020-03-25T00:00:00",
+  "color": "#079992",
+  "point_style": "crossRot",
+  "line_thickness": 1
  },
  {
   "id": "Malta",
@@ -2093,7 +2570,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 14.427150856462603,
   "deaths_growing": null,
-  "first_case": "2020-03-07T00:00:00"
+  "first_case": "2020-03-07T00:00:00",
+  "color": "#e58e26",
+  "point_style": "star",
+  "line_thickness": 1
  },
  {
   "id": "Marshall_Islands",
@@ -2106,7 +2586,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#4a69bd",
+  "point_style": "circle",
+  "line_thickness": 1
  },
  {
   "id": "Martinique",
@@ -2119,7 +2602,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#fad390",
+  "point_style": "triangle",
+  "line_thickness": 1
  },
  {
   "id": "Mauritania",
@@ -2132,7 +2618,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 2.2694123920980895,
   "deaths_growing": null,
-  "first_case": "2020-03-14T00:00:00"
+  "first_case": "2020-03-14T00:00:00",
+  "color": "#e55039",
+  "point_style": "rectRounded",
+  "line_thickness": 1
  },
  {
   "id": "Mauritius",
@@ -2145,7 +2634,10 @@
   "deaths_rpop": 1.575214938078301,
   "cases_growing": 2.7587149520903824,
   "deaths_growing": null,
-  "first_case": "2020-03-18T00:00:00"
+  "first_case": "2020-03-18T00:00:00",
+  "color": "#0c2461",
+  "point_style": "rectRot",
+  "line_thickness": 1
  },
  {
   "id": "Mayotte",
@@ -2158,7 +2650,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#4a69bd",
+  "point_style": "triangle",
+  "line_thickness": 1
  },
  {
   "id": "Micronesia",
@@ -2171,7 +2666,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#38ada9",
+  "point_style": "triangle",
+  "line_thickness": 1
  },
  {
   "id": "Moldova",
@@ -2184,7 +2682,10 @@
   "deaths_rpop": 0.4946499893773915,
   "cases_growing": 4.742479258571182,
   "deaths_growing": 2.9999999999999996,
-  "first_case": "2020-03-08T00:00:00"
+  "first_case": "2020-03-08T00:00:00",
+  "color": "#fa983a",
+  "point_style": "rectRounded",
+  "line_thickness": 1
  },
  {
   "id": "Monaco",
@@ -2197,7 +2698,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 6.847421672107405,
   "deaths_growing": null,
-  "first_case": "2020-02-29T00:00:00"
+  "first_case": "2020-02-29T00:00:00",
+  "color": "#38ada9",
+  "point_style": "circle",
+  "line_thickness": 1
  },
  {
   "id": "Mongolia",
@@ -2210,7 +2714,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 11.405352050771816,
   "deaths_growing": null,
-  "first_case": "2020-03-10T00:00:00"
+  "first_case": "2020-03-10T00:00:00",
+  "color": "#e58e26",
+  "point_style": "rectRounded",
+  "line_thickness": 1
  },
  {
   "id": "Montenegro",
@@ -2223,7 +2730,10 @@
   "deaths_rpop": 1.5923896513781337,
   "cases_growing": 4.336026410290364,
   "deaths_growing": null,
-  "first_case": "2020-03-17T00:00:00"
+  "first_case": "2020-03-17T00:00:00",
+  "color": "#78e08f",
+  "point_style": "star",
+  "line_thickness": 1
  },
  {
   "id": "Montserrat",
@@ -2236,7 +2746,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#fa983a",
+  "point_style": "cross",
+  "line_thickness": 1
  },
  {
   "id": "Mozambique",
@@ -2249,7 +2762,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 4.424309542070849,
   "deaths_growing": null,
-  "first_case": "2020-03-22T00:00:00"
+  "first_case": "2020-03-22T00:00:00",
+  "color": "#e55039",
+  "point_style": "crossRot",
+  "line_thickness": 1
  },
  {
   "id": "Myanmar",
@@ -2262,7 +2778,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": "2020-03-27T00:00:00"
+  "first_case": "2020-03-27T00:00:00",
+  "color": "#f6b93b",
+  "point_style": "cross",
+  "line_thickness": 1
  },
  {
   "id": "Namibia",
@@ -2275,7 +2794,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 15.572679209053312,
   "deaths_growing": null,
-  "first_case": "2020-03-14T00:00:00"
+  "first_case": "2020-03-14T00:00:00",
+  "color": "#6a89cc",
+  "point_style": "rectRot",
+  "line_thickness": 1
  },
  {
   "id": "Nauru",
@@ -2288,7 +2810,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#4a69bd",
+  "point_style": "cross",
+  "line_thickness": 1
  },
  {
   "id": "Nepal",
@@ -2301,7 +2826,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 4.070746346570172,
   "deaths_growing": null,
-  "first_case": "2020-01-25T00:00:00"
+  "first_case": "2020-01-25T00:00:00",
+  "color": "#60a3bc",
+  "point_style": "crossRot",
+  "line_thickness": 1
  },
  {
   "id": "New_Caledonia",
@@ -2314,7 +2842,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#f6b93b",
+  "point_style": "triangle",
+  "line_thickness": 1
  },
  {
   "id": "New_Zealand",
@@ -2327,7 +2858,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 2.637354467360322,
   "deaths_growing": null,
-  "first_case": "2020-02-28T00:00:00"
+  "first_case": "2020-02-28T00:00:00",
+  "color": "#b8e994",
+  "point_style": "rectRounded",
+  "line_thickness": 1
  },
  {
   "id": "Nicaragua",
@@ -2340,7 +2874,10 @@
   "deaths_rpop": 0.1527766701469192,
   "cases_growing": 2.9999999999999996,
   "deaths_growing": null,
-  "first_case": "2020-03-19T00:00:00"
+  "first_case": "2020-03-19T00:00:00",
+  "color": "#78e08f",
+  "point_style": "rect",
+  "line_thickness": 1
  },
  {
   "id": "Niger",
@@ -2353,7 +2890,10 @@
   "deaths_rpop": 0.04289872704462304,
   "cases_growing": 5.83007462962419,
   "deaths_growing": null,
-  "first_case": "2020-03-20T00:00:00"
+  "first_case": "2020-03-20T00:00:00",
+  "color": "#b71540",
+  "point_style": "crossRot",
+  "line_thickness": 1
  },
  {
   "id": "Nigeria",
@@ -2366,7 +2906,10 @@
   "deaths_rpop": 0.004976025533858,
   "cases_growing": 3.7345571905713,
   "deaths_growing": null,
-  "first_case": "2020-02-28T00:00:00"
+  "first_case": "2020-02-28T00:00:00",
+  "color": "#e55039",
+  "point_style": "circle",
+  "line_thickness": 1
  },
  {
   "id": "Niue",
@@ -2379,7 +2922,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#38ada9",
+  "point_style": "cross",
+  "line_thickness": 1
  },
  {
   "id": "North_Korea",
@@ -2392,7 +2938,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#3c6382",
+  "point_style": "crossRot",
+  "line_thickness": 1
  },
  {
   "id": "Northern_Mariana_Islands",
@@ -2405,7 +2954,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#60a3bc",
+  "point_style": "circle",
+  "line_thickness": 1
  },
  {
   "id": "Oman",
@@ -2418,7 +2970,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 4.849888722835132,
   "deaths_growing": null,
-  "first_case": "2020-02-24T00:00:00"
+  "first_case": "2020-02-24T00:00:00",
+  "color": "#f8c291",
+  "point_style": "rectRounded",
+  "line_thickness": 1
  },
  {
   "id": "Palau",
@@ -2431,7 +2986,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#6a89cc",
+  "point_style": "cross",
+  "line_thickness": 1
  },
  {
   "id": "Palestine",
@@ -2444,7 +3002,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#fad390",
+  "point_style": "rectRounded",
+  "line_thickness": 1
  },
  {
   "id": "Panama",
@@ -2457,7 +3018,10 @@
   "deaths_rpop": 3.2968800446680144,
   "cases_growing": 3.6265933139431374,
   "deaths_growing": 3.7158378775399985,
-  "first_case": "2020-03-10T00:00:00"
+  "first_case": "2020-03-10T00:00:00",
+  "color": "#4a69bd",
+  "point_style": "rectRounded",
+  "line_thickness": 1
  },
  {
   "id": "Papua_New_Guinea",
@@ -2470,7 +3034,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": "2020-03-20T00:00:00"
+  "first_case": "2020-03-20T00:00:00",
+  "color": "#0c2461",
+  "point_style": "line",
+  "line_thickness": 1
  },
  {
   "id": "Paraguay",
@@ -2483,7 +3050,10 @@
   "deaths_rpop": 0.42585592782934417,
   "cases_growing": 5.017548403652595,
   "deaths_growing": null,
-  "first_case": "2020-03-08T00:00:00"
+  "first_case": "2020-03-08T00:00:00",
+  "color": "#f6b93b",
+  "point_style": "rect",
+  "line_thickness": 1
  },
  {
   "id": "Puerto_Rico",
@@ -2496,7 +3066,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#0a3d62",
+  "point_style": "rectRounded",
+  "line_thickness": 1
  },
  {
   "id": "Qatar",
@@ -2509,7 +3082,10 @@
   "deaths_rpop": 0.3530989909490136,
   "cases_growing": 22.092471295010576,
   "deaths_growing": null,
-  "first_case": "2020-02-29T00:00:00"
+  "first_case": "2020-02-29T00:00:00",
+  "color": "#fad390",
+  "point_style": "rectRot",
+  "line_thickness": 1
  },
  {
   "id": "Republic_of_the_Congo",
@@ -2522,7 +3098,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": "2020-03-15T00:00:00"
+  "first_case": "2020-03-15T00:00:00",
+  "color": "#0c2461",
+  "point_style": "rect",
+  "line_thickness": 1
  },
  {
   "id": "Reunion",
@@ -2535,7 +3114,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#82ccdd",
+  "point_style": "star",
+  "line_thickness": 1
  },
  {
   "id": "Romania",
@@ -2548,7 +3130,10 @@
   "deaths_rpop": 1.910707278250672,
   "cases_growing": 4.408792026317789,
   "deaths_growing": 2.673819372638183,
-  "first_case": "2020-02-26T00:00:00"
+  "first_case": "2020-02-26T00:00:00",
+  "color": "#fad390",
+  "point_style": "dash",
+  "line_thickness": 1
  },
  {
   "id": "Rwanda",
@@ -2561,7 +3146,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 5.461112780354871,
   "deaths_growing": null,
-  "first_case": "2020-03-14T00:00:00"
+  "first_case": "2020-03-14T00:00:00",
+  "color": "#e58e26",
+  "point_style": "dash",
+  "line_thickness": 1
  },
  {
   "id": "Saint_Barth\u00e9lemy",
@@ -2574,7 +3162,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#60a3bc",
+  "point_style": "cross",
+  "line_thickness": 1
  },
  {
   "id": "Saint_Kitts_and_Nevis",
@@ -2587,7 +3178,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": "2020-03-25T00:00:00"
+  "first_case": "2020-03-25T00:00:00",
+  "color": "#eb2f06",
+  "point_style": "circle",
+  "line_thickness": 1
  },
  {
   "id": "Saint_Lucia",
@@ -2600,7 +3194,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": "2020-03-14T00:00:00"
+  "first_case": "2020-03-14T00:00:00",
+  "color": "#fa983a",
+  "point_style": "triangle",
+  "line_thickness": 1
  },
  {
   "id": "Saint_Martin",
@@ -2613,7 +3210,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#0c2461",
+  "point_style": "circle",
+  "line_thickness": 1
  },
  {
   "id": "Saint_Pierre_and_Miquelon",
@@ -2626,7 +3226,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#78e08f",
+  "point_style": "cross",
+  "line_thickness": 1
  },
  {
   "id": "Saint_Vincent_and_the_Grenadines",
@@ -2639,7 +3242,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": "2020-03-14T00:00:00"
+  "first_case": "2020-03-14T00:00:00",
+  "color": "#b71540",
+  "point_style": "triangle",
+  "line_thickness": 1
  },
  {
   "id": "Samoa",
@@ -2652,7 +3258,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#78e08f",
+  "point_style": "triangle",
+  "line_thickness": 1
  },
  {
   "id": "Sao_Tome_and_Principe",
@@ -2665,7 +3274,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#60a3bc",
+  "point_style": "triangle",
+  "line_thickness": 1
  },
  {
   "id": "Saudi_Arabia",
@@ -2678,7 +3290,10 @@
   "deaths_rpop": 0.11672517710711124,
   "cases_growing": 7.166066052300232,
   "deaths_growing": 2.9999999999999996,
-  "first_case": "2020-03-02T00:00:00"
+  "first_case": "2020-03-02T00:00:00",
+  "color": "#fad390",
+  "point_style": "crossRot",
+  "line_thickness": 1
  },
  {
   "id": "Senegal",
@@ -2691,7 +3306,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 7.63337038187227,
   "deaths_growing": null,
-  "first_case": "2020-03-02T00:00:00"
+  "first_case": "2020-03-02T00:00:00",
+  "color": "#fa983a",
+  "point_style": "dash",
+  "line_thickness": 1
  },
  {
   "id": "Seychelles",
@@ -2704,7 +3322,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 15.572679209053312,
   "deaths_growing": null,
-  "first_case": "2020-03-14T00:00:00"
+  "first_case": "2020-03-14T00:00:00",
+  "color": "#fad390",
+  "point_style": "circle",
+  "line_thickness": 1
  },
  {
   "id": "Sierra_Leone",
@@ -2717,7 +3338,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#6a89cc",
+  "point_style": "rect",
+  "line_thickness": 1
  },
  {
   "id": "Singapore",
@@ -2730,7 +3354,10 @@
   "deaths_rpop": 0.3445699310705081,
   "cases_growing": 8.671466787667455,
   "deaths_growing": null,
-  "first_case": "2020-01-23T00:00:00"
+  "first_case": "2020-01-23T00:00:00",
+  "color": "#3c6382",
+  "point_style": "rect",
+  "line_thickness": 1
  },
  {
   "id": "Sint_Maarten",
@@ -2743,7 +3370,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#3c6382",
+  "point_style": "circle",
+  "line_thickness": 1
  },
  {
   "id": "Slovakia",
@@ -2756,7 +3386,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 6.897549780301019,
   "deaths_growing": null,
-  "first_case": "2020-03-06T00:00:00"
+  "first_case": "2020-03-06T00:00:00",
+  "color": "#b71540",
+  "point_style": "rect",
+  "line_thickness": 1
  },
  {
   "id": "Slovenia",
@@ -2769,7 +3402,10 @@
   "deaths_rpop": 4.329724908522535,
   "cases_growing": 8.033023319138472,
   "deaths_growing": 3.5377487545181294,
-  "first_case": "2020-03-05T00:00:00"
+  "first_case": "2020-03-05T00:00:00",
+  "color": "#60a3bc",
+  "point_style": "rectRot",
+  "line_thickness": 1
  },
  {
   "id": "Solomon_Islands",
@@ -2782,7 +3418,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#4a69bd",
+  "point_style": "star",
+  "line_thickness": 1
  },
  {
   "id": "Somalia",
@@ -2795,7 +3434,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 1.8927892607143717,
   "deaths_growing": null,
-  "first_case": "2020-03-16T00:00:00"
+  "first_case": "2020-03-16T00:00:00",
+  "color": "#1e3799",
+  "point_style": "dash",
+  "line_thickness": 1
  },
  {
   "id": "South_Africa",
@@ -2808,7 +3450,10 @@
   "deaths_rpop": 0.01707700722716023,
   "cases_growing": 4.035173789966963,
   "deaths_growing": null,
-  "first_case": "2020-03-05T00:00:00"
+  "first_case": "2020-03-05T00:00:00",
+  "color": "#82ccdd",
+  "point_style": "cross",
+  "line_thickness": 1
  },
  {
   "id": "South_Sudan",
@@ -2821,7 +3466,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#82ccdd",
+  "point_style": "line",
+  "line_thickness": 1
  },
  {
   "id": "Sri_Lanka",
@@ -2834,7 +3482,10 @@
   "deaths_rpop": 0.046896103979542414,
   "cases_growing": 20.304071000028397,
   "deaths_growing": null,
-  "first_case": "2020-01-27T00:00:00"
+  "first_case": "2020-01-27T00:00:00",
+  "color": "#0c2461",
+  "point_style": "crossRot",
+  "line_thickness": 1
  },
  {
   "id": "Suriname",
@@ -2847,7 +3498,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": "2020-03-14T00:00:00"
+  "first_case": "2020-03-14T00:00:00",
+  "color": "#1e3799",
+  "point_style": "star",
+  "line_thickness": 1
  },
  {
   "id": "Swaziland",
@@ -2860,7 +3514,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 2.5642669370271816,
   "deaths_growing": null,
-  "first_case": "2020-03-14T00:00:00"
+  "first_case": "2020-03-14T00:00:00",
+  "color": "#079992",
+  "point_style": "rectRot",
+  "line_thickness": 1
  },
  {
   "id": "Syria",
@@ -2873,7 +3530,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": "2020-03-22T00:00:00"
+  "first_case": "2020-03-22T00:00:00",
+  "color": "#60a3bc",
+  "point_style": "dash",
+  "line_thickness": 1
  },
  {
   "id": "Tajikistan",
@@ -2886,7 +3546,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#e58e26",
+  "point_style": "line",
+  "line_thickness": 1
  },
  {
   "id": "Tanzania",
@@ -2899,7 +3562,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 13.48966831680579,
   "deaths_growing": null,
-  "first_case": "2020-03-16T00:00:00"
+  "first_case": "2020-03-16T00:00:00",
+  "color": "#b8e994",
+  "point_style": "cross",
+  "line_thickness": 1
  },
  {
   "id": "Timor_Leste",
@@ -2912,7 +3578,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": "2020-03-22T00:00:00"
+  "first_case": "2020-03-22T00:00:00",
+  "color": "#b71540",
+  "point_style": "rectRot",
+  "line_thickness": 1
  },
  {
   "id": "Togo",
@@ -2925,7 +3594,10 @@
   "deaths_rpop": 0.1237261465268957,
   "cases_growing": 24.938851242362436,
   "deaths_growing": null,
-  "first_case": "2020-03-06T00:00:00"
+  "first_case": "2020-03-06T00:00:00",
+  "color": "#f8c291",
+  "point_style": "rect",
+  "line_thickness": 1
  },
  {
   "id": "Tokelau",
@@ -2938,7 +3610,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#e58e26",
+  "point_style": "cross",
+  "line_thickness": 1
  },
  {
   "id": "Tonga",
@@ -2951,7 +3626,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#079992",
+  "point_style": "triangle",
+  "line_thickness": 1
  },
  {
   "id": "Trinidad_and_Tobago",
@@ -2964,7 +3642,10 @@
   "deaths_rpop": 2.1505792585232832,
   "cases_growing": 9.915297905943309,
   "deaths_growing": 1.8927892607143717,
-  "first_case": "2020-03-14T00:00:00"
+  "first_case": "2020-03-14T00:00:00",
+  "color": "#3c6382",
+  "point_style": "rectRot",
+  "line_thickness": 1
  },
  {
   "id": "Turkmenistan",
@@ -2977,7 +3658,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#1e3799",
+  "point_style": "rect",
+  "line_thickness": 1
  },
  {
   "id": "Turks_and_Caicos_Islands",
@@ -2990,7 +3674,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#e58e26",
+  "point_style": "circle",
+  "line_thickness": 1
  },
  {
   "id": "Turks_and_Caicos_islands",
@@ -3003,7 +3690,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#fad390",
+  "point_style": "cross",
+  "line_thickness": 1
  },
  {
   "id": "Tuvalu",
@@ -3016,7 +3706,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#f6b93b",
+  "point_style": "cross",
+  "line_thickness": 1
  },
  {
   "id": "Uganda",
@@ -3029,7 +3722,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 2.7284244360272534,
   "deaths_growing": null,
-  "first_case": "2020-03-21T00:00:00"
+  "first_case": "2020-03-21T00:00:00",
+  "color": "#eb2f06",
+  "point_style": "cross",
+  "line_thickness": 1
  },
  {
   "id": "United_States_Virgin_Islands",
@@ -3042,7 +3738,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#0a3d62",
+  "point_style": "triangle",
+  "line_thickness": 1
  },
  {
   "id": "Uruguay",
@@ -3055,7 +3754,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 5.599212211482506,
   "deaths_growing": null,
-  "first_case": "2020-03-14T00:00:00"
+  "first_case": "2020-03-14T00:00:00",
+  "color": "#3c6382",
+  "point_style": "rectRounded",
+  "line_thickness": 1
  },
  {
   "id": "Uzbekistan",
@@ -3068,7 +3770,10 @@
   "deaths_rpop": 0.06063965865208469,
   "cases_growing": 3.7804843012435625,
   "deaths_growing": null,
-  "first_case": "2020-03-15T00:00:00"
+  "first_case": "2020-03-15T00:00:00",
+  "color": "#f8c291",
+  "point_style": "crossRot",
+  "line_thickness": 1
  },
  {
   "id": "Vanuatu",
@@ -3081,7 +3786,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#6a89cc",
+  "point_style": "triangle",
+  "line_thickness": 1
  },
  {
   "id": "Vatican_City",
@@ -3094,7 +3802,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 5.128533874054364,
   "deaths_growing": null,
-  "first_case": "2020-03-06T00:00:00"
+  "first_case": "2020-03-06T00:00:00",
+  "color": "#b71540",
+  "point_style": "cross",
+  "line_thickness": 1
  },
  {
   "id": "Venezuela",
@@ -3107,7 +3818,10 @@
   "deaths_rpop": 0.07013648454688096,
   "cases_growing": 7.751474836693843,
   "deaths_growing": null,
-  "first_case": "2020-03-14T00:00:00"
+  "first_case": "2020-03-14T00:00:00",
+  "color": "#78e08f",
+  "point_style": "crossRot",
+  "line_thickness": 1
  },
  {
   "id": "Vietnam",
@@ -3120,7 +3834,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 9.888192772187109,
   "deaths_growing": null,
-  "first_case": "2020-01-23T00:00:00"
+  "first_case": "2020-01-23T00:00:00",
+  "color": "#38ada9",
+  "point_style": "circle",
+  "line_thickness": 1
  },
  {
   "id": "Wallis_and_Futuna",
@@ -3133,7 +3850,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#e55039",
+  "point_style": "cross",
+  "line_thickness": 1
  },
  {
   "id": "West_Bank_and_Gaza",
@@ -3146,7 +3866,10 @@
   "deaths_rpop": 1.0,
   "cases_growing": 4.0979867158306185,
   "deaths_growing": null,
-  "first_case": "2020-03-05T00:00:00"
+  "first_case": "2020-03-05T00:00:00",
+  "color": "#fad390",
+  "point_style": "star",
+  "line_thickness": 1
  },
  {
   "id": "Western_Sahara",
@@ -3159,7 +3882,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#eb2f06",
+  "point_style": "star",
+  "line_thickness": 1
  },
  {
   "id": "Yemen",
@@ -3172,7 +3898,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": null,
   "deaths_growing": null,
-  "first_case": null
+  "first_case": null,
+  "color": "#4a69bd",
+  "point_style": "crossRot",
+  "line_thickness": 1
  },
  {
   "id": "Zambia",
@@ -3185,7 +3914,10 @@
   "deaths_rpop": 0.0,
   "cases_growing": 2.4542036973037558,
   "deaths_growing": null,
-  "first_case": "2020-03-18T00:00:00"
+  "first_case": "2020-03-18T00:00:00",
+  "color": "#b8e994",
+  "point_style": "dash",
+  "line_thickness": 1
  },
  {
   "id": "Zimbabwe",
@@ -3198,6 +3930,9 @@
   "deaths_rpop": 0.06828050834565341,
   "cases_growing": 2.4542036973037558,
   "deaths_growing": null,
-  "first_case": "2020-03-20T00:00:00"
+  "first_case": "2020-03-20T00:00:00",
+  "color": "#3c6382",
+  "point_style": "dash",
+  "line_thickness": 1
  }
 ]
