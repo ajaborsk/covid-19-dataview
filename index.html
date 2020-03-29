@@ -203,13 +203,14 @@
             console.log('response length:',response.length);
             return response; //return the tableData property of a response json object
            },
-        rowSelectionChanged:function(data, rows){
-            //rows - array of row components for the selected rows in order of selection
-            //data - array of data objects for the selected rows in order of selection
-            console.log('selectionChanged');
-            console.log(rows);
-            if (data.length > 0)
-             {
+        rowSelectionChanged:function(data, rows)
+         {
+          //rows - array of row components for the selected rows in order of selection
+          //data - array of data objects for the selected rows in order of selection
+          console.log('selectionChanged');
+          console.log(rows);
+          if (data.length > 0)
+           {
             // Update selected_locations array (TODO: Improve efficiency...)
             selected_locations = [];
             for (var r in data)
@@ -217,35 +218,19 @@
               selected_locations.push(data[r].id);
              }
             console.log(data.length, selected_locations);
-/*
-              var locations = [];
-              for (i in data)
-               {
-                locations.push(data[i]['country']);
-               }
-              var dataset = [];
-              for (d in datasets[current_dataset])
-               {
-                if (locations.includes(datasets[current_dataset][d]['label']))
-                 {
-                dataset.push(datasets[current_dataset][d]);
-                 }
-               }
-              charts['main_chart'].data.datasets = dataset;
-             */ //charts['main_chart'].update();
-
-              page_update({}, new Set(['selection']));
-             }
-            else
-             {
-              console.log('select is 0...');
-             }
+            localStorage.setItem("selected_locations",JSON.stringify(selected_locations));
+            page_update({}, new Set(['selection']));
+           }
+          else
+           {
+            console.log('select is 0...');
+           }
          },
          renderComplete:function(data)
           {
-           console.log('tabulator render complete');
            if (this.rowManager.displayRows.length > 0)
             {
+             console.log('tabulator (with some rows) render complete');
              if (selected_locations.length == 0)
               {
                selected_locations.push("World");
@@ -271,36 +256,6 @@
           },
          });
 
-  // Load summaries data
-  /*
-  var summaries = {};
-  var s_requests = [];
-  for (var i = 0 ; i < sources.length ; i++)
-   {
-    s_requests[i] = new XMLHttpRequest();
-    var summary_name = sources[i]+'_summary';
-    s_requests[i].open('GET', 'data/'+summary_name+'.json');
-    s_requests[i].responseType = 'json';
-    s_requests[i].send();
-    s_requests[i].featname = summary_name;
-    s_requests[i].onload = function(request)
-     {
-      function color_it(array)
-       {
-        for (var i = 0; i<array.length ;i++)
-         {
-          array[i]['color'] = colors[array[i]['id'] % ncolors];
-          if (array[i]['_children'])
-           {
-            color_it(array[i]['_children']);
-           }
-         }
-       };
-      color_it(request.target.response);
-      summaries[request.target.summary_name] = request.target.response;
-     }
-   }
-*/
 
   // Load page globals data
   var globals_request = new XMLHttpRequest();
@@ -340,11 +295,9 @@
             data:[]
           };
         j++;
-        //var k=0;
         for (var d in data[key])
          {
           dataset.data.push({x:d,y:data[key][d]});
-          //k++;
          }
         datasets[e.target.featname].push(dataset);
        };
@@ -352,7 +305,6 @@
       if (unloaded == 0)
        {
         console.log("Everything is loaded : Let's go !");
-        //TODO
         page_update();
        }
       else
@@ -368,10 +320,6 @@ function build_chart(ctx)
   charts[ctx.dataset.name] = new Chart(ctx,
      {
       type: 'line',
- /*     data:
-       {
-        datasets: [{}],
-       }, */
       options:
        {
         maintainAspectRatio:false,
@@ -389,13 +337,11 @@ function build_chart(ctx)
           yAxes: [{
                 type: ctx.dataset.yscale,
                 ticks: {
-                    //beginAtZero: true,
                 }
            }],
           xAxes: [{
                type:'time',
                ticks: {
-//                   beginAtZero: true,
                 },
            }]
          },
@@ -423,7 +369,6 @@ function build_chart(ctx)
          },
        },
      });
-  // }
  }
 
  dom_charts = document.getElementsByClassName("jchart");
@@ -434,53 +379,6 @@ function build_chart(ctx)
   }
 
 
-/*
-  function mainform_update(event)
-   {
-    console.log('mainform event :');
-    mf = document.getElementById('main_form');
-    console.log(mf.source_sel.value);
-    if (current_source != mf.source_sel.value)
-     {
-      current_source = mf.source_sel.value;
-      console.log('updating summary...');
-      tabulator.setData('data/'+current_source+'_summary.json');
-     }
-
-    current_dataset = current_source + '_' + mf.feature_sel.value;
-    if (mf.variant_sel.value != '')
-     {
-      current_dataset += '_' + mf.variant_sel.value;
-     }
-    if (mf.model_sel.value != '')
-     {
-      current_dataset += '_' + mf.model_sel.value;
-     }
-    if (mf.param1_sel.value != '')
-     {
-      current_dataset += '_' + mf.param1_sel.value;
-     }
-    // Update chart...
-    //TODO
-    console.log('current_dataset is now :', current_dataset);
-   };
-
- function chartform_update(event)
-  {
-   var changed = [];
-   cf = document.getElementById('chart_form');
-   if (charts['main_chart'].options.scales.yAxes[0].type != cf.chart_yscale.value)
-    {
-     changed.push('chart_yscale');
-    };
-   if (charts['main_chart'].options.legend.display != (cf.chart_legend.value == "true"))
-    {
-     changed.push('chart_legend');
-    };
-   page_update(changed);
-  };
-
-*/
  function page_update(event, changed = new Set())
   {
    console.log('page_update, changed=', changed);
@@ -493,35 +391,30 @@ function build_chart(ctx)
      settings['source'] = mf.source_sel.value;
      tabulator.setData('data/' + settings['source'] + '_summary.json');
      changed.add('source');
-     //chart_datasets_update_done = false;
     }
 
    if (settings['feature'] != mf.feature_sel.value)
     {
      settings['feature'] = mf.feature_sel.value;
      changed.add('feature');
-     //datasets_update_done = false;
     }
 
    if (settings['variant'] != mf.variant_sel.value)
     {
      settings['variant'] = mf.variant_sel.value;
      changed.add('variant');
-     //datasets_update_done = false;
     }
 
    if (settings['model'] != mf.model_sel.value)
     {
      settings['model'] = mf.model_sel.value;
      changed.add('model');
-     //datasets_update_done = false;
     }
 
    if (settings['param1'] != mf.param1_sel.value)
     {
      settings['param1'] = mf.param1_sel.value;
      changed.add('param1');
-     //datasets_update_done = false;
     }
 
    if ('main_chart' in charts)
@@ -529,31 +422,23 @@ function build_chart(ctx)
      if (charts['main_chart'].options.scales.yAxes[0].type != cf.chart_yscale.value)
       {
        charts['main_chart'].options.scales.yAxes[0].type = cf.chart_yscale.value;
-       //chart_update_done = false;
        changed.add('chart_data');
       }
 
      if (charts['main_chart'].options.legend.display != (cf.chart_legend.value == "true"))
       {
        charts['main_chart'].options.legend.display = (cf.chart_legend.value == "true");
-       //chart_update_done = false;
        changed.add('chart_data');
       }
     }
 
    while  (changed.size != 0)
     {
-//     var datasets_update_done = true;
-//     var chart_datasets_update_done = true;
-//     var chart_options_update_done = true;
-//     var chart_update_done = true;
-
      if (changed.has('source') ||
        changed.has('feature') ||
        changed.has('variant') ||
        changed.has('model') ||
        changed.has('param1'))
-     //if (chart_datasets_update_done == false)
       {
        settings['dataset'] = settings['source'] + '_' + settings['feature'];
        if (settings['variant'] != '')
@@ -574,7 +459,6 @@ function build_chart(ctx)
        changed.delete('model');
        changed.delete('param1');
        changed.add('dataset');
-       //chart_update_done = false;
       }
       if (changed.has('selection') || changed.has('dataset'))
       {
@@ -595,7 +479,6 @@ function build_chart(ctx)
        charts['main_chart'].data.datasets = dataset;
        changed.delete('selection');
        changed.delete('dataset');
-       //chart_update_done = false;
        changed.add('chart_data');
       }
 
@@ -605,10 +488,6 @@ function build_chart(ctx)
        changed.delete('chart_data');
       }
 
-//     done =
-//       chart_datasets_update_done &&
-//       chart_options_update_done &&
-//       chart_update_done;
     } // while()
   };
 
@@ -621,18 +500,6 @@ function build_chart(ctx)
 
   document.getElementById("chart_yscale_sel").addEventListener('change', page_update);
   document.getElementById("chart_legend_sel").addEventListener('change', page_update);
-
-
-/*  document.getElementById("show0").addEventListener('click', function(event) {
-      console.log('Clicked show !');
-      charts['confirmed'].data.datasets[0].hidden = false;
-      charts['confirmed'].update();
-      });
-  document.getElementById("hide0").addEventListener('click', function(event) {
-      console.log('Clicked hide !');
-      charts['confirmed'].data.datasets[0].hidden = true;
-      charts['confirmed'].update();
-      });*/
 
 document.onLoad = function()
  {
