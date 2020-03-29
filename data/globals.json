@@ -1,5 +1,5 @@
 {
- "now": 1585488513.22936,
+ "now": 1585489070.988588,
  "datasets": [
   {
    "fname": "cssejh_cases"
@@ -20,6 +20,15 @@
    "fname": "cssejh_deaths_rpop"
   },
   {
+   "fname": "cssejh_cases_growing_movavg_1"
+  },
+  {
+   "fname": "cssejh_deaths_growing_movavg_1"
+  },
+  {
+   "fname": "cssejh_recovered_growing_movavg_1"
+  },
+  {
    "fname": "cssejh_cases_growing_movavg_3"
   },
   {
@@ -27,6 +36,24 @@
   },
   {
    "fname": "cssejh_recovered_growing_movavg_3"
+  },
+  {
+   "fname": "cssejh_cases_growing_movavg_5"
+  },
+  {
+   "fname": "cssejh_deaths_growing_movavg_5"
+  },
+  {
+   "fname": "cssejh_recovered_growing_movavg_5"
+  },
+  {
+   "fname": "cssejh_cases_growing_movavg_7"
+  },
+  {
+   "fname": "cssejh_deaths_growing_movavg_7"
+  },
+  {
+   "fname": "cssejh_recovered_growing_movavg_7"
   },
   {
    "fname": "cssejh_cases_perday"
@@ -53,10 +80,28 @@
    "fname": "ecdc_deaths_rpop"
   },
   {
+   "fname": "ecdc_cases_growing_movavg_1"
+  },
+  {
+   "fname": "ecdc_deaths_growing_movavg_1"
+  },
+  {
    "fname": "ecdc_cases_growing_movavg_3"
   },
   {
    "fname": "ecdc_deaths_growing_movavg_3"
+  },
+  {
+   "fname": "ecdc_cases_growing_movavg_5"
+  },
+  {
+   "fname": "ecdc_deaths_growing_movavg_5"
+  },
+  {
+   "fname": "ecdc_cases_growing_movavg_7"
+  },
+  {
+   "fname": "ecdc_deaths_growing_movavg_7"
   },
   {
    "fname": "ecdc_cases_perday"
