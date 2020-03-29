@@ -1992,6 +1992,19 @@
   "first_case": "2020-02-28T00:00:00"
  },
  {
+  "id": "MS_Zaandam",
+  "country": "MS Zaandam",
+  "population": 0.002,
+  "cases": 0,
+  "deaths": 0,
+  "dc_percent": -1.0,
+  "cases_rpop": 0.0,
+  "deaths_rpop": 0.0,
+  "cases_growing": null,
+  "deaths_growing": null,
+  "first_case": null
+ },
+ {
   "id": "Macau",
   "country": "Macau",
   "population": 0.640445,
