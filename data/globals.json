@@ -1,3 +1,24 @@
 {
- "now": 1585483169.93129
+ "now": 1585483345.840224,
+ "datasets": [
+  "cssejh_cases",
+  "cssejh_deaths",
+  "cssejh_recovered",
+  "cssejh_population",
+  "cssejh_cases_rpop",
+  "cssejh_deaths_rpop",
+  "cssejh_cases_growing",
+  "cssejh_deaths_growing",
+  "cssejh_cases_perday",
+  "cssejh_deaths_perday",
+  "ecdc_cases",
+  "ecdc_deaths",
+  "ecdc_population",
+  "ecdc_cases_rpop",
+  "ecdc_deaths_rpop",
+  "ecdc_cases_growing",
+  "ecdc_deaths_growing",
+  "ecdc_cases_perday",
+  "ecdc_deaths_perday"
+ ]
 }
