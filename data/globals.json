@@ -1,5 +1,5 @@
 {
- "now": 1585490289.68788,
+ "now": 1585490501.472302,
  "datasets": [
   {
    "fname": "cssejh_cases"
@@ -65,6 +65,15 @@
    "fname": "cssejh_recovered_perday"
   },
   {
+   "fname": "cssejh_cases_percent"
+  },
+  {
+   "fname": "cssejh_deaths_percent"
+  },
+  {
+   "fname": "cssejh_recovered_percent"
+  },
+  {
    "fname": "ecdc_cases"
   },
   {
@@ -108,6 +117,12 @@
   },
   {
    "fname": "ecdc_deaths_perday"
+  },
+  {
+   "fname": "ecdc_cases_percent"
+  },
+  {
+   "fname": "ecdc_deaths_percent"
   }
  ]
 }
