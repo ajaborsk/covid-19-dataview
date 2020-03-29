@@ -321,6 +321,7 @@
        };
     };
 
+
 function build_chart(ctx)
  {
   charts[ctx.dataset.name] = new Chart(ctx,
@@ -342,8 +343,11 @@ function build_chart(ctx)
          {
           yAxes: [{
                 type: ctx.dataset.yscale,
-                ticks: {
-                }
+                scaleLabel: {
+                    display:true,
+                    labelString:"Label test and so."
+                },
+
            }],
           xAxes: [{
                type:'time',
