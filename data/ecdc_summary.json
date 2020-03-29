@@ -11,7 +11,7 @@
   "cases_growing": 6.165255111892148,
   "deaths_growing": 5.625322256860874,
   "first_case": "2019-12-31T00:00:00",
-  "color": "#1e3799",
+  "color": "#b8e994",
   "point_style": "crossRot",
   "line_thickness": 1,
   "_children": [
@@ -27,8 +27,8 @@
     "cases_growing": 57.582037618150295,
     "deaths_growing": 54.01487726429777,
     "first_case": "2019-12-31T00:00:00",
-    "color": "#f6b93b",
-    "point_style": "crossRot",
+    "color": "#0c2461",
+    "point_style": "cross",
     "line_thickness": 1,
     "_children": [
      {
@@ -253,8 +253,8 @@
     "cases_growing": 7.3020586162595205,
     "deaths_growing": 10.492853817749378,
     "first_case": "2020-01-27T00:00:00",
-    "color": "#e55039",
-    "point_style": "crossRot",
+    "color": "#0a3d62",
+    "point_style": "cross",
     "line_thickness": 1,
     "_children": [
      {
@@ -351,8 +351,8 @@
     "cases_growing": 5.707190814983013,
     "deaths_growing": 4.860485011672903,
     "first_case": "2020-01-25T00:00:00",
-    "color": "#4a69bd",
-    "point_style": "crossRot",
+    "color": "#079992",
+    "point_style": "cross",
     "line_thickness": 1,
     "_children": [
      {
@@ -769,7 +769,7 @@
     "cases_growing": 3.5654059969794623,
     "deaths_growing": 2.8396821759014435,
     "first_case": "2020-01-21T00:00:00",
-    "color": "#60a3bc",
+    "color": "#fad390",
     "point_style": "crossRot",
     "line_thickness": 1,
     "_children": [
@@ -835,7 +835,7 @@
     "cases_growing": 4.95815558989125,
     "deaths_growing": 3.1591368513076894,
     "first_case": "2020-02-26T00:00:00",
-    "color": "#78e08f",
+    "color": "#f8c291",
     "point_style": "crossRot",
     "line_thickness": 1,
     "_children": [
@@ -917,7 +917,7 @@
     "cases_growing": 6.1206330742873245,
     "deaths_growing": 3.563219787859771,
     "first_case": "2020-02-15T00:00:00",
-    "color": "#fa983a",
+    "color": "#6a89cc",
     "point_style": "crossRot",
     "line_thickness": 1,
     "_children": [
@@ -1031,7 +1031,7 @@
     "cases_growing": 6.749144193476087,
     "deaths_growing": 8.622590009085615,
     "first_case": "2020-01-25T00:00:00",
-    "color": "#eb2f06",
+    "color": "#82ccdd",
     "point_style": "crossRot",
     "line_thickness": 1,
     "_children": [
