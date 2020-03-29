@@ -100,15 +100,16 @@
     </div>
     <div style="grid-area:from">
     From:
-    <select class="auto" id="graph_from_sel" name="graph_from">
+    <select class="auto" id="chart_from_sel" name="chart_from">
      <option value="first">First data</option>
     </select>
     </div>
     <div style="grid-area:to">
     To:
-    <select class="auto" id="graph_to_sel" name="graph_to">
-     <option value="last">Last data</option>
-     <option value="10days">10 days from now</option>
+    <select class="auto" id="chart_to_sel" name="chart_to">
+     <option value="0">Last data</option>
+     <option value="2">2 days from now</option>
+     <option value="10">10 days from now</option>
     </select>
     </div>
   </form>
@@ -446,6 +447,13 @@ function build_chart(ctx)
        charts['main_chart'].options.legend.display = (cf.chart_legend.value == "true");
        changed.add('chart_data');
       }
+
+     if (charts['main_chart'].options.scales.xAxes[0]['refmax'] != cf.chart_to.value)
+      {
+       charts['main_chart'].options.scales.xAxes[0]['refmax'] = cf.chart_to.value;
+       charts['main_chart'].options.scales.xAxes[0]['max'] = moment().add(charts['main_chart'].options.scales.xAxes[0]['refmax'], 'days');
+       changed.add('chart_data');
+      }
     }
 
    while  (changed.size != 0)
@@ -508,21 +516,7 @@ function build_chart(ctx)
   };
 
   document.getElementsByClassName("auto").forEach(addEventListener('change', page_update));
-/*
-  document.getElementById("source_sel").addEventListener('change', page_update);
-  document.getElementById("feature_sel").addEventListener('change', page_update);
-  document.getElementById("variant_sel").addEventListener('change', page_update);
-  document.getElementById("model_sel").addEventListener('change', page_update);
-  document.getElementById("param1_sel").addEventListener('change', page_update);
 
-  document.getElementById("chart_yscale_sel").addEventListener('change', page_update);
-  document.getElementById("chart_legend_sel").addEventListener('change', page_update);
-
-document.onLoad = function()
- {
-//  page_update();
- }
-*/
 </script>
  </body>
 </html>
