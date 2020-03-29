@@ -101,13 +101,16 @@
     <div style="grid-area:from">
     From:
     <select class="auto" id="chart_from_sel" name="chart_from">
-     <option value="first">First data</option>
+     <option value="-90">3 months ago</option>
+     <option value="-60">2 months ago</option>
+     <option value="-30">a month ago</option>
+     <option value="-14">2 weeks ago</option>
     </select>
     </div>
     <div style="grid-area:to">
     To:
     <select class="auto" id="chart_to_sel" name="chart_to">
-     <option value="0">Last data</option>
+     <option value="0">Today</option>
      <option value="2">2 days from now</option>
      <option value="10">10 days from now</option>
     </select>
@@ -451,6 +454,13 @@ function build_chart(ctx)
       {
        charts['main_chart'].options.scales.xAxes[0].ticks['refmax'] = cf.chart_to.value;
        charts['main_chart'].options.scales.xAxes[0].ticks['max'] = moment().add(charts['main_chart'].options.scales.xAxes[0].ticks['refmax'], 'days');
+       changed.add('chart_data');
+      }
+
+     if (charts['main_chart'].options.scales.xAxes[0].ticks['refmin'] != cf.chart_from.value)
+      {
+       charts['main_chart'].options.scales.xAxes[0].ticks['refmin'] = cf.chart_from.value;
+       charts['main_chart'].options.scales.xAxes[0].ticks['min'] = moment().add(charts['main_chart'].options.scales.xAxes[0].ticks['refmin'], 'days');
        changed.add('chart_data');
       }
     }
