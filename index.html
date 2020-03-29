@@ -231,9 +231,10 @@
            if (this.rowManager.displayRows.length > 0)
             {
              console.log('tabulator (with some rows) render complete');
-             if (selected_locations.length == 0)
+             selected_locations = JSON.parse(localStorage.getItem('selected_locations'));
+             if (selected_locations == null)
               {
-               selected_locations.push("World");
+               selected_locations = {"World"};
               }
              console.log(selected_locations);
 //           console.log('length',this.rowManager.rows.length);
