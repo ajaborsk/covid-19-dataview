@@ -273,53 +273,53 @@
       page_globals = e.target.response;
 
       var elt = document.getElementById("update_timestamp");
-      elt.firstChild.nodeValue = moment(page_globals.now*1000).format('MM/DD/YYYY HH:mm:ss');
-     }
+      elt.firstChild.nodeValue = moment(page_globals.now * 1000).format('MM/DD/YYYY HH:mm:ss');
 
-  // Load features data (datasets)
-  var f_requests = [];
-  for (var i = 0 ; i < features.length ; i++)
-   {
-    f_requests[i] = new XMLHttpRequest();
-    var featname = features[i];
-    f_requests[i].open('GET', 'data/'+featname+'.json');
-    f_requests[i].responseType = 'json';
-    f_requests[i].send();
-    f_requests[i].featname = featname;
-    f_requests[i].onload = function(e)
-     {
-      var data = e.target.response;
-      datasets[e.target.featname] = []
-      var j = 0;
-      for (var key in data) {
-        var dataset =
-          {
-           "label":key,
-           "fill":false,
-           "borderWidth":1,
-           "borderColor":colors[j % ncolors],
-            data:[]
-          };
-        j++;
-        for (var d in data[key])
+      // Load features data (datasets)
+      var f_requests = [];
+      for (var i = 0 ; i < page_globals.datasets.length ; i++)
+       {
+        f_requests[i] = new XMLHttpRequest();
+        var featname = page_globals.datasets[i].fname;
+        f_requests[i].open('GET', 'data/'+featname+'.json');
+        f_requests[i].responseType = 'json';
+        f_requests[i].send();
+        f_requests[i].featname = featname;
+        f_requests[i].onload = function(e)
          {
-          dataset.data.push({x:d,y:data[key][d]});
-         }
-        datasets[e.target.featname].push(dataset);
+          var data = e.target.response;
+          datasets[e.target.featname] = []
+          var j = 0;
+          for (var key in data) {
+            var dataset =
+              {
+               "label":key,
+               "fill":false,
+               "borderWidth":1,
+               "borderColor":colors[j % ncolors],
+                data:[]
+              };
+            j++;
+            for (var d in data[key])
+             {
+              dataset.data.push({x:d,y:data[key][d]});
+             }
+            datasets[e.target.featname].push(dataset);
+           };
+          unloaded--;
+          if (unloaded == 0)
+           {
+            console.log("Everything is loaded : Let's go !");
+            page_update();
+           }
+          else
+           {
+            //Update loader overlay
+            console.log("Still", unloaded, "files to load...");
+           }
+         };
        };
-      unloaded--;
-      if (unloaded == 0)
-       {
-        console.log("Everything is loaded : Let's go !");
-        page_update();
-       }
-      else
-       {
-        //Update loader overlay
-        console.log("Still", unloaded, "files to load...");
-       }
-     };
-   };
+    };
 
 function build_chart(ctx)
  {
