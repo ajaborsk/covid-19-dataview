@@ -174,7 +174,10 @@
           layout:"fitColumns",
           selectable:true,
           tooltipsHeader:true, //enable header tooltips
-          tooltips:true,
+          tooltips:function(cell){
+            //cell - cell component
+            return  cell.getColumn().getField() + " - " + cell.getValue(); //return cells "field - value";
+            },
           dataTree:true,
           dataTreeStartExpanded:true, //start with an expanded tree
           initialFilter:[
@@ -188,8 +191,8 @@
            //{title:'Ratio (%)', field:'dc_percent', align:'right', formatter:'money'},
            //{title:'Confirmed / 1M hab', field:'cases_rpop', formatter:'money', align:'right'},
            //{title:'Deaths / 1M hab', field:'deaths_rpop', formatter:'money', align:'right'},
-           {title:'Confirmed growing (%)', field:'cases_growing', formatter:'money', align:'right'},
-           {title:'Deaths growing (%)', field:'deaths_growing', formatter:'money', align:'right'},
+           {title:'Confirmed growing (%/day)', field:'cases_growing', formatter:'money', align:'right'},
+           {title:'Deaths growing (%/day)', field:'deaths_growing', formatter:'money', align:'right'},
            //{title:'First case', field:'first_case', formatter:'datetime', align:'right'},
            {formatter:'rowSelection', titleFormatter:'rowSelection', align:'center', headerSort:false, width:15},
            {title:'C', field:'color', formatter:'color', width:5, headerSort:false},
