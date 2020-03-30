@@ -1,6 +1,57 @@
 {
- "now": 1585587093.755182,
+ "now": 1585600740.623722,
  "datasets": [
+  {
+   "fname": "c19fr_cases"
+  },
+  {
+   "fname": "c19fr_deaths"
+  },
+  {
+   "fname": "c19fr_population"
+  },
+  {
+   "fname": "c19fr_cases_rpop"
+  },
+  {
+   "fname": "c19fr_deaths_rpop"
+  },
+  {
+   "fname": "c19fr_cases_growing"
+  },
+  {
+   "fname": "c19fr_deaths_growing"
+  },
+  {
+   "fname": "c19fr_cases_growing_movavg_3"
+  },
+  {
+   "fname": "c19fr_deaths_growing_movavg_3"
+  },
+  {
+   "fname": "c19fr_cases_growing_movavg_5"
+  },
+  {
+   "fname": "c19fr_deaths_growing_movavg_5"
+  },
+  {
+   "fname": "c19fr_cases_growing_movavg_7"
+  },
+  {
+   "fname": "c19fr_deaths_growing_movavg_7"
+  },
+  {
+   "fname": "c19fr_cases_perday"
+  },
+  {
+   "fname": "c19fr_deaths_perday"
+  },
+  {
+   "fname": "c19fr_cases_percent"
+  },
+  {
+   "fname": "c19fr_deaths_percent"
+  },
   {
    "fname": "cssejh_cases"
   },
