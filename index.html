@@ -182,7 +182,10 @@
             tt = '';
             for (var i in columns)
              {
-              tt+=columns[i].title + ' : ' + data[columns[i].field] + '\n';
+              if (columns[i].formatter == null)
+               {
+                tt += columns[i].title + ' : ' + data[columns[i].field] + '\n';
+               }
              }
              return tt;
              //return  cell.getColumn().getField() + " : " + cell.getValue(); //return cells "field - value";
