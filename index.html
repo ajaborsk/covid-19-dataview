@@ -188,7 +188,7 @@
                }
               else if (columns[i].formatter == 'money')
                {
-                tt += columns[i].title + ' : ' + Number.toFixed(data[columns[i].field], 2) + '\n';
+                tt += columns[i].title + ' : ' + Number.parseFloat(data[columns[i].field]).toFixed(2) + '\n';
                }
              }
              return tt;
