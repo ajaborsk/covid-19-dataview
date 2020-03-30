@@ -177,9 +177,15 @@
           tooltipGenerationMode:"hover", //regenerate tooltip as users mouse enters the cell;
           tooltips:function(cell){
             //cell - cell component
-            console.log(cell.getRow().getData());
-            console.log(cell.getTable().options.columns);
-            return  cell.getColumn().getField() + " : " + cell.getValue(); //return cells "field - value";
+            var data = cell.getRow().getData();
+            var columns = cell.getTable().options.columns;
+            tt = '';
+            for (var i in columns)
+             {
+              tt+=columns[i].title + ' : ' + data[columns[i].field] + '\n';
+             }
+             return tt;
+             //return  cell.getColumn().getField() + " : " + cell.getValue(); //return cells "field - value";
             },
           dataTree:true,
           dataTreeStartExpanded:true, //start with an expanded tree
