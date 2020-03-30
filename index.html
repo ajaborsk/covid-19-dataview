@@ -178,7 +178,7 @@
           tooltips:function(cell){
             //cell - cell component
             console.log(cell.getRow());
-            return  cell.getColumn().definition.title + " : " + cell.getValue(); //return cells "field - value";
+            return  cell.getColumn().getField() + " : " + cell.getValue(); //return cells "field - value";
             },
           dataTree:true,
           dataTreeStartExpanded:true, //start with an expanded tree
