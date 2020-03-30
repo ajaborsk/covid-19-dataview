@@ -186,6 +186,10 @@
                {
                 tt += columns[i].title + ' : ' + data[columns[i].field] + '\n';
                }
+              else if (columns[i].formatter == 'money')
+               {
+                tt += columns[i].title + ' : ' + round(100*data[columns[i].field])/100 + '\n';
+               }
              }
              return tt;
              //return  cell.getColumn().getField() + " : " + cell.getValue(); //return cells "field - value";
