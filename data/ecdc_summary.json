@@ -12,7 +12,7 @@
   "deaths_growing": 13.14277527321963,
   "first_case": "2019-12-31T00:00:00",
   "color": "#b8e994",
-  "point_style": "crossRot",
+  "point_style": "triangle",
   "line_thickness": 1,
   "_children": [
    {
@@ -92,7 +92,7 @@
       "deaths_growing": 12.426853035294627,
       "first_case": "2020-01-25T00:00:00",
       "color": "#82ccdd",
-      "point_style": "crossRot",
+      "point_style": "triangle",
       "line_thickness": 1
      },
      {
@@ -172,7 +172,7 @@
       "deaths_growing": null,
       "first_case": "2020-01-21T00:00:00",
       "color": "#e58e26",
-      "point_style": "crossRot",
+      "point_style": "triangle",
       "line_thickness": 1
      },
      {
@@ -220,7 +220,7 @@
       "deaths_growing": null,
       "first_case": "2020-03-15T00:00:00",
       "color": "#82ccdd",
-      "point_style": "rect",
+      "point_style": "star",
       "line_thickness": 1
      },
      {
@@ -236,7 +236,7 @@
       "deaths_growing": 25.99210498948732,
       "first_case": "2020-02-29T00:00:00",
       "color": "#78e08f",
-      "point_style": "rectRot",
+      "point_style": "crossRot",
       "line_thickness": 1
      }
     ]
@@ -270,7 +270,7 @@
       "deaths_growing": 33.88659001643391,
       "first_case": "2020-02-22T00:00:00",
       "color": "#fad390",
-      "point_style": "triangle",
+      "point_style": "rect",
       "line_thickness": 1
      },
      {
@@ -318,7 +318,7 @@
       "deaths_growing": null,
       "first_case": "2020-01-27T00:00:00",
       "color": "#eb2f06",
-      "point_style": "rectRot",
+      "point_style": "crossRot",
       "line_thickness": 1
      },
      {
@@ -334,7 +334,7 @@
       "deaths_growing": 25.99210498948732,
       "first_case": "2020-02-22T00:00:00",
       "color": "#4a69bd",
-      "point_style": "triangle",
+      "point_style": "rect",
       "line_thickness": 1
      }
     ]
@@ -400,7 +400,7 @@
       "deaths_growing": 25.637195771377975,
       "first_case": "2020-02-04T00:00:00",
       "color": "#0a3d62",
-      "point_style": "rect",
+      "point_style": "star",
       "line_thickness": 1
      },
      {
@@ -416,7 +416,7 @@
       "deaths_growing": 25.99210498948732,
       "first_case": "2020-02-26T00:00:00",
       "color": "#b71540",
-      "point_style": "rectRot",
+      "point_style": "crossRot",
       "line_thickness": 1
      },
      {
@@ -448,7 +448,7 @@
       "deaths_growing": 32.48819442174422,
       "first_case": "2020-03-08T00:00:00",
       "color": "#4a69bd",
-      "point_style": "rectRot",
+      "point_style": "crossRot",
       "line_thickness": 1
      },
      {
@@ -496,7 +496,7 @@
       "deaths_growing": 31.646771369499007,
       "first_case": "2020-02-26T00:00:00",
       "color": "#079992",
-      "point_style": "rectRot",
+      "point_style": "crossRot",
       "line_thickness": 1
      },
      {
@@ -512,7 +512,7 @@
       "deaths_growing": 18.56311014966876,
       "first_case": "2020-02-27T00:00:00",
       "color": "#0a3d62",
-      "point_style": "triangle",
+      "point_style": "rect",
       "line_thickness": 1
      },
      {
@@ -528,7 +528,7 @@
       "deaths_growing": 34.41579152532326,
       "first_case": "2020-02-01T00:00:00",
       "color": "#fa983a",
-      "point_style": "rectRot",
+      "point_style": "crossRot",
       "line_thickness": 1
      },
      {
@@ -544,7 +544,7 @@
       "deaths_growing": 24.111344359332044,
       "first_case": "2020-02-27T00:00:00",
       "color": "#38ada9",
-      "point_style": "triangle",
+      "point_style": "rect",
       "line_thickness": 1
      },
      {
@@ -560,7 +560,7 @@
       "deaths_growing": 21.53003418403012,
       "first_case": "2020-02-28T00:00:00",
       "color": "#4a69bd",
-      "point_style": "rect",
+      "point_style": "star",
       "line_thickness": 1
      },
      {
@@ -640,7 +640,7 @@
       "deaths_growing": 13.30326698854094,
       "first_case": "2020-02-27T00:00:00",
       "color": "#e55039",
-      "point_style": "rectRot",
+      "point_style": "crossRot",
       "line_thickness": 1
      },
      {
@@ -656,7 +656,7 @@
       "deaths_growing": 70.9975946676697,
       "first_case": "2020-03-11T00:00:00",
       "color": "#0a3d62",
-      "point_style": "rectRot",
+      "point_style": "crossRot",
       "line_thickness": 1
      },
      {
@@ -672,7 +672,7 @@
       "deaths_growing": 9.139288306110572,
       "first_case": "2020-03-08T00:00:00",
       "color": "#3c6382",
-      "point_style": "rectRot",
+      "point_style": "crossRot",
       "line_thickness": 1
      },
      {
@@ -688,7 +688,7 @@
       "deaths_growing": 32.63524026321305,
       "first_case": "2020-03-08T00:00:00",
       "color": "#e55039",
-      "point_style": "triangle",
+      "point_style": "rect",
       "line_thickness": 1
      },
      {
@@ -704,7 +704,7 @@
       "deaths_growing": 70.9975946676697,
       "first_case": "2020-02-26T00:00:00",
       "color": "#78e08f",
-      "point_style": "star",
+      "point_style": "rectRot",
       "line_thickness": 1
      },
      {
@@ -736,7 +736,7 @@
       "deaths_growing": 58.74010519681994,
       "first_case": "2020-03-01T00:00:00",
       "color": "#82ccdd",
-      "point_style": "star",
+      "point_style": "rectRot",
       "line_thickness": 1
      },
      {
@@ -768,7 +768,7 @@
       "deaths_growing": 30.662676042259495,
       "first_case": "2020-02-27T00:00:00",
       "color": "#fad390",
-      "point_style": "rect",
+      "point_style": "star",
       "line_thickness": 1
      }
     ]
@@ -786,7 +786,7 @@
     "deaths_growing": 27.78013272727893,
     "first_case": "2020-01-21T00:00:00",
     "color": "#fad390",
-    "point_style": "crossRot",
+    "point_style": "triangle",
     "line_thickness": 1,
     "_children": [
      {
@@ -850,7 +850,7 @@
       "deaths_growing": 40.94597464129781,
       "first_case": "2020-03-02T00:00:00",
       "color": "#b8e994",
-      "point_style": "rectRot",
+      "point_style": "crossRot",
       "line_thickness": 1
      }
     ]
@@ -868,7 +868,7 @@
     "deaths_growing": 24.53421421709825,
     "first_case": "2020-02-26T00:00:00",
     "color": "#f8c291",
-    "point_style": "crossRot",
+    "point_style": "triangle",
     "line_thickness": 1,
     "_children": [
      {
@@ -916,7 +916,7 @@
       "deaths_growing": 25.99210498948732,
       "first_case": "2020-03-11T00:00:00",
       "color": "#6a89cc",
-      "point_style": "crossRot",
+      "point_style": "triangle",
       "line_thickness": 1
      },
      {
@@ -932,7 +932,7 @@
       "deaths_growing": 18.28992229188444,
       "first_case": "2020-03-01T00:00:00",
       "color": "#e55039",
-      "point_style": "rect",
+      "point_style": "star",
       "line_thickness": 1
      }
     ]
@@ -950,7 +950,7 @@
     "deaths_growing": 21.47378910828257,
     "first_case": "2020-02-15T00:00:00",
     "color": "#6a89cc",
-    "point_style": "crossRot",
+    "point_style": "triangle",
     "line_thickness": 1,
     "_children": [
      {
@@ -1030,7 +1030,7 @@
       "deaths_growing": 6.265856918261115,
       "first_case": "2020-03-11T00:00:00",
       "color": "#0c2461",
-      "point_style": "rect",
+      "point_style": "star",
       "line_thickness": 1
      },
      {
@@ -1046,7 +1046,7 @@
       "deaths_growing": 44.22495703074085,
       "first_case": "2020-03-11T00:00:00",
       "color": "#0a3d62",
-      "point_style": "crossRot",
+      "point_style": "triangle",
       "line_thickness": 1
      }
     ]
@@ -1064,7 +1064,7 @@
     "deaths_growing": 8.37067626618271,
     "first_case": "2020-01-25T00:00:00",
     "color": "#82ccdd",
-    "point_style": "crossRot",
+    "point_style": "triangle",
     "line_thickness": 1,
     "_children": [
      {
@@ -1080,7 +1080,7 @@
       "deaths_growing": 8.37067626618271,
       "first_case": "2020-01-25T00:00:00",
       "color": "#38ada9",
-      "point_style": "crossRot",
+      "point_style": "triangle",
       "line_thickness": 1
      }
     ]
@@ -1116,7 +1116,7 @@
   "deaths_growing": 25.99210498948732,
   "first_case": "2020-03-11T00:00:00",
   "color": "#079992",
-  "point_style": "star",
+  "point_style": "rectRot",
   "line_thickness": 1
  },
  {
@@ -1164,7 +1164,7 @@
   "deaths_growing": null,
   "first_case": "2020-03-22T00:00:00",
   "color": "#b8e994",
-  "point_style": "crossRot",
+  "point_style": "triangle",
   "line_thickness": 1
  },
  {
@@ -1212,7 +1212,7 @@
   "deaths_growing": null,
   "first_case": "2020-03-01T00:00:00",
   "color": "#b71540",
-  "point_style": "star",
+  "point_style": "rectRot",
   "line_thickness": 1
  },
  {
@@ -1292,7 +1292,7 @@
   "deaths_growing": null,
   "first_case": "2020-02-28T00:00:00",
   "color": "#38ada9",
-  "point_style": "rectRot",
+  "point_style": "crossRot",
   "line_thickness": 1
  },
  {
@@ -1324,7 +1324,7 @@
   "deaths_growing": null,
   "first_case": "2020-03-17T00:00:00",
   "color": "#b71540",
-  "point_style": "rect",
+  "point_style": "star",
   "line_thickness": 1
  },
  {
@@ -1372,7 +1372,7 @@
   "deaths_growing": null,
   "first_case": "2020-03-15T00:00:00",
   "color": "#fad390",
-  "point_style": "rectRot",
+  "point_style": "crossRot",
   "line_thickness": 1
  },
  {
@@ -1388,7 +1388,7 @@
   "deaths_growing": 18.56311014966876,
   "first_case": "2020-03-16T00:00:00",
   "color": "#38ada9",
-  "point_style": "star",
+  "point_style": "rectRot",
   "line_thickness": 1
  },
  {
@@ -1452,7 +1452,7 @@
   "deaths_growing": null,
   "first_case": null,
   "color": "#079992",
-  "point_style": "rect",
+  "point_style": "star",
   "line_thickness": 1
  },
  {
@@ -1468,7 +1468,7 @@
   "deaths_growing": null,
   "first_case": "2020-01-28T00:00:00",
   "color": "#78e08f",
-  "point_style": "rect",
+  "point_style": "star",
   "line_thickness": 1
  },
  {
@@ -1484,7 +1484,7 @@
   "deaths_growing": 25.99210498948732,
   "first_case": "2020-03-15T00:00:00",
   "color": "#eb2f06",
-  "point_style": "crossRot",
+  "point_style": "triangle",
   "line_thickness": 1
  },
  {
@@ -1532,7 +1532,7 @@
   "deaths_growing": null,
   "first_case": "2020-03-16T00:00:00",
   "color": "#f6b93b",
-  "point_style": "star",
+  "point_style": "rectRot",
   "line_thickness": 1
  },
  {
@@ -1548,7 +1548,7 @@
   "deaths_growing": null,
   "first_case": "2020-03-20T00:00:00",
   "color": "#eb2f06",
-  "point_style": "rect",
+  "point_style": "star",
   "line_thickness": 1
  },
  {
@@ -1564,7 +1564,7 @@
   "deaths_growing": 25.992104989487295,
   "first_case": "2020-03-11T00:00:00",
   "color": "#f8c291",
-  "point_style": "rect",
+  "point_style": "star",
   "line_thickness": 1
  },
  {
@@ -1628,7 +1628,7 @@
   "deaths_growing": null,
   "first_case": "2020-03-11T00:00:00",
   "color": "#079992",
-  "point_style": "triangle",
+  "point_style": "rect",
   "line_thickness": 1
  },
  {
@@ -1644,7 +1644,7 @@
   "deaths_growing": 44.22495703074085,
   "first_case": "2020-03-15T00:00:00",
   "color": "#f8c291",
-  "point_style": "rectRot",
+  "point_style": "crossRot",
   "line_thickness": 1
  },
  {
@@ -1692,7 +1692,7 @@
   "deaths_growing": 22.390341034166063,
   "first_case": "2020-03-02T00:00:00",
   "color": "#f6b93b",
-  "point_style": "rectRot",
+  "point_style": "crossRot",
   "line_thickness": 1
  },
  {
@@ -1772,7 +1772,7 @@
   "deaths_growing": null,
   "first_case": "2020-03-19T00:00:00",
   "color": "#fa983a",
-  "point_style": "triangle",
+  "point_style": "rect",
   "line_thickness": 1
  },
  {
@@ -1804,7 +1804,7 @@
   "deaths_growing": null,
   "first_case": "2020-03-22T00:00:00",
   "color": "#1e3799",
-  "point_style": "star",
+  "point_style": "rectRot",
   "line_thickness": 1
  },
  {
@@ -1900,7 +1900,7 @@
   "deaths_growing": 44.22495703074085,
   "first_case": "2020-01-30T00:00:00",
   "color": "#e58e26",
-  "point_style": "triangle",
+  "point_style": "rect",
   "line_thickness": 1
  },
  {
@@ -1980,7 +1980,7 @@
   "deaths_growing": null,
   "first_case": "2020-02-27T00:00:00",
   "color": "#eb2f06",
-  "point_style": "star",
+  "point_style": "rectRot",
   "line_thickness": 1
  },
  {
@@ -1996,7 +1996,7 @@
   "deaths_growing": 18.56311014966876,
   "first_case": "2020-03-15T00:00:00",
   "color": "#f6b93b",
-  "point_style": "crossRot",
+  "point_style": "triangle",
   "line_thickness": 1
  },
  {
@@ -2092,7 +2092,7 @@
   "deaths_growing": null,
   "first_case": "2020-03-15T00:00:00",
   "color": "#f6b93b",
-  "point_style": "rect",
+  "point_style": "star",
   "line_thickness": 1
  },
  {
@@ -2108,7 +2108,7 @@
   "deaths_growing": null,
   "first_case": "2020-03-15T00:00:00",
   "color": "#38ada9",
-  "point_style": "rect",
+  "point_style": "star",
   "line_thickness": 1
  },
  {
@@ -2156,7 +2156,7 @@
   "deaths_growing": null,
   "first_case": "2020-03-20T00:00:00",
   "color": "#6a89cc",
-  "point_style": "rectRot",
+  "point_style": "crossRot",
   "line_thickness": 1
  },
  {
@@ -2172,7 +2172,7 @@
   "deaths_growing": null,
   "first_case": "2020-03-16T00:00:00",
   "color": "#1e3799",
-  "point_style": "rectRot",
+  "point_style": "crossRot",
   "line_thickness": 1
  },
  {
@@ -2188,7 +2188,7 @@
   "deaths_growing": null,
   "first_case": null,
   "color": "#82ccdd",
-  "point_style": "triangle",
+  "point_style": "rect",
   "line_thickness": 1
  },
  {
@@ -2236,7 +2236,7 @@
   "deaths_growing": null,
   "first_case": "2020-03-15T00:00:00",
   "color": "#1e3799",
-  "point_style": "crossRot",
+  "point_style": "triangle",
   "line_thickness": 1
  },
  {
@@ -2252,7 +2252,7 @@
   "deaths_growing": null,
   "first_case": "2020-03-16T00:00:00",
   "color": "#0c2461",
-  "point_style": "star",
+  "point_style": "rectRot",
   "line_thickness": 1
  },
  {
@@ -2268,7 +2268,7 @@
   "deaths_growing": null,
   "first_case": "2020-03-08T00:00:00",
   "color": "#60a3bc",
-  "point_style": "rectRot",
+  "point_style": "crossRot",
   "line_thickness": 1
  },
  {
@@ -2332,7 +2332,7 @@
   "deaths_growing": null,
   "first_case": "2020-02-24T00:00:00",
   "color": "#60a3bc",
-  "point_style": "star",
+  "point_style": "rectRot",
   "line_thickness": 1
  },
  {
@@ -2348,7 +2348,7 @@
   "deaths_growing": null,
   "first_case": "2020-03-19T00:00:00",
   "color": "#eb2f06",
-  "point_style": "triangle",
+  "point_style": "rect",
   "line_thickness": 1
  },
  {
@@ -2364,7 +2364,7 @@
   "deaths_growing": null,
   "first_case": "2020-03-25T00:00:00",
   "color": "#b8e994",
-  "point_style": "triangle",
+  "point_style": "rect",
   "line_thickness": 1
  },
  {
@@ -2412,7 +2412,7 @@
   "deaths_growing": null,
   "first_case": "2020-03-17T00:00:00",
   "color": "#6a89cc",
-  "point_style": "star",
+  "point_style": "rectRot",
   "line_thickness": 1
  },
  {
@@ -2428,7 +2428,7 @@
   "deaths_growing": null,
   "first_case": "2020-03-25T00:00:00",
   "color": "#60a3bc",
-  "point_style": "triangle",
+  "point_style": "rect",
   "line_thickness": 1
  },
  {
@@ -2524,7 +2524,7 @@
   "deaths_growing": null,
   "first_case": "2020-03-21T00:00:00",
   "color": "#fa983a",
-  "point_style": "crossRot",
+  "point_style": "triangle",
   "line_thickness": 1
  },
  {
@@ -2540,7 +2540,7 @@
   "deaths_growing": null,
   "first_case": null,
   "color": "#6a89cc",
-  "point_style": "rect",
+  "point_style": "star",
   "line_thickness": 1
  },
  {
@@ -2572,7 +2572,7 @@
   "deaths_growing": null,
   "first_case": "2020-03-26T00:00:00",
   "color": "#079992",
-  "point_style": "crossRot",
+  "point_style": "triangle",
   "line_thickness": 1
  },
  {
@@ -2636,7 +2636,7 @@
   "deaths_growing": null,
   "first_case": "2020-03-15T00:00:00",
   "color": "#e55039",
-  "point_style": "star",
+  "point_style": "rectRot",
   "line_thickness": 1
  },
  {
@@ -2700,7 +2700,7 @@
   "deaths_growing": 25.99210498948732,
   "first_case": "2020-03-08T00:00:00",
   "color": "#fa983a",
-  "point_style": "star",
+  "point_style": "rectRot",
   "line_thickness": 1
  },
  {
@@ -2732,7 +2732,7 @@
   "deaths_growing": null,
   "first_case": "2020-03-15T00:00:00",
   "color": "#e58e26",
-  "point_style": "star",
+  "point_style": "rectRot",
   "line_thickness": 1
  },
  {
@@ -2780,7 +2780,7 @@
   "deaths_growing": null,
   "first_case": "2020-03-23T00:00:00",
   "color": "#e55039",
-  "point_style": "crossRot",
+  "point_style": "triangle",
   "line_thickness": 1
  },
  {
@@ -2844,7 +2844,7 @@
   "deaths_growing": null,
   "first_case": "2020-01-25T00:00:00",
   "color": "#60a3bc",
-  "point_style": "crossRot",
+  "point_style": "triangle",
   "line_thickness": 1
  },
  {
@@ -2876,7 +2876,7 @@
   "deaths_growing": null,
   "first_case": "2020-02-28T00:00:00",
   "color": "#b8e994",
-  "point_style": "star",
+  "point_style": "rectRot",
   "line_thickness": 1
  },
  {
@@ -2892,7 +2892,7 @@
   "deaths_growing": null,
   "first_case": "2020-03-19T00:00:00",
   "color": "#78e08f",
-  "point_style": "triangle",
+  "point_style": "rect",
   "line_thickness": 1
  },
  {
@@ -2908,7 +2908,7 @@
   "deaths_growing": null,
   "first_case": "2020-03-21T00:00:00",
   "color": "#b71540",
-  "point_style": "crossRot",
+  "point_style": "triangle",
   "line_thickness": 1
  },
  {
@@ -2956,7 +2956,7 @@
   "deaths_growing": null,
   "first_case": null,
   "color": "#3c6382",
-  "point_style": "crossRot",
+  "point_style": "triangle",
   "line_thickness": 1
  },
  {
@@ -2988,7 +2988,7 @@
   "deaths_growing": null,
   "first_case": "2020-02-25T00:00:00",
   "color": "#f8c291",
-  "point_style": "star",
+  "point_style": "rectRot",
   "line_thickness": 1
  },
  {
@@ -3020,7 +3020,7 @@
   "deaths_growing": null,
   "first_case": "2020-03-08T00:00:00",
   "color": "#fad390",
-  "point_style": "star",
+  "point_style": "rectRot",
   "line_thickness": 1
  },
  {
@@ -3036,7 +3036,7 @@
   "deaths_growing": 41.503079146259125,
   "first_case": "2020-03-11T00:00:00",
   "color": "#4a69bd",
-  "point_style": "star",
+  "point_style": "rectRot",
   "line_thickness": 1
  },
  {
@@ -3052,7 +3052,7 @@
   "deaths_growing": null,
   "first_case": "2020-03-21T00:00:00",
   "color": "#0c2461",
-  "point_style": "rectRot",
+  "point_style": "crossRot",
   "line_thickness": 1
  },
  {
@@ -3068,7 +3068,7 @@
   "deaths_growing": null,
   "first_case": "2020-03-08T00:00:00",
   "color": "#f6b93b",
-  "point_style": "triangle",
+  "point_style": "rect",
   "line_thickness": 1
  },
  {
@@ -3084,7 +3084,7 @@
   "deaths_growing": null,
   "first_case": "2020-03-28T00:00:00",
   "color": "#0a3d62",
-  "point_style": "star",
+  "point_style": "rectRot",
   "line_thickness": 1
  },
  {
@@ -3116,7 +3116,7 @@
   "deaths_growing": null,
   "first_case": "2020-03-16T00:00:00",
   "color": "#0c2461",
-  "point_style": "triangle",
+  "point_style": "rect",
   "line_thickness": 1
  },
  {
@@ -3148,7 +3148,7 @@
   "deaths_growing": null,
   "first_case": "2020-03-15T00:00:00",
   "color": "#e58e26",
-  "point_style": "rect",
+  "point_style": "star",
   "line_thickness": 1
  },
  {
@@ -3292,7 +3292,7 @@
   "deaths_growing": 25.99210498948732,
   "first_case": "2020-03-08T00:00:00",
   "color": "#fad390",
-  "point_style": "crossRot",
+  "point_style": "triangle",
   "line_thickness": 1
  },
  {
@@ -3308,7 +3308,7 @@
   "deaths_growing": null,
   "first_case": "2020-03-15T00:00:00",
   "color": "#fa983a",
-  "point_style": "rect",
+  "point_style": "star",
   "line_thickness": 1
  },
  {
@@ -3340,7 +3340,7 @@
   "deaths_growing": null,
   "first_case": null,
   "color": "#6a89cc",
-  "point_style": "triangle",
+  "point_style": "rect",
   "line_thickness": 1
  },
  {
@@ -3356,7 +3356,7 @@
   "deaths_growing": 14.471424255333186,
   "first_case": "2020-01-24T00:00:00",
   "color": "#3c6382",
-  "point_style": "triangle",
+  "point_style": "rect",
   "line_thickness": 1
  },
  {
@@ -3388,7 +3388,7 @@
   "deaths_growing": null,
   "first_case": "2020-03-08T00:00:00",
   "color": "#b71540",
-  "point_style": "triangle",
+  "point_style": "rect",
   "line_thickness": 1
  },
  {
@@ -3436,7 +3436,7 @@
   "deaths_growing": null,
   "first_case": "2020-03-17T00:00:00",
   "color": "#1e3799",
-  "point_style": "rect",
+  "point_style": "star",
   "line_thickness": 1
  },
  {
@@ -3468,7 +3468,7 @@
   "deaths_growing": null,
   "first_case": null,
   "color": "#82ccdd",
-  "point_style": "rectRot",
+  "point_style": "crossRot",
   "line_thickness": 1
  },
  {
@@ -3484,7 +3484,7 @@
   "deaths_growing": null,
   "first_case": "2020-01-28T00:00:00",
   "color": "#0c2461",
-  "point_style": "crossRot",
+  "point_style": "triangle",
   "line_thickness": 1
  },
  {
@@ -3532,7 +3532,7 @@
   "deaths_growing": null,
   "first_case": "2020-03-23T00:00:00",
   "color": "#60a3bc",
-  "point_style": "rect",
+  "point_style": "star",
   "line_thickness": 1
  },
  {
@@ -3548,7 +3548,7 @@
   "deaths_growing": null,
   "first_case": null,
   "color": "#e58e26",
-  "point_style": "rectRot",
+  "point_style": "crossRot",
   "line_thickness": 1
  },
  {
@@ -3596,7 +3596,7 @@
   "deaths_growing": null,
   "first_case": "2020-03-15T00:00:00",
   "color": "#f8c291",
-  "point_style": "triangle",
+  "point_style": "rect",
   "line_thickness": 1
  },
  {
@@ -3660,7 +3660,7 @@
   "deaths_growing": null,
   "first_case": null,
   "color": "#1e3799",
-  "point_style": "triangle",
+  "point_style": "rect",
   "line_thickness": 1
  },
  {
@@ -3756,7 +3756,7 @@
   "deaths_growing": null,
   "first_case": "2020-03-15T00:00:00",
   "color": "#3c6382",
-  "point_style": "star",
+  "point_style": "rectRot",
   "line_thickness": 1
  },
  {
@@ -3772,7 +3772,7 @@
   "deaths_growing": null,
   "first_case": "2020-03-16T00:00:00",
   "color": "#f8c291",
-  "point_style": "crossRot",
+  "point_style": "triangle",
   "line_thickness": 1
  },
  {
@@ -3820,7 +3820,7 @@
   "deaths_growing": null,
   "first_case": "2020-03-15T00:00:00",
   "color": "#78e08f",
-  "point_style": "crossRot",
+  "point_style": "triangle",
   "line_thickness": 1
  },
  {
@@ -3900,7 +3900,7 @@
   "deaths_growing": null,
   "first_case": null,
   "color": "#4a69bd",
-  "point_style": "crossRot",
+  "point_style": "triangle",
   "line_thickness": 1
  },
  {
@@ -3916,7 +3916,7 @@
   "deaths_growing": null,
   "first_case": "2020-03-19T00:00:00",
   "color": "#b8e994",
-  "point_style": "rect",
+  "point_style": "star",
   "line_thickness": 1
  },
  {
@@ -3932,7 +3932,7 @@
   "deaths_growing": null,
   "first_case": "2020-03-21T00:00:00",
   "color": "#3c6382",
-  "point_style": "rect",
+  "point_style": "star",
   "line_thickness": 1
  }
 ]
