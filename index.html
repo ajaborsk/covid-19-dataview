@@ -177,7 +177,8 @@
           tooltipGenerationMode:"hover", //regenerate tooltip as users mouse enters the cell;
           tooltips:function(cell){
             //cell - cell component
-            return  cell.getColumn().getField() + " - " + cell.getValue(); //return cells "field - value";
+            console.log(cell.getRow());
+            return  cell.getColumn().definition.title + " : " + cell.getValue(); //return cells "field - value";
             },
           dataTree:true,
           dataTreeStartExpanded:true, //start with an expanded tree
