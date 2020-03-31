@@ -214,29 +214,7 @@
            {formatter:'rowSelection', titleFormatter:'rowSelection', align:'center', headerSort:false, minWidth:30, responsive:0},
            {title:'C', field:'color', formatter:'color', minWidth:10, headerSort:false, responsive:0},
           ],
-          ajaxURL:'data/cssejh_summary.json',
-          ajaxResponse:function(url, params, response)
-           {
-            //url - the URL of the request
-            //params - the parameters passed with the request
-            //response - the JSON object returned in the body of the response.
-/*
-            function color_it(array)
-             {
-              for (var i = 0; i<array.length ;i++)
-               {
-                array[i]['color'] = colors[array[i]['id'] % ncolors];
-                if (array[i]['_children'])
-                 {
-                  color_it(array[i]['_children']);
-                 }
-               }
-             };
-*/
-            //color_it(response);
-            console.log('response length:',response.length);
-            return response; //return the tableData property of a response json object
-           },
+//          ajaxURL:'data/cssejh_summary.json',
         rowSelectionChanged:function(data, rows)
          {
           //rows - array of row components for the selected rows in order of selection
