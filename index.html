@@ -194,7 +194,7 @@
                }
               else if (columns[i].formatter == 'datetime')
                {
-                tt += columns[i].title + ' : ' + data[columns[i].field] + '\n';
+                tt += columns[i].title + ' : ' + moment(data[columns[i].field]).format('MM/DD/YYYY') + '\n';
                }
              }
              return tt;
