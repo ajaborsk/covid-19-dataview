@@ -192,6 +192,10 @@
                {
                 tt += columns[i].title + ' : ' + Number.parseFloat(data[columns[i].field]).toFixed(2) + '\n';
                }
+              else if (columns[i].formatter == 'datetime')
+               {
+                tt += columns[i].title + ' : ' + data[columns[i].field]) + '\n';
+               }
              }
              return tt;
             },
