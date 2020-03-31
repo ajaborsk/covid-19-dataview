@@ -2,12 +2,12 @@
  {
   "id": "World",
   "country": "World",
-  "population": 11034.017925999999,
+  "population": 10789.556077,
   "cases": 44550,
   "deaths": 3024,
   "dc_percent": 6.787878787878788,
-  "cases_rpop": 4.037513832112294,
-  "deaths_rpop": 0.27406154496762236,
+  "cases_rpop": 4.128992859582689,
+  "deaths_rpop": 0.2802710304686431,
   "cases_growing": 10.561163647244554,
   "deaths_growing": 14.871677247026739,
   "first_case": "2020-01-24T00:00:00",
@@ -342,12 +342,12 @@
    {
     "id": "Europe",
     "country": "Europe",
-    "population": 777.2007299999999,
+    "population": 787.8899389999999,
     "cases": 44550,
     "deaths": 3024,
     "dc_percent": 6.787878787878788,
-    "cases_rpop": 57.32109901646645,
-    "deaths_rpop": 3.8908867211177225,
+    "cases_rpop": 56.543430490486315,
+    "deaths_rpop": 3.8380995242027076,
     "cases_growing": 10.561163647244554,
     "deaths_growing": 14.871677247026739,
     "first_case": "2020-01-24T00:00:00",
@@ -770,13 +770,29 @@
       "color": "#fad390",
       "point_style": "star",
       "line_thickness": 1
+     },
+     {
+      "id": "Czech_Republic",
+      "country": "Czech Republic",
+      "population": 10.689209,
+      "cases": 0,
+      "deaths": 0,
+      "dc_percent": -1.0,
+      "cases_rpop": 0.0,
+      "deaths_rpop": 0.0,
+      "cases_growing": null,
+      "deaths_growing": null,
+      "first_case": null,
+      "color": "#f6b93b",
+      "point_style": "crossRot",
+      "line_thickness": 1
      }
     ]
    },
    {
     "id": "North_America",
     "country": "North America",
-    "population": 1009.580902,
+    "population": 754.4298440000001,
     "cases": 0,
     "deaths": 0,
     "dc_percent": -1.0,
@@ -819,22 +835,6 @@
       "first_case": null,
       "color": "#0a3d62",
       "point_style": "cross",
-      "line_thickness": 1
-     },
-     {
-      "id": "Mexico",
-      "country": "Mexico",
-      "population": 127.57552899999999,
-      "cases": 0,
-      "deaths": 0,
-      "dc_percent": -1.0,
-      "cases_rpop": 0.0,
-      "deaths_rpop": 0.0,
-      "cases_growing": null,
-      "deaths_growing": null,
-      "first_case": null,
-      "color": "#78e08f",
-      "point_style": "circle",
       "line_thickness": 1
      },
      {
@@ -1677,22 +1677,6 @@
   "first_case": null,
   "color": "#0a3d62",
   "point_style": "rectRounded",
-  "line_thickness": 1
- },
- {
-  "id": "Czech_Republic",
-  "country": "Czech Republic",
-  "population": 10.689209,
-  "cases": 0,
-  "deaths": 0,
-  "dc_percent": -1.0,
-  "cases_rpop": 0.0,
-  "deaths_rpop": 0.0,
-  "cases_growing": null,
-  "deaths_growing": null,
-  "first_case": null,
-  "color": "#f6b93b",
-  "point_style": "crossRot",
   "line_thickness": 1
  },
  {
@@ -2669,6 +2653,22 @@
   "first_case": null,
   "color": "#4a69bd",
   "point_style": "line",
+  "line_thickness": 1
+ },
+ {
+  "id": "Mexico",
+  "country": "Mexico",
+  "population": 127.57552899999999,
+  "cases": 0,
+  "deaths": 0,
+  "dc_percent": -1.0,
+  "cases_rpop": 0.0,
+  "deaths_rpop": 0.0,
+  "cases_growing": null,
+  "deaths_growing": null,
+  "first_case": null,
+  "color": "#78e08f",
+  "point_style": "circle",
   "line_thickness": 1
  },
  {
