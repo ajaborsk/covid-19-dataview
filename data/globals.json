@@ -1,5 +1,5 @@
 {
- "now": 1585632412.946049,
+ "now": 1585632473.47615,
  "datasets": [
   {
    "fname": "c19fr_cases"
@@ -418,10 +418,11 @@
   "Middle East": "#0a3d62",
   "Europe": "#079992",
   "North America": "#fad390",
-  "South America": "#f8c291",
-  "Africa": "#6a89cc",
-  "Oceania": "#82ccdd",
-  "World": "#b8e994"
+  "Central America": "#f8c291",
+  "South America": "#6a89cc",
+  "Africa": "#82ccdd",
+  "Oceania": "#b8e994",
+  "World": "#f6b93b"
  },
  "point_styles": {
   "China": "circle",
@@ -665,6 +666,7 @@
   "Middle East": "cross",
   "Europe": "cross",
   "North America": "triangle",
+  "Central America": "triangle",
   "South America": "triangle",
   "Africa": "triangle",
   "Oceania": "triangle",
