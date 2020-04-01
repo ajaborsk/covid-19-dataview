@@ -1,11 +1,20 @@
 {
- "now": 1585713937.2462,
+ "now": 1585714934.958784,
  "datasets": [
   {
    "fname": "c19fr_cases"
   },
   {
+   "fname": "c19fr_hospit"
+  },
+  {
+   "fname": "c19fr_icu"
+  },
+  {
    "fname": "c19fr_deaths"
+  },
+  {
+   "fname": "c19fr_recovered"
   },
   {
    "fname": "c19fr_population"
