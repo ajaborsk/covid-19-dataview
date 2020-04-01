@@ -1,5 +1,5 @@
 {
- "now": 1585715528.998592,
+ "now": 1585715637.898248,
  "datasets": [
   {
    "fname": "c19fr_cases"
@@ -38,37 +38,91 @@
    "fname": "c19fr_cases_growing"
   },
   {
+   "fname": "c19fr_hospit_growing"
+  },
+  {
+   "fname": "c19fr_icu_growing"
+  },
+  {
    "fname": "c19fr_deaths_growing"
+  },
+  {
+   "fname": "c19fr_recovered_growing"
   },
   {
    "fname": "c19fr_cases_growing_movavg_3"
   },
   {
+   "fname": "c19fr_hospit_growing_movavg_3"
+  },
+  {
+   "fname": "c19fr_icu_growing_movavg_3"
+  },
+  {
    "fname": "c19fr_deaths_growing_movavg_3"
+  },
+  {
+   "fname": "c19fr_recovered_growing_movavg_3"
   },
   {
    "fname": "c19fr_cases_growing_movavg_5"
   },
   {
+   "fname": "c19fr_hospit_growing_movavg_5"
+  },
+  {
+   "fname": "c19fr_icu_growing_movavg_5"
+  },
+  {
    "fname": "c19fr_deaths_growing_movavg_5"
+  },
+  {
+   "fname": "c19fr_recovered_growing_movavg_5"
   },
   {
    "fname": "c19fr_cases_growing_movavg_7"
   },
   {
+   "fname": "c19fr_hospit_growing_movavg_7"
+  },
+  {
+   "fname": "c19fr_icu_growing_movavg_7"
+  },
+  {
    "fname": "c19fr_deaths_growing_movavg_7"
+  },
+  {
+   "fname": "c19fr_recovered_growing_movavg_7"
   },
   {
    "fname": "c19fr_cases_perday"
   },
   {
+   "fname": "c19fr_hospit_perday"
+  },
+  {
+   "fname": "c19fr_icu_perday"
+  },
+  {
    "fname": "c19fr_deaths_perday"
+  },
+  {
+   "fname": "c19fr_recovered_perday"
   },
   {
    "fname": "c19fr_cases_percent"
   },
   {
+   "fname": "c19fr_hospit_percent"
+  },
+  {
+   "fname": "c19fr_icu_percent"
+  },
+  {
    "fname": "c19fr_deaths_percent"
+  },
+  {
+   "fname": "c19fr_recovered_percent"
   },
   {
    "fname": "cssejh_cases"
