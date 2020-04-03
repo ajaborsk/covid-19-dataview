@@ -535,7 +535,7 @@ function build_chart(ctx)
        changed.add('chart_data');
       }
 
-     if changed.has('table_filter')
+     if (changed.has('table_filter'))
       {
        if (settings['table_filter'] == 'more_1_death')
         {
