@@ -78,9 +78,11 @@
     </div>
     <div style="grid-area:other">
     Show:
-    <select class="auto" id="table_other_sel" name="table-other">
+    <select class="auto" id="table_filter_sel" name="table-filter">
 <!--     <option value="X" disabled="disabled">All</option> -->
-     <option value="X" selected="selected"> >= 20 deaths</option>
+     <option value="all">All</option>
+     <option value="more_1_death"> >= 1 death</option>
+     <option value="more_20_deaths" selected="selected"> >= 20 deaths</option>
  <!--    <option value="X" disabled="disabled">Selected</option> -->
     </select>
     </div>
@@ -448,6 +450,12 @@ function build_chart(ctx)
      changed.add('param1');
     }
 
+   if (settings['table_filter'] != tf.table_filter_sel.value)
+    {
+     settings['table_filter'] = tf.table_filter_sel.value;
+     changed.add('table_filter');
+    }
+
    if ('main_chart' in charts)
     {
      if (charts['main_chart'].options.scales.yAxes[0].type != cf.chart_yscale.value)
@@ -525,6 +533,21 @@ function build_chart(ctx)
        changed.delete('selection');
        changed.delete('dataset');
        changed.add('chart_data');
+      }
+
+     if changed.has('table_filter')
+      {
+       if (settings['table_filter'] == 'more_1_death')
+        {
+
+        }
+       else if (settings['table_filter'] == 'more_20_deaths')
+        {
+        }
+       else
+        {
+        }
+       changed.delete('table_filter');
       }
 
      if (changed.has('chart_data'))
