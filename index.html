@@ -82,7 +82,9 @@
 <!--     <option value="X" disabled="disabled">All</option> -->
      <option value="all">All</option>
      <option value="more_1_death"> >= 1 death</option>
-     <option value="more_20_deaths" selected="selected"> >= 20 deaths</option>
+     <option value="more_10_deaths" selected="selected"> >= 10 deaths</option>
+     <option value="more_100_death"> >= 100 death</option>
+     <option value="more_1000_deaths" selected="selected"> >= 1000 deaths</option>
  <!--    <option value="X" disabled="disabled">Selected</option> -->
     </select>
     </div>
@@ -541,13 +543,21 @@ function build_chart(ctx)
         {
          tabulator.setFilter([{'field':'deaths', 'type':'>', 'value':1}]);
         }
-       else if (settings['table_filter'] == 'more_20_deaths')
+       else if (settings['table_filter'] == 'more_10_deaths')
         {
-         tabulator.setFilter([{'field':'deaths', 'type':'>', 'value':20}]);
+         tabulator.setFilter([{'field':'deaths', 'type':'>', 'value':10}]);
+        }
+       else if (settings['table_filter'] == 'more_100_deaths')
+        {
+         tabulator.setFilter([{'field':'deaths', 'type':'>', 'value':100}]);
+        }
+       else if (settings['table_filter'] == 'more_1000_deaths')
+        {
+         tabulator.setFilter([{'field':'deaths', 'type':'>', 'value':1000}]);
         }
        else
         {
-         table.clearFilter();
+         tabulator.clearFilter();
         }
        changed.delete('table_filter');
       }
