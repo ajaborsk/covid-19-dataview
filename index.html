@@ -310,8 +310,8 @@
           var j = 0;
           for (var key in data) {
             var dataset;
-            console.log("slice", e.target.featname.slice(-6,0));
-            if (e.target.featname.slice(-6,-1) == '_model')
+            console.log("slice", e.target.featname.endsWith('_model'));
+            if (e.target.featname.endsWith('_model'))
              {
               dataset =
                 {
