@@ -311,7 +311,7 @@
           for (var key in data) {
             var dataset;
             console.log("slice", e.target.featname.slice(-6,0));
-            if (e.target.featname.slice(-6,0) == '_model')
+            if (e.target.featname.slice(-6,-1) == '_model')
              {
               dataset =
                 {
