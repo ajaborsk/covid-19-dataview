@@ -369,8 +369,7 @@
       "first_case": "2020-01-24T00:00:00",
       "color": "#82ccdd",
       "point_style": "dash",
-      "line_thickness": 1,
-      "_children": []
+      "line_thickness": 1
      },
      {
       "id": "Italy",
