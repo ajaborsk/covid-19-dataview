@@ -309,16 +309,34 @@
           datasets[e.target.featname] = []
           var j = 0;
           for (var key in data) {
-            var dataset =
-              {
-               "label":key,
-               "fill":false,
-               "borderWidth":2,
-               "borderColor":page_globals.colors[key],
-                "pointStyle":page_globals.point_styles[key],
-                pointRadius:5,
-                pointHoverRadius:8,
-                data:[]
+            var dataset;
+            if (e.target.featname.slice(-6,0) == '_model')
+             {
+              dataset =
+                {
+                 "label":key,
+                 "fill":false,
+                 "borderWidth":4,
+                 "borderColor":page_globals.colors[key]+'44',
+                  "pointStyle":page_globals.point_styles[key],
+                  pointRadius:5,
+                  pointHoverRadius:8,
+                  data:[]
+                }
+             }
+            else
+             {
+              dataset =
+                {
+                 "label":key,
+                 "fill":false,
+                 "borderWidth":2,
+                 "borderColor":page_globals.colors[key],
+                  "pointStyle":page_globals.point_styles[key],
+                  pointRadius:5,
+                  pointHoverRadius:8,
+                  data:[]
+                }
               };
             j++;
             for (var d in data[key])
