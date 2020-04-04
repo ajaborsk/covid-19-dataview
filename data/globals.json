@@ -1,5 +1,5 @@
 {
- "now": 1585944450.856709,
+ "now": 1585986234.913969,
  "datasets": [
   {
    "fname": "c19fr_cases"
@@ -15,9 +15,6 @@
   },
   {
    "fname": "c19fr_recovered"
-  },
-  {
-   "fname": "c19fr_population"
   },
   {
    "fname": "c19fr_cases_rpop"
@@ -134,9 +131,6 @@
    "fname": "cssejh_recovered"
   },
   {
-   "fname": "cssejh_population"
-  },
-  {
    "fname": "cssejh_cases_rpop"
   },
   {
@@ -204,9 +198,6 @@
   },
   {
    "fname": "ecdc_deaths"
-  },
-  {
-   "fname": "ecdc_population"
   },
   {
    "fname": "ecdc_cases_rpop"
