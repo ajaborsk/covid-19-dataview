@@ -530,7 +530,7 @@ function build_chart(ctx)
           {
            dataset.push(datasets[settings['dataset']][location]);
           }
-         if (locations.includes(datasets[settings['dataset']+'_model'][location]['label']))
+         if ((datasets[settings['dataset']+'_model']) && (locations.includes(datasets[settings['dataset']+'_model'][location]['label'])))
           {
            dataset.push(datasets[settings['dataset']+'_model'][location]);
           }
