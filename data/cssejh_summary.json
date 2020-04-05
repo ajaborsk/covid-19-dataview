@@ -11,7 +11,7 @@
   "cases_growing": 8.678402644553685,
   "deaths_growing": 11.322763779979205,
   "first_case": "2020-01-22T00:00:00",
-  "color": "#fa983a",
+  "color": "#78e08f",
   "point_style": "dash",
   "line_thickness": 1,
   "_children": [
@@ -351,7 +351,7 @@
     "cases_growing": 8.27022970709157,
     "deaths_growing": 11.229822779599164,
     "first_case": "2020-01-24T00:00:00",
-    "color": "#b8e994",
+    "color": "#82ccdd",
     "point_style": "dash",
     "line_thickness": 1,
     "_children": [
@@ -367,7 +367,7 @@
       "cases_growing": 16.302834903119813,
       "deaths_growing": 23.27467128578824,
       "first_case": "2020-01-24T00:00:00",
-      "color": "#82ccdd",
+      "color": "#6a89cc",
       "point_style": "dash",
       "line_thickness": 1
      },
@@ -961,7 +961,7 @@
     "cases_growing": 12.976174655107409,
     "deaths_growing": 20.868541416966945,
     "first_case": "2020-01-22T00:00:00",
-    "color": "#f6b93b",
+    "color": "#b8e994",
     "point_style": "dash",
     "line_thickness": 1,
     "_children": [
@@ -1027,7 +1027,7 @@
     "cases_growing": 11.942215913948594,
     "deaths_growing": 19.625322253454858,
     "first_case": "2020-02-28T00:00:00",
-    "color": "#e55039",
+    "color": "#f6b93b",
     "point_style": "dash",
     "line_thickness": 1,
     "_children": [
@@ -1077,7 +1077,7 @@
     "cases_growing": 11.927349552132437,
     "deaths_growing": 22.458667826326216,
     "first_case": "2020-02-26T00:00:00",
-    "color": "#4a69bd",
+    "color": "#e55039",
     "point_style": "dash",
     "line_thickness": 1,
     "_children": [
@@ -1207,7 +1207,7 @@
     "cases_growing": 11.262037421687253,
     "deaths_growing": 18.25319769396634,
     "first_case": "2020-02-14T00:00:00",
-    "color": "#60a3bc",
+    "color": "#4a69bd",
     "point_style": "dash",
     "line_thickness": 1,
     "_children": [
@@ -1321,7 +1321,7 @@
     "cases_growing": 4.510359794041774,
     "deaths_growing": 14.471424255333186,
     "first_case": "2020-01-26T00:00:00",
-    "color": "#78e08f",
+    "color": "#60a3bc",
     "point_style": "dash",
     "line_thickness": 1,
     "_children": [

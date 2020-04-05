@@ -1,5 +1,5 @@
 {
- "now": 1586105617.250529,
+ "now": 1586106772.248636,
  "datasets": [
   {
    "fname": "c19fr_cases"
@@ -265,7 +265,7 @@
   "Iran": "#079992",
   "Thailand": "#fad390",
   "United Kingdom": "#f8c291",
-  "France": "#82ccdd",
+  "France": "#6a89cc",
   "Italy": "#82ccdd",
   "South Africa": "#b8e994",
   "Tanzania": "#f6b93b",
@@ -605,14 +605,13 @@
   "Auvergne-Rh\u00f4ne-Alpes": "#079992",
   "Provence-Alpes-C\u00f4te d'Azur": "#fad390",
   "Corse": "#f8c291",
-  "Collectivit\u00e9s d'Outre-Mer": "#6a89cc",
-  "Europe": "#b8e994",
-  "North America": "#f6b93b",
-  "Central America": "#e55039",
-  "South America": "#4a69bd",
-  "Africa": "#60a3bc",
-  "Oceania": "#78e08f",
-  "World": "#fa983a"
+  "Europe": "#82ccdd",
+  "North America": "#b8e994",
+  "Central America": "#f6b93b",
+  "South America": "#e55039",
+  "Africa": "#4a69bd",
+  "Oceania": "#60a3bc",
+  "World": "#78e08f"
  },
  "point_styles": {
   "Falkland Islands (Malvinas)": "circle",
@@ -977,7 +976,6 @@
   "Auvergne-Rh\u00f4ne-Alpes": "rectRounded",
   "Provence-Alpes-C\u00f4te d'Azur": "dash",
   "Corse": "dash",
-  "Collectivit\u00e9s d'Outre-Mer": "dash",
   "Europe": "dash",
   "North America": "dash",
   "Central America": "dash",
