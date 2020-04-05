@@ -1,5 +1,5 @@
 {
- "now": 1586064455.137611,
+ "now": 1586069141.010324,
  "datasets": [
   {
    "fname": "c19fr_cases"
@@ -122,6 +122,9 @@
    "fname": "c19fr_recovered_percent"
   },
   {
+   "fname": "c19fr_deaths_model"
+  },
+  {
    "fname": "cssejh_cases"
   },
   {
@@ -194,6 +197,9 @@
    "fname": "cssejh_recovered_percent"
   },
   {
+   "fname": "cssejh_deaths_model"
+  },
+  {
    "fname": "ecdc_cases"
   },
   {
@@ -240,6 +246,9 @@
   },
   {
    "fname": "ecdc_deaths_percent"
+  },
+  {
+   "fname": "ecdc_deaths_model"
   }
  ],
  "colors": {
