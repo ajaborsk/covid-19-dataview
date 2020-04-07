@@ -1,5 +1,5 @@
 {
- "now": 1586289900.25349,
+ "now": 1586291988.417233,
  "datasets": [
   {
    "fname": "c19fr_cases"
@@ -192,54 +192,6 @@
   },
   {
    "fname": "cssejh_recovered_percent"
-  },
-  {
-   "fname": "ecdc_cases"
-  },
-  {
-   "fname": "ecdc_deaths"
-  },
-  {
-   "fname": "ecdc_cases_rpop"
-  },
-  {
-   "fname": "ecdc_deaths_rpop"
-  },
-  {
-   "fname": "ecdc_cases_growing"
-  },
-  {
-   "fname": "ecdc_deaths_growing"
-  },
-  {
-   "fname": "ecdc_cases_growing_movavg_3"
-  },
-  {
-   "fname": "ecdc_deaths_growing_movavg_3"
-  },
-  {
-   "fname": "ecdc_cases_growing_movavg_5"
-  },
-  {
-   "fname": "ecdc_deaths_growing_movavg_5"
-  },
-  {
-   "fname": "ecdc_cases_growing_movavg_7"
-  },
-  {
-   "fname": "ecdc_deaths_growing_movavg_7"
-  },
-  {
-   "fname": "ecdc_cases_perday"
-  },
-  {
-   "fname": "ecdc_deaths_perday"
-  },
-  {
-   "fname": "ecdc_cases_percent"
-  },
-  {
-   "fname": "ecdc_deaths_percent"
   }
  ],
  "colors": {
