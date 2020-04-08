@@ -1,5 +1,5 @@
 {
- "now": 1586372860.454414,
+ "now": 1586373131.53183,
  "datasets": [
   {
    "fname": "c19fr_cases"
@@ -610,9 +610,11 @@
   "Provence-Alpes-C\u00f4te d'Azur": "#b8e994",
   "Corse": "#f6b93b",
   "Europe": "#4a69bd",
-  "Africa": "#60a3bc",
-  "Oceania": "#78e08f",
-  "World": "#fa983a"
+  "North America": "#60a3bc",
+  "South America": "#78e08f",
+  "Africa": "#fa983a",
+  "Oceania": "#eb2f06",
+  "World": "#1e3799"
  },
  "point_styles": {
   "Falkland Islands (Malvinas)": "circle",
@@ -982,6 +984,8 @@
   "Provence-Alpes-C\u00f4te d'Azur": "dash",
   "Corse": "dash",
   "Europe": "dash",
+  "North America": "dash",
+  "South America": "dash",
   "Africa": "dash",
   "Oceania": "dash",
   "World": "dash"
