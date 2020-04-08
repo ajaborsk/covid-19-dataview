@@ -2130,6 +2130,22 @@
     "line_thickness": 1
    },
    {
+    "id": "Uganda",
+    "country": "Uganda",
+    "population": 44.269594,
+    "cases": 52,
+    "deaths": 0,
+    "dc_percent": 0.0,
+    "cases_rpop": 1.1746211180522685,
+    "deaths_rpop": 0.0,
+    "cases_growing": 2.7040024624839676,
+    "deaths_growing": null,
+    "first_case": "2020-03-22T00:00:00",
+    "color": "#1e3799",
+    "point_style": "cross",
+    "line_thickness": 1
+   },
+   {
     "id": "Angola",
     "country": "Angola",
     "population": 31.825294999999997,
@@ -3411,22 +3427,6 @@
   "first_case": "2020-03-25T00:00:00",
   "color": "#e55039",
   "point_style": "rectRot",
-  "line_thickness": 1
- },
- {
-  "id": "Uganda",
-  "country": "Uganda",
-  "population": 44.269594,
-  "cases": 52,
-  "deaths": 0,
-  "dc_percent": 0.0,
-  "cases_rpop": 1.1746211180522685,
-  "deaths_rpop": 0.0,
-  "cases_growing": 2.7040024624839676,
-  "deaths_growing": null,
-  "first_case": "2020-03-22T00:00:00",
-  "color": "#1e3799",
-  "point_style": "cross",
   "line_thickness": 1
  },
  {
