@@ -2,7 +2,7 @@
  {
   "id": "World",
   "country": "World",
-  "population": 6015.000943000001,
+  "population": 0.0001,
   "cases": 0,
   "deaths": 0,
   "dc_percent": -1.0,
@@ -11,7 +11,7 @@
   "cases_growing": null,
   "deaths_growing": null,
   "first_case": null,
-  "color": "#78e08f",
+  "color": "#3c6382",
   "point_style": "dash",
   "line_thickness": 1,
   "_children": [
@@ -27,7 +27,7 @@
     "cases_growing": null,
     "deaths_growing": 8.62799692278795,
     "first_case": "2020-01-24T00:00:00",
-    "color": "#6a89cc",
+    "color": "#e55039",
     "point_style": "dash",
     "line_thickness": 1,
     "_children": [
@@ -123,7 +123,7 @@
       "cases_growing": null,
       "deaths_growing": 10.124826608020232,
       "first_case": "2020-03-05T00:00:00",
-      "color": "#78e08f",
+      "color": "#3c6382",
       "point_style": "rectRounded",
       "line_thickness": 1,
       "_children": [
@@ -269,7 +269,7 @@
       "cases_growing": null,
       "deaths_growing": 9.717033513153828,
       "first_case": "2020-03-04T00:00:00",
-      "color": "#fa983a",
+      "color": "#38ada9",
       "point_style": "rectRounded",
       "line_thickness": 1,
       "_children": [
@@ -383,7 +383,7 @@
       "cases_growing": null,
       "deaths_growing": 7.028035625341955,
       "first_case": "2020-02-26T00:00:00",
-      "color": "#eb2f06",
+      "color": "#e58e26",
       "point_style": "rectRounded",
       "line_thickness": 1,
       "_children": [
@@ -529,7 +529,7 @@
       "cases_growing": null,
       "deaths_growing": 14.084693523069248,
       "first_case": "2020-02-28T00:00:00",
-      "color": "#1e3799",
+      "color": "#b71540",
       "point_style": "rectRounded",
       "line_thickness": 1,
       "_children": [
@@ -627,7 +627,7 @@
       "cases_growing": null,
       "deaths_growing": 9.173684554308448,
       "first_case": "2020-02-26T00:00:00",
-      "color": "#3c6382",
+      "color": "#0c2461",
       "point_style": "rectRounded",
       "line_thickness": 1,
       "_children": [
@@ -725,7 +725,7 @@
       "cases_growing": null,
       "deaths_growing": 6.088704649206833,
       "first_case": "2020-02-27T00:00:00",
-      "color": "#38ada9",
+      "color": "#0a3d62",
       "point_style": "rectRounded",
       "line_thickness": 1,
       "_children": [
@@ -903,7 +903,7 @@
       "cases_growing": null,
       "deaths_growing": 6.862868641265285,
       "first_case": "2020-02-27T00:00:00",
-      "color": "#e58e26",
+      "color": "#079992",
       "point_style": "rectRounded",
       "line_thickness": 1,
       "_children": [
@@ -1001,8 +1001,8 @@
       "cases_growing": null,
       "deaths_growing": 8.95240559750492,
       "first_case": "2020-02-27T00:00:00",
-      "color": "#b71540",
-      "point_style": "rectRounded",
+      "color": "#fad390",
+      "point_style": "dash",
       "line_thickness": 1,
       "_children": [
        {
@@ -1083,8 +1083,8 @@
       "cases_growing": null,
       "deaths_growing": 11.047010073671505,
       "first_case": "2020-01-24T00:00:00",
-      "color": "#0c2461",
-      "point_style": "rectRounded",
+      "color": "#f8c291",
+      "point_style": "dash",
       "line_thickness": 1,
       "_children": [
        {
@@ -1293,8 +1293,8 @@
       "cases_growing": null,
       "deaths_growing": 6.742391798827363,
       "first_case": "2020-01-27T00:00:00",
-      "color": "#0a3d62",
-      "point_style": "rectRounded",
+      "color": "#6a89cc",
+      "point_style": "dash",
       "line_thickness": 1,
       "_children": [
        {
@@ -1519,8 +1519,8 @@
       "cases_growing": null,
       "deaths_growing": 7.871764966369743,
       "first_case": "2020-02-07T00:00:00",
-      "color": "#079992",
-      "point_style": "rectRounded",
+      "color": "#82ccdd",
+      "point_style": "dash",
       "line_thickness": 1,
       "_children": [
        {
@@ -1729,7 +1729,7 @@
       "cases_growing": null,
       "deaths_growing": 12.434650167786199,
       "first_case": "2020-02-28T00:00:00",
-      "color": "#fad390",
+      "color": "#b8e994",
       "point_style": "dash",
       "line_thickness": 1,
       "_children": [
@@ -1843,7 +1843,7 @@
       "cases_growing": null,
       "deaths_growing": 7.166457967424855,
       "first_case": "2020-03-05T00:00:00",
-      "color": "#f8c291",
+      "color": "#f6b93b",
       "point_style": "dash",
       "line_thickness": 1,
       "_children": [
