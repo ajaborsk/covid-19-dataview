@@ -1,5 +1,5 @@
 {
- "now": 1586325371.77994,
+ "now": 1586325572.591708,
  "datasets": [
   {
    "fname": "c19fr_cases"
@@ -613,9 +613,10 @@
   "North America": "#60a3bc",
   "Central America": "#78e08f",
   "South America": "#fa983a",
-  "Africa": "#eb2f06",
-  "Oceania": "#1e3799",
-  "World": "#3c6382"
+  "America": "#eb2f06",
+  "Africa": "#1e3799",
+  "Oceania": "#3c6382",
+  "World": "#38ada9"
  },
  "point_styles": {
   "Falkland Islands (Malvinas)": "circle",
@@ -988,6 +989,7 @@
   "North America": "dash",
   "Central America": "dash",
   "South America": "dash",
+  "America": "dash",
   "Africa": "dash",
   "Oceania": "dash",
   "World": "dash"
