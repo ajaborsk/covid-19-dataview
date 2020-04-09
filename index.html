@@ -212,8 +212,8 @@
           ],
           columns:[
            {title:'Localisation', field:'country', minWidth:150, responsive:0, headerMenu:[
-               {title:'Expand all', action:function (){ tabulator.options.dataTreeStartExpanded = true;}},
-               {title:'Collapse all', action:function (){ tabulator.options.dataTreeStartExpanded = false;}},
+               {label:'Expand all', action:function (){ tabulator.options.dataTreeStartExpanded = true;}},
+               {label:'Collapse all', action:function (){ tabulator.options.dataTreeStartExpanded = false;}},
                ]},
            {title:'Population (M)', field:'population', align:'right', formatter:'money', formatterParams:{precision:3}, responsive:9},
            {title:'Confirmed', field:'cases', align:'right', minWidth:60, responsive:2},
