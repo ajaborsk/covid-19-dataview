@@ -212,8 +212,8 @@
           ],
           columns:[
            {title:'Localisation', field:'country', minWidth:150, responsive:0, headerMenu:[
-               {label:'Expand all', action:function (){ tabulator.options.dataTreeStartExpanded = true;}},
-               {label:'Collapse all', action:function (){ tabulator.options.dataTreeStartExpanded = false;}},
+               {label:'Expand all', action:function (){ this.options.dataTreeStartExpanded = true;}},
+               {label:'Collapse all', action:function (){ this.options.dataTreeStartExpanded = false;}},
                ]},
            {title:'Population (M)', field:'population', align:'right', formatter:'money', formatterParams:{precision:3}, responsive:9},
            {title:'Confirmed', field:'cases', align:'right', minWidth:60, responsive:2},
@@ -604,8 +604,8 @@ for (var i = 0; i < selectors.length; i++)
   selectors[i].addEventListener('change', page_update);
  }
 
-document.getElementsById("collapse_all").addEventListener('click', function(){tabulator.options.dataTreeStartExpanded=false;});
-document.getElementsById("expand_all").addEventListener('click', function(){tabulator.options.dataTreeStartExpanded=true;});
+document.getElementById("collapse_all").addEventListener('click', function(){tabulator.options.dataTreeStartExpanded=false;});
+document.getElementById("expand_all").addEventListener('click', function(){tabulator.options.dataTreeStartExpanded=true;});
 
 </script>
  </body>
