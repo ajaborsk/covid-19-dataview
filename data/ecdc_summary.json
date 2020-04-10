@@ -2,7 +2,7 @@
  {
   "id": "World",
   "country": "World",
-  "population": 7579.870447,
+  "population": 7583.367563999999,
   "cases": 0,
   "deaths": 0,
   "dc_percent": -1.0,
@@ -2546,6 +2546,22 @@
     "line_thickness": 1
    },
    {
+    "id": "Eritrea",
+    "country": "Eritrea",
+    "population": 3.4971170000000003,
+    "cases": 33,
+    "deaths": 0,
+    "dc_percent": 0.0,
+    "cases_rpop": 9.436344280159913,
+    "deaths_rpop": 0.0,
+    "cases_growing": 2.1058790679847617,
+    "deaths_growing": null,
+    "first_case": "2020-03-22T00:00:00",
+    "color": "#3c6382",
+    "point_style": "rectRot",
+    "line_thickness": 1
+   },
+   {
     "id": "Sierra_Leone",
     "country": "Sierra Leone",
     "population": 7.8132150000000005,
@@ -3027,22 +3043,6 @@
   "first_case": "2020-02-05T00:00:00",
   "color": "#f8c291",
   "point_style": "rectRounded",
-  "line_thickness": 1
- },
- {
-  "id": "Eritrea",
-  "country": "Eritrea",
-  "population": 3.4971170000000003,
-  "cases": 33,
-  "deaths": 0,
-  "dc_percent": 0.0,
-  "cases_rpop": 9.436344280159913,
-  "deaths_rpop": 0.0,
-  "cases_growing": 2.1058790679847617,
-  "deaths_growing": null,
-  "first_case": "2020-03-22T00:00:00",
-  "color": "#3c6382",
-  "point_style": "rectRot",
   "line_thickness": 1
  },
  {
