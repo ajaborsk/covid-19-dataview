@@ -50,16 +50,16 @@
      <option value="">None</option>
      <option value="movavg_7">Moving Average (7 days)</option>
     </select>
-    </div>
+    </div><!--
     <div style="grid-area:param1">
     Parameter:
     <select class="auto" id="param1_sel" name="param1">
      <option value="">None</option>
-     <!--<option value="3">3 days</option>
-     <option value="5">5 days</option>-->
+     <option value="3">3 days</option>
+     <option value="5">5 days</option>
      <option value="7">7 days</option>
     </select>
-    </div>
+    </div>-->
    </form>
 
   <div id="tbl" style="grid-area:main"></div>
@@ -469,12 +469,12 @@ function build_chart(ctx)
      changed.add('model');
     }
 
-   if (settings['param1'] != mf.param1_sel.value)
+/*   if (settings['param1'] != mf.param1_sel.value)
     {
      settings['param1'] = mf.param1_sel.value;
      changed.add('param1');
     }
-
+*/
    if (settings['table_filter'] != tf.table_filter_sel.value)
     {
      settings['table_filter'] = tf.table_filter_sel.value;
@@ -515,8 +515,8 @@ function build_chart(ctx)
      if (changed.has('source') ||
        changed.has('feature') ||
        changed.has('variant') ||
-       changed.has('model') ||
-       changed.has('param1'))
+       changed.has('model') /*||
+       changed.has('param1')*/)
       {
        settings['dataset'] = settings['source'] + '_' + settings['feature'];
        if (settings['variant'] != '')
@@ -527,15 +527,15 @@ function build_chart(ctx)
         {
          settings['dataset'] += '_' + settings['model'];
         }
-       if (settings['param1'] != '')
+       /*if (settings['param1'] != '')
         {
          settings['dataset'] += '_' + settings['param1'];
-        }
+        }*/
        changed.delete('source');
        changed.delete('feature');
        changed.delete('variant');
        changed.delete('model');
-       changed.delete('param1');
+       //changed.delete('param1');
        changed.add('dataset');
       }
       if (changed.has('selection') || changed.has('dataset'))
