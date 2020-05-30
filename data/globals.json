@@ -1,5 +1,5 @@
 {
- "now": 1590843174.265662,
+ "now": 1590844217.684671,
  "datasets": [
   {
    "fname": "c19fr_cases"
@@ -47,36 +47,6 @@
    "fname": "c19fr_recovered_growing"
   },
   {
-   "fname": "c19fr_cases_growing_movavg_3"
-  },
-  {
-   "fname": "c19fr_hospit_growing_movavg_3"
-  },
-  {
-   "fname": "c19fr_icu_growing_movavg_3"
-  },
-  {
-   "fname": "c19fr_deaths_growing_movavg_3"
-  },
-  {
-   "fname": "c19fr_recovered_growing_movavg_3"
-  },
-  {
-   "fname": "c19fr_cases_growing_movavg_5"
-  },
-  {
-   "fname": "c19fr_hospit_growing_movavg_5"
-  },
-  {
-   "fname": "c19fr_icu_growing_movavg_5"
-  },
-  {
-   "fname": "c19fr_deaths_growing_movavg_5"
-  },
-  {
-   "fname": "c19fr_recovered_growing_movavg_5"
-  },
-  {
    "fname": "c19fr_cases_growing_movavg_7"
   },
   {
@@ -107,36 +77,6 @@
    "fname": "c19fr_recovered_perday"
   },
   {
-   "fname": "c19fr_cases_perday_movavg_3"
-  },
-  {
-   "fname": "c19fr_hospit_perday_movavg_3"
-  },
-  {
-   "fname": "c19fr_icu_perday_movavg_3"
-  },
-  {
-   "fname": "c19fr_deaths_perday_movavg_3"
-  },
-  {
-   "fname": "c19fr_recovered_perday_movavg_3"
-  },
-  {
-   "fname": "c19fr_cases_perday_movavg_5"
-  },
-  {
-   "fname": "c19fr_hospit_perday_movavg_5"
-  },
-  {
-   "fname": "c19fr_icu_perday_movavg_5"
-  },
-  {
-   "fname": "c19fr_deaths_perday_movavg_5"
-  },
-  {
-   "fname": "c19fr_recovered_perday_movavg_5"
-  },
-  {
    "fname": "c19fr_cases_perday_movavg_7"
   },
   {
@@ -150,6 +90,36 @@
   },
   {
    "fname": "c19fr_recovered_perday_movavg_7"
+  },
+  {
+   "fname": "c19fr_cases_rperday"
+  },
+  {
+   "fname": "c19fr_hospit_rperday"
+  },
+  {
+   "fname": "c19fr_icu_rperday"
+  },
+  {
+   "fname": "c19fr_deaths_rperday"
+  },
+  {
+   "fname": "c19fr_recovered_rperday"
+  },
+  {
+   "fname": "c19fr_cases_rperday_movavg_7"
+  },
+  {
+   "fname": "c19fr_hospit_rperday_movavg_7"
+  },
+  {
+   "fname": "c19fr_icu_rperday_movavg_7"
+  },
+  {
+   "fname": "c19fr_deaths_rperday_movavg_7"
+  },
+  {
+   "fname": "c19fr_recovered_rperday_movavg_7"
   },
   {
    "fname": "c19fr_cases_percent"
@@ -194,24 +164,6 @@
    "fname": "cssejh_recovered_growing"
   },
   {
-   "fname": "cssejh_cases_growing_movavg_3"
-  },
-  {
-   "fname": "cssejh_deaths_growing_movavg_3"
-  },
-  {
-   "fname": "cssejh_recovered_growing_movavg_3"
-  },
-  {
-   "fname": "cssejh_cases_growing_movavg_5"
-  },
-  {
-   "fname": "cssejh_deaths_growing_movavg_5"
-  },
-  {
-   "fname": "cssejh_recovered_growing_movavg_5"
-  },
-  {
    "fname": "cssejh_cases_growing_movavg_7"
   },
   {
@@ -230,24 +182,6 @@
    "fname": "cssejh_recovered_perday"
   },
   {
-   "fname": "cssejh_cases_perday_movavg_3"
-  },
-  {
-   "fname": "cssejh_deaths_perday_movavg_3"
-  },
-  {
-   "fname": "cssejh_recovered_perday_movavg_3"
-  },
-  {
-   "fname": "cssejh_cases_perday_movavg_5"
-  },
-  {
-   "fname": "cssejh_deaths_perday_movavg_5"
-  },
-  {
-   "fname": "cssejh_recovered_perday_movavg_5"
-  },
-  {
    "fname": "cssejh_cases_perday_movavg_7"
   },
   {
@@ -255,6 +189,24 @@
   },
   {
    "fname": "cssejh_recovered_perday_movavg_7"
+  },
+  {
+   "fname": "cssejh_cases_rperday"
+  },
+  {
+   "fname": "cssejh_deaths_rperday"
+  },
+  {
+   "fname": "cssejh_recovered_rperday"
+  },
+  {
+   "fname": "cssejh_cases_rperday_movavg_7"
+  },
+  {
+   "fname": "cssejh_deaths_rperday_movavg_7"
+  },
+  {
+   "fname": "cssejh_recovered_rperday_movavg_7"
   },
   {
    "fname": "cssejh_cases_percent"
@@ -284,18 +236,6 @@
    "fname": "ecdc_deaths_growing"
   },
   {
-   "fname": "ecdc_cases_growing_movavg_3"
-  },
-  {
-   "fname": "ecdc_deaths_growing_movavg_3"
-  },
-  {
-   "fname": "ecdc_cases_growing_movavg_5"
-  },
-  {
-   "fname": "ecdc_deaths_growing_movavg_5"
-  },
-  {
    "fname": "ecdc_cases_growing_movavg_7"
   },
   {
@@ -308,22 +248,22 @@
    "fname": "ecdc_deaths_perday"
   },
   {
-   "fname": "ecdc_cases_perday_movavg_3"
-  },
-  {
-   "fname": "ecdc_deaths_perday_movavg_3"
-  },
-  {
-   "fname": "ecdc_cases_perday_movavg_5"
-  },
-  {
-   "fname": "ecdc_deaths_perday_movavg_5"
-  },
-  {
    "fname": "ecdc_cases_perday_movavg_7"
   },
   {
    "fname": "ecdc_deaths_perday_movavg_7"
+  },
+  {
+   "fname": "ecdc_cases_rperday"
+  },
+  {
+   "fname": "ecdc_deaths_rperday"
+  },
+  {
+   "fname": "ecdc_cases_rperday_movavg_7"
+  },
+  {
+   "fname": "ecdc_deaths_rperday_movavg_7"
   },
   {
    "fname": "ecdc_cases_percent"
