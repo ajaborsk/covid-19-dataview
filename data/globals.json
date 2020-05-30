@@ -1,5 +1,5 @@
 {
- "now": 1590839642.492858,
+ "now": 1590843174.265662,
  "datasets": [
   {
    "fname": "c19fr_cases"
@@ -107,6 +107,51 @@
    "fname": "c19fr_recovered_perday"
   },
   {
+   "fname": "c19fr_cases_perday_movavg_3"
+  },
+  {
+   "fname": "c19fr_hospit_perday_movavg_3"
+  },
+  {
+   "fname": "c19fr_icu_perday_movavg_3"
+  },
+  {
+   "fname": "c19fr_deaths_perday_movavg_3"
+  },
+  {
+   "fname": "c19fr_recovered_perday_movavg_3"
+  },
+  {
+   "fname": "c19fr_cases_perday_movavg_5"
+  },
+  {
+   "fname": "c19fr_hospit_perday_movavg_5"
+  },
+  {
+   "fname": "c19fr_icu_perday_movavg_5"
+  },
+  {
+   "fname": "c19fr_deaths_perday_movavg_5"
+  },
+  {
+   "fname": "c19fr_recovered_perday_movavg_5"
+  },
+  {
+   "fname": "c19fr_cases_perday_movavg_7"
+  },
+  {
+   "fname": "c19fr_hospit_perday_movavg_7"
+  },
+  {
+   "fname": "c19fr_icu_perday_movavg_7"
+  },
+  {
+   "fname": "c19fr_deaths_perday_movavg_7"
+  },
+  {
+   "fname": "c19fr_recovered_perday_movavg_7"
+  },
+  {
    "fname": "c19fr_cases_percent"
   },
   {
@@ -185,6 +230,33 @@
    "fname": "cssejh_recovered_perday"
   },
   {
+   "fname": "cssejh_cases_perday_movavg_3"
+  },
+  {
+   "fname": "cssejh_deaths_perday_movavg_3"
+  },
+  {
+   "fname": "cssejh_recovered_perday_movavg_3"
+  },
+  {
+   "fname": "cssejh_cases_perday_movavg_5"
+  },
+  {
+   "fname": "cssejh_deaths_perday_movavg_5"
+  },
+  {
+   "fname": "cssejh_recovered_perday_movavg_5"
+  },
+  {
+   "fname": "cssejh_cases_perday_movavg_7"
+  },
+  {
+   "fname": "cssejh_deaths_perday_movavg_7"
+  },
+  {
+   "fname": "cssejh_recovered_perday_movavg_7"
+  },
+  {
    "fname": "cssejh_cases_percent"
   },
   {
@@ -234,6 +306,24 @@
   },
   {
    "fname": "ecdc_deaths_perday"
+  },
+  {
+   "fname": "ecdc_cases_perday_movavg_3"
+  },
+  {
+   "fname": "ecdc_deaths_perday_movavg_3"
+  },
+  {
+   "fname": "ecdc_cases_perday_movavg_5"
+  },
+  {
+   "fname": "ecdc_deaths_perday_movavg_5"
+  },
+  {
+   "fname": "ecdc_cases_perday_movavg_7"
+  },
+  {
+   "fname": "ecdc_deaths_perday_movavg_7"
   },
   {
    "fname": "ecdc_cases_percent"
