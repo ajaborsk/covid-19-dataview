@@ -365,6 +365,8 @@
           if (unloaded == 0)
            {
             console.log("Everything is loaded : Let's go !");
+            infobox = document.getElementsByClassName("infobox-overlay");
+            infox[0].style.display== 'none';
             page_update();
            }
           else
@@ -372,7 +374,7 @@
             //Update loader overlay
             console.log("Still", unloaded, "files to load...");
             infobox = document.getElementsByClassName("infobox-message");
-            infobox[0].innerText = unloaded + "files to load...";
+            infobox[0].innerText = unloaded + " files to load...";
            }
          };
        };
