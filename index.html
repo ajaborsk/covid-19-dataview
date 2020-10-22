@@ -702,6 +702,7 @@ function build_chart(ctx)
      if (changed.has('chart_data'))
       {
        charts['main_chart'].update();
+       charts['main_chart'].resetZoom()
        changed.delete('chart_data');
       }
 
