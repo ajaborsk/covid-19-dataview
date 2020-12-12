@@ -2458,7 +2458,7 @@
     "dc_percent": 1.459394494362731,
     "cases_rpop": 647.8846490197171,
     "deaths_rpop": 9.455192897615055,
-    "cases_growing": null,
+    "cases_growing": 0.10839002157840838,
     "deaths_growing": null,
     "first_case": "2020-03-20T00:00:00",
     "color": "#eb2f06",
